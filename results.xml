@@ -1,0 +1,15 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="39.40425200000033">
+<testsuite name="Visit.spec.ts" timestamp="2025-09-05T16:41:39.299Z" hostname="chromium" tests="1" failures="0" skipped="0" time="34.375" errors="0">
+<testcase name="Visits" classname="Visit.spec.ts" time="34.375">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Visit-Visits-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\Visit-Visits-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\Visit-Visits-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

@@ -1,0 +1,388 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e6]:
+    - generic [ref=e8]:
+      - img [ref=e9]
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - link "Dashboard" [ref=e12] [cursor=pointer]:
+            - /url: /home
+            - generic [ref=e13] [cursor=pointer]:
+              - img [ref=e14] [cursor=pointer]
+              - paragraph [ref=e15] [cursor=pointer]: Dashboard
+          - link "Visits" [ref=e16] [cursor=pointer]:
+            - /url: /visits
+            - generic [ref=e17] [cursor=pointer]:
+              - img [ref=e18] [cursor=pointer]
+              - paragraph [ref=e19] [cursor=pointer]: Visits
+          - link "Messages" [ref=e20] [cursor=pointer]:
+            - /url: /messages
+            - generic [ref=e21] [cursor=pointer]:
+              - img [ref=e22] [cursor=pointer]
+              - paragraph [ref=e23] [cursor=pointer]: Messages
+          - link "Patients" [ref=e24] [cursor=pointer]:
+            - /url: /patients
+            - generic [ref=e25] [cursor=pointer]:
+              - img [ref=e26] [cursor=pointer]
+              - paragraph [ref=e27] [cursor=pointer]: Patients
+          - link "IPD Patients" [ref=e28] [cursor=pointer]:
+            - /url: /ipdpatients
+            - generic [ref=e29] [cursor=pointer]:
+              - img [ref=e30] [cursor=pointer]
+              - paragraph [ref=e31] [cursor=pointer]: IPD Patients
+          - link "Orders" [ref=e32] [cursor=pointer]:
+            - /url: /prescriptions
+            - generic [ref=e33] [cursor=pointer]:
+              - img [ref=e34] [cursor=pointer]
+              - paragraph [ref=e35] [cursor=pointer]: Orders
+          - link "Medicines" [ref=e36] [cursor=pointer]:
+            - /url: /medicines
+            - generic [ref=e37] [cursor=pointer]:
+              - img [ref=e38] [cursor=pointer]
+              - paragraph [ref=e39] [cursor=pointer]: Medicines
+          - link "Reports" [ref=e40] [cursor=pointer]:
+            - /url: /reports
+            - generic [ref=e41] [cursor=pointer]:
+              - img [ref=e42] [cursor=pointer]
+              - paragraph [ref=e43] [cursor=pointer]: Reports
+          - link "Notifications" [ref=e44] [cursor=pointer]:
+            - /url: /notifications
+            - generic [ref=e45] [cursor=pointer]:
+              - img [ref=e46] [cursor=pointer]
+              - paragraph [ref=e47] [cursor=pointer]: Notifications
+          - generic [ref=e48] [cursor=pointer]:
+            - generic:
+              - generic:
+                - generic:
+                  - img
+                  - paragraph: Apps
+        - generic [ref=e50] [cursor=pointer]:
+          - generic:
+            - generic:
+              - link:
+                - /url: /doctorprofile
+                - generic:
+                  - img
+    - generic [ref=e51]:
+      - navigation [ref=e52]:
+        - paragraph [ref=e54]: Visits
+        - generic [ref=e56]:
+          - button "Aira - Chat" [ref=e59] [cursor=pointer]:
+            - img [ref=e60] [cursor=pointer]
+            - paragraph [ref=e62] [cursor=pointer]: Aira - Chat
+          - button "Record" [ref=e64] [cursor=pointer]:
+            - img [ref=e65] [cursor=pointer]
+            - paragraph [ref=e67] [cursor=pointer]: Record
+          - button "Unavailable" [ref=e69] [cursor=pointer]:
+            - paragraph [ref=e70] [cursor=pointer]: Unavailable
+            - checkbox [ref=e72]
+        - text: ;
+      - generic [ref=e76]:
+        - generic [ref=e77]:
+          - generic [ref=e79]:
+            - generic [ref=e80]:
+              - generic [ref=e81]:
+                - generic [ref=e82]: "5"
+                - generic [ref=e85] [cursor=pointer]: All
+              - generic [ref=e86]:
+                - generic [ref=e87]: "0"
+                - generic [ref=e90] [cursor=pointer]: Upcoming
+              - generic [ref=e91]:
+                - generic [ref=e92]: "0"
+                - generic [ref=e95] [cursor=pointer]: Completed
+              - generic [ref=e96]:
+                - generic [ref=e97]: "2"
+                - generic [ref=e100] [cursor=pointer]: Pending
+              - generic [ref=e101]:
+                - generic [ref=e102]: "0"
+                - generic [ref=e105] [cursor=pointer]: No-show
+              - generic [ref=e106]:
+                - generic [ref=e107]: "3"
+                - generic [ref=e110] [cursor=pointer]: Cancelled
+            - img [ref=e112] [cursor=pointer]
+          - generic [ref=e116]:
+            - generic [ref=e118] [cursor=pointer]:
+              - generic [ref=e119] [cursor=pointer]:
+                - img [ref=e120] [cursor=pointer]
+                - generic [ref=e121] [cursor=pointer]:
+                  - paragraph [ref=e122] [cursor=pointer]: Kyle Jenner
+                  - generic [ref=e123] [cursor=pointer]:
+                    - img [ref=e124] [cursor=pointer]
+                    - paragraph [ref=e125] [cursor=pointer]: 5th September, 2025, 11:20 AM
+                  - generic [ref=e126] [cursor=pointer]:
+                    - img [ref=e127] [cursor=pointer]
+                    - paragraph [ref=e128] [cursor=pointer]: Camel salt
+                - img [ref=e130] [cursor=pointer]
+              - paragraph [ref=e132] [cursor=pointer]: fever
+            - generic [ref=e134] [cursor=pointer]:
+              - generic [ref=e135] [cursor=pointer]:
+                - img [ref=e136] [cursor=pointer]
+                - generic [ref=e137] [cursor=pointer]:
+                  - paragraph [ref=e138] [cursor=pointer]: Kyle Jenner
+                  - generic [ref=e139] [cursor=pointer]:
+                    - img [ref=e140] [cursor=pointer]
+                    - paragraph [ref=e141] [cursor=pointer]: 5th September, 2025, 11:20 AM
+                  - generic [ref=e142] [cursor=pointer]:
+                    - img [ref=e143] [cursor=pointer]
+                    - paragraph [ref=e144] [cursor=pointer]: Camel salt
+                - img [ref=e146] [cursor=pointer]
+              - paragraph [ref=e148] [cursor=pointer]: fever
+            - generic [ref=e150] [cursor=pointer]:
+              - generic [ref=e151] [cursor=pointer]:
+                - img [ref=e152] [cursor=pointer]
+                - generic [ref=e153] [cursor=pointer]:
+                  - paragraph [ref=e154] [cursor=pointer]: Kyle Jenner
+                  - generic [ref=e155] [cursor=pointer]:
+                    - img [ref=e156] [cursor=pointer]
+                    - paragraph [ref=e157] [cursor=pointer]: 5th September, 2025, 11:20 AM
+                  - generic [ref=e158] [cursor=pointer]:
+                    - img [ref=e159] [cursor=pointer]
+                    - paragraph [ref=e160] [cursor=pointer]: Camel salt
+                - img [ref=e162] [cursor=pointer]
+              - paragraph [ref=e164] [cursor=pointer]: fever
+            - generic [ref=e166] [cursor=pointer]:
+              - generic [ref=e167] [cursor=pointer]:
+                - img [ref=e168] [cursor=pointer]
+                - generic [ref=e169] [cursor=pointer]:
+                  - paragraph [ref=e170] [cursor=pointer]: Kyle Jenner
+                  - generic [ref=e171] [cursor=pointer]:
+                    - img [ref=e172] [cursor=pointer]
+                    - paragraph [ref=e173] [cursor=pointer]: 5th September, 2025, 11:20 AM
+                  - generic [ref=e174] [cursor=pointer]:
+                    - img [ref=e175] [cursor=pointer]
+                    - paragraph [ref=e176] [cursor=pointer]: Camel salt
+                - img [ref=e178] [cursor=pointer]
+              - paragraph [ref=e180] [cursor=pointer]: fever
+            - generic [ref=e182] [cursor=pointer]:
+              - generic [ref=e183] [cursor=pointer]:
+                - img [ref=e184] [cursor=pointer]
+                - generic [ref=e185] [cursor=pointer]:
+                  - paragraph [ref=e186] [cursor=pointer]: Kyle Jenner
+                  - generic [ref=e187] [cursor=pointer]:
+                    - img [ref=e188] [cursor=pointer]
+                    - paragraph [ref=e189] [cursor=pointer]: 5th September, 2025, 11:20 AM
+                  - generic [ref=e190] [cursor=pointer]:
+                    - img [ref=e191] [cursor=pointer]
+                    - paragraph [ref=e192] [cursor=pointer]: Camel salt
+                - img [ref=e194] [cursor=pointer]
+              - paragraph [ref=e196] [cursor=pointer]: fever
+        - generic [ref=e199]:
+          - generic [ref=e200]:
+            - generic [ref=e201]:
+              - img [ref=e202] [cursor=pointer]
+              - img [ref=e203] [cursor=pointer]
+              - paragraph [ref=e204]: September 5, 2025
+            - generic [ref=e205]:
+              - button "Today" [ref=e206] [cursor=pointer]
+              - combobox [ref=e207] [cursor=pointer]:
+                - option "Month"
+                - option "Week"
+                - option "Day" [selected]
+              - separator [ref=e208]
+              - button "New visit" [ref=e209] [cursor=pointer]:
+                - img [ref=e211] [cursor=pointer]
+                - paragraph [ref=e212] [cursor=pointer]: New visit
+          - grid [ref=e216]:
+            - rowgroup [ref=e217]:
+              - row "Friday" [ref=e222]:
+                - columnheader "Friday" [ref=e223]:
+                  - generic [ref=e225]: Friday
+            - rowgroup [ref=e226]:
+              - row [ref=e232]:
+                - generic [ref=e234]: all-day
+                - gridcell [ref=e235]
+              - generic [ref=e240]:
+                - table [ref=e242]:
+                  - rowgroup [ref=e245]:
+                    - row [ref=e246]:
+                      - cell [ref=e247]:
+                        - generic [ref=e249]: 12am
+                      - cell [ref=e250]
+                    - row [ref=e251]:
+                      - cell [ref=e252]
+                      - cell [ref=e253]
+                    - row [ref=e254]:
+                      - cell [ref=e255]:
+                        - generic [ref=e257]: 1am
+                      - cell [ref=e258]
+                    - row [ref=e259]:
+                      - cell [ref=e260]
+                      - cell [ref=e261]
+                    - row [ref=e262]:
+                      - cell [ref=e263]:
+                        - generic [ref=e265]: 2am
+                      - cell [ref=e266]
+                    - row [ref=e267]:
+                      - cell [ref=e268]
+                      - cell [ref=e269]
+                    - row [ref=e270]:
+                      - cell [ref=e271]:
+                        - generic [ref=e273]: 3am
+                      - cell [ref=e274]
+                    - row [ref=e275]:
+                      - cell [ref=e276]
+                      - cell [ref=e277]
+                    - row [ref=e278]:
+                      - cell [ref=e279]:
+                        - generic [ref=e281]: 4am
+                      - cell [ref=e282]
+                    - row [ref=e283]:
+                      - cell [ref=e284]
+                      - cell [ref=e285]
+                    - row [ref=e286]:
+                      - cell [ref=e287]:
+                        - generic [ref=e289]: 5am
+                      - cell [ref=e290]
+                    - row [ref=e291]:
+                      - cell [ref=e292]
+                      - cell [ref=e293]
+                    - row [ref=e294]:
+                      - cell [ref=e295]:
+                        - generic [ref=e297]: 6am
+                      - cell [ref=e298]
+                    - row [ref=e299]:
+                      - cell [ref=e300]
+                      - cell [ref=e301]
+                    - row [ref=e302]:
+                      - cell [ref=e303]:
+                        - generic [ref=e305]: 7am
+                      - cell [ref=e306]
+                    - row [ref=e307]:
+                      - cell [ref=e308]
+                      - cell [ref=e309]
+                    - row [ref=e310]:
+                      - cell [ref=e311]:
+                        - generic [ref=e313]: 8am
+                      - cell [ref=e314]
+                    - row [ref=e315]:
+                      - cell [ref=e316]
+                      - cell [ref=e317]
+                    - row [ref=e318]:
+                      - cell [ref=e319]:
+                        - generic [ref=e321]: 9am
+                      - cell [ref=e322]
+                    - row [ref=e323]:
+                      - cell [ref=e324]
+                      - cell [ref=e325]
+                    - row [ref=e326]:
+                      - cell [ref=e327]:
+                        - generic [ref=e329]: 10am
+                      - cell [ref=e330]
+                    - row [ref=e331]:
+                      - cell [ref=e332]
+                      - cell [ref=e333]
+                    - row [ref=e334]:
+                      - cell [ref=e335]:
+                        - generic [ref=e337]: 11am
+                      - cell [ref=e338]
+                    - row [ref=e339]:
+                      - cell [ref=e340]
+                      - cell [ref=e341]
+                    - row [ref=e342]:
+                      - cell [ref=e343]:
+                        - generic [ref=e345]: 12pm
+                      - cell [ref=e346]
+                    - row [ref=e347]:
+                      - cell [ref=e348]
+                      - cell [ref=e349]
+                    - row [ref=e350]:
+                      - cell [ref=e351]:
+                        - generic [ref=e353]: 1pm
+                      - cell [ref=e354]
+                    - row [ref=e355]:
+                      - cell [ref=e356]
+                      - cell [ref=e357]
+                    - row [ref=e358]:
+                      - cell [ref=e359]:
+                        - generic [ref=e361]: 2pm
+                      - cell [ref=e362]
+                    - row [ref=e363]:
+                      - cell [ref=e364]
+                      - cell [ref=e365]
+                    - row [ref=e366]:
+                      - cell [ref=e367]:
+                        - generic [ref=e369]: 3pm
+                      - cell [ref=e370]
+                    - row [ref=e371]:
+                      - cell [ref=e372]
+                      - cell [ref=e373]
+                    - row [ref=e374]:
+                      - cell [ref=e375]:
+                        - generic [ref=e377]: 4pm
+                      - cell [ref=e378]
+                    - row [ref=e379]:
+                      - cell [ref=e380]
+                      - cell [ref=e381]
+                    - row [ref=e382]:
+                      - cell [ref=e383]:
+                        - generic [ref=e385]: 5pm
+                      - cell [ref=e386]
+                    - row [ref=e387]:
+                      - cell [ref=e388]
+                      - cell [ref=e389]
+                    - row [ref=e390]:
+                      - cell [ref=e391]:
+                        - generic [ref=e393]: 6pm
+                      - cell [ref=e394]
+                    - row [ref=e395]:
+                      - cell [ref=e396]
+                      - cell [ref=e397]
+                    - row [ref=e398]:
+                      - cell [ref=e399]:
+                        - generic [ref=e401]: 7pm
+                      - cell [ref=e402]
+                    - row [ref=e403]:
+                      - cell [ref=e404]
+                      - cell [ref=e405]
+                    - row [ref=e406]:
+                      - cell [ref=e407]:
+                        - generic [ref=e409]: 8pm
+                      - cell [ref=e410]
+                    - row [ref=e411]:
+                      - cell [ref=e412]
+                      - cell [ref=e413]
+                    - row [ref=e414]:
+                      - cell [ref=e415]:
+                        - generic [ref=e417]: 9pm
+                      - cell [ref=e418]
+                    - row [ref=e419]:
+                      - cell [ref=e420]
+                      - cell [ref=e421]
+                    - row [ref=e422]:
+                      - cell [ref=e423]:
+                        - generic [ref=e425]: 10pm
+                      - cell [ref=e426]
+                    - row [ref=e427]:
+                      - cell [ref=e428]
+                      - cell [ref=e429]
+                    - row [ref=e430]:
+                      - cell [ref=e431]:
+                        - generic [ref=e433]: 11pm
+                      - cell [ref=e434]
+                    - row [ref=e435]:
+                      - cell [ref=e436]
+                      - cell [ref=e437]
+                - row "+2 11:20 AMKyle Jenner 11:20 AMKyle Jenner 11:20 AMKyle Jenner" [ref=e441]:
+                  - gridcell "+2 11:20 AMKyle Jenner 11:20 AMKyle Jenner 11:20 AMKyle Jenner" [ref=e444]:
+                    - generic [ref=e445]:
+                      - generic:
+                        - generic [ref=e447] [cursor=pointer]: "+2"
+                        - generic [ref=e453]:
+                          - generic [ref=e454]: 11:20 AM
+                          - generic [ref=e455]: Kyle Jenner
+                        - generic [ref=e461]:
+                          - generic [ref=e462]: 11:20 AM
+                          - generic [ref=e463]: Kyle Jenner
+                        - generic [ref=e469]:
+                          - generic [ref=e470]: 11:20 AM
+                          - generic [ref=e471]: Kyle Jenner
+  - generic [ref=e473]:
+    - region "Notifications-top"
+    - region "Notifications-top-left"
+    - region "Notifications-top-right"
+    - region "Notifications-bottom-left"
+    - region "Notifications-bottom"
+    - region "Notifications-bottom-right"
+```

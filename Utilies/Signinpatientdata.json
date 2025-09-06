@@ -1,0 +1,17 @@
+{
+    "email" : "Kyle01@gmail.com",
+    "firstname" : "Kyle",
+     "Lastname" : "Jenner",
+     "Weight" : "80",
+     "Feet" : "6",
+     "Inches" : "1",
+     "year" : "2000",
+     "Month" : "August",
+     "Mobile" : "9017165102",
+    "OTP1" : "1",
+    "OTP2" : "2",
+    "OTP3" : "3",
+     "OTP4" : "4",
+    "newPassword" : "midoc123",
+    "Confirmpassword" : "midoc123"
+}

@@ -1,0 +1,188 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e6]:
+    - generic [ref=e8]:
+      - img [ref=e9]
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - link [ref=e12] [cursor=pointer]:
+            - /url: /home
+            - generic [ref=e13] [cursor=pointer]:
+              - img [ref=e14] [cursor=pointer]
+              - paragraph [ref=e15] [cursor=pointer]: Dashboard
+          - link [ref=e16] [cursor=pointer]:
+            - /url: /visits
+            - generic [ref=e17] [cursor=pointer]:
+              - img [ref=e18] [cursor=pointer]
+              - paragraph [ref=e19] [cursor=pointer]: Visits
+          - link [ref=e20] [cursor=pointer]:
+            - /url: /messages
+            - generic [ref=e21] [cursor=pointer]:
+              - img [ref=e22] [cursor=pointer]
+              - paragraph [ref=e23] [cursor=pointer]: Messages
+          - link [ref=e24] [cursor=pointer]:
+            - /url: /patients
+            - generic [ref=e25] [cursor=pointer]:
+              - img [ref=e26] [cursor=pointer]
+              - paragraph [ref=e27] [cursor=pointer]: Patients
+          - link [ref=e28] [cursor=pointer]:
+            - /url: /ipdpatients
+            - generic [ref=e29] [cursor=pointer]:
+              - img [ref=e30] [cursor=pointer]
+              - paragraph [ref=e31] [cursor=pointer]: IPD Patients
+          - link [ref=e32] [cursor=pointer]:
+            - /url: /prescriptions
+            - generic [ref=e33] [cursor=pointer]:
+              - img [ref=e34] [cursor=pointer]
+              - paragraph [ref=e35] [cursor=pointer]: Orders
+          - link [ref=e36] [cursor=pointer]:
+            - /url: /medicines
+            - generic [ref=e37] [cursor=pointer]:
+              - img [ref=e38] [cursor=pointer]
+              - paragraph [ref=e39] [cursor=pointer]: Medicines
+          - link [ref=e40] [cursor=pointer]:
+            - /url: /reports
+            - generic [ref=e41] [cursor=pointer]:
+              - img [ref=e42] [cursor=pointer]
+              - paragraph [ref=e43] [cursor=pointer]: Reports
+          - link [ref=e44] [cursor=pointer]:
+            - /url: /notifications
+            - generic [ref=e45] [cursor=pointer]:
+              - img [ref=e46] [cursor=pointer]
+              - paragraph [ref=e47] [cursor=pointer]: Notifications
+          - generic [ref=e48] [cursor=pointer]:
+            - generic:
+              - generic:
+                - generic:
+                  - img
+                  - paragraph: Apps
+        - generic [ref=e50] [cursor=pointer]:
+          - generic:
+            - generic:
+              - link:
+                - /url: /doctorprofile
+                - generic:
+                  - img
+    - generic [ref=e51]:
+      - navigation [ref=e52]:
+        - generic [ref=e53]:
+          - img [ref=e54]
+          - generic [ref=e55]:
+            - paragraph [ref=e56]: Ben Stock
+            - paragraph [ref=e58]: "#73888352 Female, 25 years, (+1) 9887765673, 6.1 ft, 80 lbs, 10.6 BMI"
+        - generic [ref=e59]:
+          - button [ref=e60] [cursor=pointer]:
+            - img [ref=e62] [cursor=pointer]
+            - paragraph [ref=e63] [cursor=pointer]: 00:01:19
+          - button [ref=e64] [cursor=pointer]: End/pause Visit
+          - button [ref=e65] [cursor=pointer]: Generate Prescription
+          - button [ref=e66] [cursor=pointer]: Progress Notes
+      - generic [ref=e67]:
+        - generic [ref=e69]:
+          - generic [ref=e71]:
+            - paragraph [ref=e72]: Patient Overview
+            - button [ref=e74] [cursor=pointer]: Assign
+            - button [ref=e75] [cursor=pointer]: Chat
+            - button [ref=e76] [cursor=pointer]:
+              - img [ref=e77] [cursor=pointer]
+          - generic [ref=e78]:
+            - button [ref=e79] [cursor=pointer]:
+              - img [ref=e80] [cursor=pointer]
+            - button [ref=e81] [cursor=pointer]:
+              - img [ref=e82] [cursor=pointer]
+            - generic [ref=e84]:
+              - generic [ref=e85] [cursor=pointer]: Overview
+              - generic [ref=e86] [cursor=pointer]: Past Visits
+              - generic [ref=e87] [cursor=pointer]: Vitals
+              - generic [ref=e88] [cursor=pointer]: Medications
+              - generic [ref=e89] [cursor=pointer]: Medical History
+              - generic [ref=e90] [cursor=pointer]: Surgical History
+              - generic [ref=e91] [cursor=pointer]: Family History
+              - generic [ref=e92] [cursor=pointer]: Social History
+              - generic [ref=e93] [cursor=pointer]: Allergies
+              - generic [ref=e94] [cursor=pointer]: Vaccinations
+              - generic [ref=e95] [cursor=pointer]: Investigations
+              - generic [ref=e96] [cursor=pointer]: Lab Tests
+              - generic [ref=e97] [cursor=pointer]: Imaging Reports
+          - generic [ref=e102]:
+            - button [ref=e103] [cursor=pointer]:
+              - img [ref=e104] [cursor=pointer]
+              - text: Add Social History
+            - paragraph [ref=e105]: No Social History Data Available
+        - separator [ref=e107]
+        - separator [ref=e108]
+        - separator [ref=e110]
+        - separator [ref=e111]
+        - separator [ref=e112]
+        - generic [ref=e114]:
+          - generic [ref=e116]:
+            - paragraph [ref=e117]: Doctor Notes
+            - generic [ref=e118]:
+              - button [ref=e121] [cursor=pointer]:
+                - img [ref=e122] [cursor=pointer]
+                - paragraph [ref=e124] [cursor=pointer]: Aira - Chat
+              - button [ref=e126] [cursor=pointer]:
+                - img [ref=e127] [cursor=pointer]
+                - paragraph [ref=e129] [cursor=pointer]: Record
+              - button [ref=e130] [cursor=pointer]:
+                - img [ref=e131] [cursor=pointer]
+          - generic [ref=e132]:
+            - button [ref=e133] [cursor=pointer]:
+              - img [ref=e134] [cursor=pointer]
+            - button [ref=e135] [cursor=pointer]:
+              - img [ref=e136] [cursor=pointer]
+            - generic [ref=e138]:
+              - generic [ref=e139] [cursor=pointer]: Chief complaint
+              - generic [ref=e140] [cursor=pointer]: HPI
+              - generic [ref=e141] [cursor=pointer]: ROS
+              - generic [ref=e142] [cursor=pointer]: Vitals
+              - generic [ref=e143] [cursor=pointer]: Physical Exam
+              - generic [ref=e144] [cursor=pointer]: Assessment
+              - generic [ref=e145] [cursor=pointer]: Orders
+              - generic [ref=e146] [cursor=pointer]: Documents
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - textbox [ref=e155]
+              - paragraph [ref=e156]: Click anywhere to start typing....
+              - button [ref=e157] [cursor=pointer]: Advance
+            - generic [ref=e159]:
+              - button [ref=e160] [cursor=pointer]: Typoid
+              - button [ref=e161] [cursor=pointer]: fever
+              - button [ref=e162] [cursor=pointer]: ww
+            - generic [ref=e163]:
+              - img [ref=e166] [cursor=pointer]
+              - button:
+                - img
+              - button [disabled] [ref=e167]: Submit
+  - generic [ref=e168]:
+    - region "Notifications-top"
+    - region "Notifications-top-left"
+    - region "Notifications-top-right"
+    - region "Notifications-bottom-left"
+    - region "Notifications-bottom"
+    - region "Notifications-bottom-right"
+  - dialog "Add Social History" [ref=e172]:
+    - button "Close" [ref=e173] [cursor=pointer]:
+      - img [ref=e174] [cursor=pointer]
+    - banner [ref=e177]: Add Social History
+    - separator [ref=e178]
+    - generic [ref=e180]:
+      - group [ref=e181]:
+        - generic [ref=e182]:
+          - textbox "Type*" [ref=e183] [cursor=pointer]
+          - button [expanded] [ref=e185] [cursor=pointer]:
+            - generic:
+              - img
+        - generic: Type*
+      - menu [active] [ref=e187]:
+        - menuitem "Alcohol" [ref=e188] [cursor=pointer]
+        - menuitem "Illicit Drugs" [ref=e189] [cursor=pointer]
+        - menuitem "Physical Activity" [ref=e190] [cursor=pointer]
+        - menuitem "Smokeless" [ref=e191] [cursor=pointer]
+        - menuitem "Smoking" [ref=e192] [cursor=pointer]
+      - separator [ref=e193]
+    - contentinfo [ref=e194]:
+      - button "Add Social History" [ref=e196] [cursor=pointer]
+```

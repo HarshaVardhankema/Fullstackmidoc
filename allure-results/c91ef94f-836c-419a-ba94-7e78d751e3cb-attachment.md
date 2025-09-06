@@ -1,0 +1,254 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e6]:
+    - generic [ref=e8]:
+      - img [ref=e9]
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - link "Dashboard" [ref=e12] [cursor=pointer]:
+            - /url: /home
+            - generic [ref=e13] [cursor=pointer]:
+              - img [ref=e14] [cursor=pointer]
+              - paragraph [ref=e15] [cursor=pointer]: Dashboard
+          - link "Visits" [ref=e16] [cursor=pointer]:
+            - /url: /visits
+            - generic [ref=e17] [cursor=pointer]:
+              - img [ref=e18] [cursor=pointer]
+              - paragraph [ref=e19] [cursor=pointer]: Visits
+          - link "Messages" [ref=e20] [cursor=pointer]:
+            - /url: /messages
+            - generic [ref=e21] [cursor=pointer]:
+              - img [ref=e22] [cursor=pointer]
+              - paragraph [ref=e23] [cursor=pointer]: Messages
+          - link "Patients" [ref=e24] [cursor=pointer]:
+            - /url: /patients
+            - generic [ref=e25] [cursor=pointer]:
+              - img [ref=e26] [cursor=pointer]
+              - paragraph [ref=e27] [cursor=pointer]: Patients
+          - link "IPD Patients" [ref=e28] [cursor=pointer]:
+            - /url: /ipdpatients
+            - generic [ref=e29] [cursor=pointer]:
+              - img [ref=e30] [cursor=pointer]
+              - paragraph [ref=e31] [cursor=pointer]: IPD Patients
+          - link "Orders" [ref=e32] [cursor=pointer]:
+            - /url: /prescriptions
+            - generic [ref=e33] [cursor=pointer]:
+              - img [ref=e34] [cursor=pointer]
+              - paragraph [ref=e35] [cursor=pointer]: Orders
+          - link "Medicines" [ref=e36] [cursor=pointer]:
+            - /url: /medicines
+            - generic [ref=e37] [cursor=pointer]:
+              - img [ref=e38] [cursor=pointer]
+              - paragraph [ref=e39] [cursor=pointer]: Medicines
+          - link "Reports" [ref=e40] [cursor=pointer]:
+            - /url: /reports
+            - generic [ref=e41] [cursor=pointer]:
+              - img [ref=e42] [cursor=pointer]
+              - paragraph [ref=e43] [cursor=pointer]: Reports
+          - link "Notifications" [ref=e44] [cursor=pointer]:
+            - /url: /notifications
+            - generic [ref=e45] [cursor=pointer]:
+              - img [ref=e46] [cursor=pointer]
+              - paragraph [ref=e47] [cursor=pointer]: Notifications
+          - generic [ref=e48] [cursor=pointer]:
+            - generic:
+              - generic:
+                - generic:
+                  - img
+                  - paragraph: Apps
+        - generic [ref=e50] [cursor=pointer]:
+          - generic:
+            - generic:
+              - link:
+                - /url: /doctorprofile
+                - generic:
+                  - img
+    - generic [ref=e51]:
+      - navigation [ref=e52]:
+        - paragraph [ref=e54]: Visits
+        - generic [ref=e56]:
+          - button "Aira - Chat" [ref=e59] [cursor=pointer]:
+            - img [ref=e60] [cursor=pointer]
+            - paragraph [ref=e62] [cursor=pointer]: Aira - Chat
+          - button "Record" [ref=e64] [cursor=pointer]:
+            - img [ref=e65] [cursor=pointer]
+            - paragraph [ref=e67] [cursor=pointer]: Record
+          - button "Unavailable" [ref=e69] [cursor=pointer]:
+            - paragraph [ref=e70] [cursor=pointer]: Unavailable
+            - checkbox [ref=e72]
+        - text: ;
+      - generic [ref=e76]:
+        - generic [ref=e77]:
+          - generic [ref=e79]:
+            - generic [ref=e80]:
+              - generic [ref=e81]:
+                - generic [ref=e82]: "1"
+                - generic [ref=e85] [cursor=pointer]: All
+              - generic [ref=e86]:
+                - generic [ref=e87]: "0"
+                - generic [ref=e90] [cursor=pointer]: Upcoming
+              - generic [ref=e91]:
+                - generic [ref=e92]: "0"
+                - generic [ref=e95] [cursor=pointer]: Completed
+              - generic [ref=e96]:
+                - generic [ref=e97]: "1"
+                - generic [ref=e100] [cursor=pointer]: Pending
+              - generic [ref=e101]:
+                - generic [ref=e102]: "0"
+                - generic [ref=e105] [cursor=pointer]: No-show
+              - generic [ref=e106]:
+                - generic [ref=e107]: "0"
+                - generic [ref=e110] [cursor=pointer]: Cancelled
+            - img [ref=e112] [cursor=pointer]
+          - generic [ref=e118] [cursor=pointer]:
+            - generic [ref=e119] [cursor=pointer]:
+              - img [ref=e120] [cursor=pointer]
+              - generic [ref=e121] [cursor=pointer]:
+                - paragraph [ref=e122] [cursor=pointer]: Kyle Jenner
+                - generic [ref=e123] [cursor=pointer]:
+                  - img [ref=e124] [cursor=pointer]
+                  - paragraph [ref=e125] [cursor=pointer]: 16th September, 2025, 11:40 AM
+                - generic [ref=e126] [cursor=pointer]:
+                  - img [ref=e127] [cursor=pointer]
+                  - paragraph [ref=e128] [cursor=pointer]: High Lander
+              - img [ref=e130] [cursor=pointer]
+            - paragraph [ref=e132] [cursor=pointer]: fever
+        - generic [ref=e135]:
+          - generic [ref=e136]:
+            - generic [ref=e137]:
+              - img [ref=e138] [cursor=pointer]
+              - img [ref=e139] [cursor=pointer]
+              - paragraph [ref=e140]: September 2025
+            - generic [ref=e141]:
+              - button "Today" [ref=e142] [cursor=pointer]
+              - combobox [active] [ref=e143] [cursor=pointer]:
+                - option "Month" [selected]
+                - option "Week"
+                - option "Day"
+              - separator [ref=e144]
+              - button "New visit" [ref=e145] [cursor=pointer]:
+                - img [ref=e147] [cursor=pointer]
+                - paragraph [ref=e148] [cursor=pointer]: New visit
+          - grid [ref=e152]:
+            - rowgroup [ref=e153]:
+              - row "Sunday Monday Tuesday Wednesday Thursday Friday Saturday" [ref=e157]:
+                - columnheader "Sunday" [ref=e158]:
+                  - generic "Sunday" [ref=e160]: Sun
+                - columnheader "Monday" [ref=e161]:
+                  - generic "Monday" [ref=e163]: Mon
+                - columnheader "Tuesday" [ref=e164]:
+                  - generic "Tuesday" [ref=e166]: Tue
+                - columnheader "Wednesday" [ref=e167]:
+                  - generic "Wednesday" [ref=e169]: Wed
+                - columnheader "Thursday" [ref=e170]:
+                  - generic "Thursday" [ref=e172]: Thu
+                - columnheader "Friday" [ref=e173]:
+                  - generic "Friday" [ref=e175]: Fri
+                - columnheader "Saturday" [ref=e176]:
+                  - generic "Saturday" [ref=e178]: Sat
+            - rowgroup [ref=e179]:
+              - generic [ref=e182]:
+                - row "August 31, 2025 September 1, 2025 September 2, 2025 September 3, 2025 September 4, 2025 September 5, 2025 September 6, 2025" [ref=e184]:
+                  - gridcell "August 31, 2025" [ref=e185]:
+                    - generic "August 31, 2025" [ref=e188]: "31"
+                  - gridcell "September 1, 2025" [ref=e190]:
+                    - generic "September 1, 2025" [ref=e193]: "1"
+                  - gridcell "September 2, 2025" [ref=e195]:
+                    - generic "September 2, 2025" [ref=e198]: "2"
+                  - gridcell "September 3, 2025" [ref=e200]:
+                    - generic "September 3, 2025" [ref=e203]: "3"
+                  - gridcell "September 4, 2025" [ref=e205]:
+                    - generic "September 4, 2025" [ref=e208]: "4"
+                  - gridcell "September 5, 2025" [ref=e210]:
+                    - generic "September 5, 2025" [ref=e213]: "5"
+                  - gridcell "September 6, 2025" [ref=e215]:
+                    - generic "September 6, 2025" [ref=e218]: "6"
+                - row "September 7, 2025 September 8, 2025 September 9, 2025 September 10, 2025 September 11, 2025 September 12, 2025 September 13, 2025" [ref=e220]:
+                  - gridcell "September 7, 2025" [ref=e221]:
+                    - generic "September 7, 2025" [ref=e224]: "7"
+                  - gridcell "September 8, 2025" [ref=e226]:
+                    - generic "September 8, 2025" [ref=e229]: "8"
+                  - gridcell "September 9, 2025" [ref=e231]:
+                    - generic "September 9, 2025" [ref=e234]: "9"
+                  - gridcell "September 10, 2025" [ref=e236]:
+                    - generic "September 10, 2025" [ref=e239]: "10"
+                  - gridcell "September 11, 2025" [ref=e241]:
+                    - generic "September 11, 2025" [ref=e244]: "11"
+                  - gridcell "September 12, 2025" [ref=e246]:
+                    - generic "September 12, 2025" [ref=e249]: "12"
+                  - gridcell "September 13, 2025" [ref=e251]:
+                    - generic "September 13, 2025" [ref=e254]: "13"
+                - row "September 14, 2025 September 15, 2025 September 16, 2025 September 17, 2025 September 18, 2025 September 19, 2025 September 20, 2025" [ref=e256]:
+                  - gridcell "September 14, 2025" [ref=e257]:
+                    - generic "September 14, 2025" [ref=e260]: "14"
+                  - gridcell "September 15, 2025" [ref=e262]:
+                    - generic "September 15, 2025" [ref=e265]: "15"
+                  - gridcell "September 16, 2025" [ref=e267]:
+                    - generic [ref=e268]:
+                      - generic "September 16, 2025" [ref=e270]: "16"
+                      - generic [ref=e276]:
+                        - generic [ref=e277]: 11:40 AM
+                        - generic [ref=e278]: Kyle Jenner
+                  - gridcell "September 17, 2025" [ref=e279]:
+                    - generic "September 17, 2025" [ref=e282]: "17"
+                  - gridcell "September 18, 2025" [ref=e284]:
+                    - generic "September 18, 2025" [ref=e287]: "18"
+                  - gridcell "September 19, 2025" [ref=e289]:
+                    - generic "September 19, 2025" [ref=e292]: "19"
+                  - gridcell "September 20, 2025" [ref=e294]:
+                    - generic "September 20, 2025" [ref=e297]: "20"
+                - row "September 21, 2025 September 22, 2025 September 23, 2025 September 24, 2025 September 25, 2025 September 26, 2025 September 27, 2025" [ref=e299]:
+                  - gridcell "September 21, 2025" [ref=e300]:
+                    - generic "September 21, 2025" [ref=e303]: "21"
+                  - gridcell "September 22, 2025" [ref=e305]:
+                    - generic "September 22, 2025" [ref=e308]: "22"
+                  - gridcell "September 23, 2025" [ref=e310]:
+                    - generic "September 23, 2025" [ref=e313]: "23"
+                  - gridcell "September 24, 2025" [ref=e315]:
+                    - generic "September 24, 2025" [ref=e318]: "24"
+                  - gridcell "September 25, 2025" [ref=e320]:
+                    - generic "September 25, 2025" [ref=e323]: "25"
+                  - gridcell "September 26, 2025" [ref=e325]:
+                    - generic "September 26, 2025" [ref=e328]: "26"
+                  - gridcell "September 27, 2025" [ref=e330]:
+                    - generic "September 27, 2025" [ref=e333]: "27"
+                - row "September 28, 2025 September 29, 2025 September 30, 2025 October 1, 2025 October 2, 2025 October 3, 2025 October 4, 2025" [ref=e335]:
+                  - gridcell "September 28, 2025" [ref=e336]:
+                    - generic "September 28, 2025" [ref=e339]: "28"
+                  - gridcell "September 29, 2025" [ref=e341]:
+                    - generic "September 29, 2025" [ref=e344]: "29"
+                  - gridcell "September 30, 2025" [ref=e346]:
+                    - generic "September 30, 2025" [ref=e349]: "30"
+                  - gridcell "October 1, 2025" [ref=e351]:
+                    - generic "October 1, 2025" [ref=e354]: "1"
+                  - gridcell "October 2, 2025" [ref=e356]:
+                    - generic "October 2, 2025" [ref=e359]: "2"
+                  - gridcell "October 3, 2025" [ref=e361]:
+                    - generic "October 3, 2025" [ref=e364]: "3"
+                  - gridcell "October 4, 2025" [ref=e366]:
+                    - generic "October 4, 2025" [ref=e369]: "4"
+                - row "October 5, 2025 October 6, 2025 October 7, 2025 October 8, 2025 October 9, 2025 October 10, 2025 October 11, 2025" [ref=e371]:
+                  - gridcell "October 5, 2025" [ref=e372]:
+                    - generic "October 5, 2025" [ref=e375]: "5"
+                  - gridcell "October 6, 2025" [ref=e377]:
+                    - generic "October 6, 2025" [ref=e380]: "6"
+                  - gridcell "October 7, 2025" [ref=e382]:
+                    - generic "October 7, 2025" [ref=e385]: "7"
+                  - gridcell "October 8, 2025" [ref=e387]:
+                    - generic "October 8, 2025" [ref=e390]: "8"
+                  - gridcell "October 9, 2025" [ref=e392]:
+                    - generic "October 9, 2025" [ref=e395]: "9"
+                  - gridcell "October 10, 2025" [ref=e397]:
+                    - generic "October 10, 2025" [ref=e400]: "10"
+                  - gridcell "October 11, 2025" [ref=e402]:
+                    - generic "October 11, 2025" [ref=e405]: "11"
+  - generic [ref=e407]:
+    - region "Notifications-top"
+    - region "Notifications-top-left"
+    - region "Notifications-top-right"
+    - region "Notifications-bottom-left"
+    - region "Notifications-bottom"
+    - region "Notifications-bottom-right"
+```

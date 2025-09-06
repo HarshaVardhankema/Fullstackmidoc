@@ -1,0 +1,273 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - navigation [ref=e6]:
+        - img [ref=e8] [cursor=pointer]
+        - generic [ref=e9]:
+          - link [ref=e10] [cursor=pointer]:
+            - /url: /home
+            - img [ref=e11] [cursor=pointer]
+            - generic [ref=e12] [cursor=pointer]: Home
+          - link [ref=e13] [cursor=pointer]:
+            - /url: /myhealth
+            - img [ref=e14] [cursor=pointer]
+            - generic [ref=e15] [cursor=pointer]: My Health
+          - link [ref=e16] [cursor=pointer]:
+            - /url: /appointments
+            - img [ref=e17] [cursor=pointer]
+            - generic [ref=e18] [cursor=pointer]: Appointments
+          - link [ref=e19] [cursor=pointer]:
+            - /url: /chat
+            - img [ref=e20] [cursor=pointer]
+            - generic [ref=e21] [cursor=pointer]: Chat
+          - link [ref=e22] [cursor=pointer]:
+            - /url: /profile
+            - img [ref=e23] [cursor=pointer]
+            - generic [ref=e24] [cursor=pointer]: Profile
+        - generic [ref=e26]:
+          - button [ref=e27] [cursor=pointer]:
+            - img [ref=e28] [cursor=pointer]
+            - generic [ref=e29] [cursor=pointer]: Please select location
+            - img [ref=e30] [cursor=pointer]
+          - button [ref=e31] [cursor=pointer]:
+            - img [ref=e32] [cursor=pointer]
+          - button [ref=e33] [cursor=pointer]:
+            - button [ref=e34] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - img
+                  - paragraph: Kyle Jenner
+      - button [ref=e35] [cursor=pointer]:
+        - img [ref=e36] [cursor=pointer]
+        - paragraph [ref=e38] [cursor=pointer]: Ask a Doctor
+      - navigation [ref=e39]:
+        - heading [level=1] [ref=e41]: My Health
+        - heading [level=1] [ref=e43]: Vitals
+        - generic [ref=e45]:
+          - tablist [ref=e47]:
+            - tab [ref=e48] [cursor=pointer]: Today
+            - tab [ref=e49] [cursor=pointer]: This week
+            - tab [ref=e50] [cursor=pointer]: This month
+            - tab [selected] [ref=e51] [cursor=pointer]: This year
+          - button [ref=e52] [cursor=pointer]:
+            - img [ref=e53] [cursor=pointer]
+          - button [ref=e54] [cursor=pointer]:
+            - img [ref=e55] [cursor=pointer]
+            - text: Add data
+    - generic [ref=e56]:
+      - generic [ref=e57]:
+        - complementary [ref=e60]:
+          - link [ref=e61] [cursor=pointer]:
+            - /url: /myhealth
+            - img [ref=e62] [cursor=pointer]
+            - generic [ref=e63] [cursor=pointer]: Overview
+          - link [ref=e64] [cursor=pointer]:
+            - /url: /vitals
+            - img [ref=e65] [cursor=pointer]
+            - generic [ref=e66] [cursor=pointer]: Vitals
+          - link [ref=e67] [cursor=pointer]:
+            - /url: /conditions
+            - img [ref=e68] [cursor=pointer]
+            - generic [ref=e69] [cursor=pointer]: Conditions
+          - link [ref=e70] [cursor=pointer]:
+            - /url: /surgeries
+            - img [ref=e71] [cursor=pointer]
+            - generic [ref=e72] [cursor=pointer]: Surgeries
+          - link [ref=e73] [cursor=pointer]:
+            - /url: /medications
+            - img [ref=e74] [cursor=pointer]
+            - generic [ref=e75] [cursor=pointer]: Medication
+          - link [ref=e76] [cursor=pointer]:
+            - /url: /allergies
+            - img [ref=e77] [cursor=pointer]
+            - generic [ref=e78] [cursor=pointer]: Allergies
+          - link [ref=e79] [cursor=pointer]:
+            - /url: /familyhistory
+            - img [ref=e80] [cursor=pointer]
+            - generic [ref=e81] [cursor=pointer]: Family History
+          - link [ref=e82] [cursor=pointer]:
+            - /url: /vaccination
+            - img [ref=e83] [cursor=pointer]
+            - generic [ref=e84] [cursor=pointer]: Vaccinations
+          - link [ref=e85] [cursor=pointer]:
+            - /url: /socialhistory
+            - img [ref=e86] [cursor=pointer]
+            - generic [ref=e87] [cursor=pointer]: Social History
+        - generic [ref=e89]:
+          - generic [ref=e90]:
+            - generic [ref=e92]:
+              - generic [ref=e93]:
+                - heading [level=2] [ref=e95]: Weight
+                - img [ref=e97]
+              - heading [level=1] [ref=e100]: 36.28 Kg
+              - button [ref=e105] [cursor=pointer]:
+                - generic [ref=e106] [cursor=pointer]: Add Weight
+                - img [ref=e108] [cursor=pointer]
+            - generic [ref=e109]:
+              - generic [ref=e110]:
+                - heading [level=2] [ref=e112]: Height
+                - img [ref=e114]
+              - heading [level=1] [ref=e117]: 6.1 ft
+              - button [ref=e122] [cursor=pointer]:
+                - generic [ref=e123] [cursor=pointer]: Add Height
+                - img [ref=e125] [cursor=pointer]
+          - generic [ref=e126]:
+            - generic [ref=e128]:
+              - generic [ref=e129]:
+                - heading [level=2] [ref=e131]: Respiratory Rate
+                - img [ref=e133]
+              - heading [level=1] [ref=e136]: 40 bpm
+              - button [ref=e142] [cursor=pointer]:
+                - generic [ref=e143] [cursor=pointer]: Add Respiratory Rate
+                - img [ref=e145] [cursor=pointer]
+            - generic [ref=e146]:
+              - generic [ref=e147]:
+                - heading [level=2] [ref=e149]: body Temperature
+                - img [ref=e151]
+              - heading [level=1] [ref=e155]: 37.2 °C
+              - button [ref=e160] [cursor=pointer]:
+                - generic [ref=e161] [cursor=pointer]: Add Body Temperature
+                - img [ref=e163] [cursor=pointer]
+          - generic [ref=e164]:
+            - generic [ref=e166]:
+              - generic [ref=e167]:
+                - heading [level=2] [ref=e169]: Oxygen Saturation
+                - img [ref=e171]
+              - generic [ref=e173]:
+                - heading [level=1] [ref=e174]: No data
+                - img [ref=e176]
+              - button [ref=e178] [cursor=pointer]:
+                - generic [ref=e179] [cursor=pointer]: Add Oxygen Saturation
+                - img [ref=e181] [cursor=pointer]
+            - generic [ref=e182]:
+              - generic [ref=e183]:
+                - heading [level=2] [ref=e185]: Blood Pressure
+                - img [ref=e187]
+              - generic [ref=e191]:
+                - generic [ref=e192]:
+                  - generic [ref=e193]: "40"
+                  - generic [ref=e194]: Systolic
+                - generic [ref=e195]:
+                  - generic [ref=e196]: "50"
+                  - generic [ref=e197]: Diastolic
+              - button [ref=e202] [cursor=pointer]:
+                - generic [ref=e203] [cursor=pointer]: Add Blood Pressure
+                - img [ref=e205] [cursor=pointer]
+          - generic [ref=e206]:
+            - generic [ref=e208]:
+              - generic [ref=e209]:
+                - heading [level=2] [ref=e211]: heart rate
+                - img [ref=e213]
+              - heading [level=1] [ref=e216]: 83 bpm
+              - button [ref=e221] [cursor=pointer]:
+                - generic [ref=e222] [cursor=pointer]: Add Heart Rate
+                - img [ref=e224] [cursor=pointer]
+            - generic [ref=e225]:
+              - generic [ref=e226]:
+                - heading [level=2] [ref=e228]: BODY MASS INDEX
+                - img [ref=e230]
+              - generic [ref=e232]:
+                - generic [ref=e233]:
+                  - generic [ref=e235]:
+                    - generic: "10.6"
+                  - img [ref=e237]
+                - paragraph [ref=e238]:
+                  - text: Your BMI Score is
+                  - generic [ref=e239]: Underweight
+              - button [ref=e241] [cursor=pointer]:
+                - generic [ref=e242] [cursor=pointer]: Update Body Mass Index
+                - img [ref=e244] [cursor=pointer]
+      - contentinfo [ref=e245]:
+        - generic [ref=e246]:
+          - paragraph [ref=e247]: © 2025 Midoc, Inc.
+          - generic [ref=e248]:
+            - paragraph [ref=e249]: A PRODUCT OF
+            - img [ref=e250]
+  - generic:
+    - region "Notifications-top"
+    - region "Notifications-top-left"
+    - region "Notifications-top-right"
+    - region "Notifications-bottom-left"
+    - region "Notifications-bottom"
+    - region "Notifications-bottom-right"
+  - dialog [ref=e253]:
+    - button [ref=e254] [cursor=pointer]:
+      - img [ref=e255] [cursor=pointer]
+    - banner [ref=e258]: Add data
+    - separator [ref=e259]
+    - generic [ref=e264]:
+      - button [ref=e265] [cursor=pointer]:
+        - img [ref=e266] [cursor=pointer]
+        - paragraph [ref=e267] [cursor=pointer]: Body temperature
+        - img [ref=e269] [cursor=pointer]
+      - separator [ref=e270]
+      - button [ref=e271] [cursor=pointer]:
+        - img [ref=e272] [cursor=pointer]
+        - paragraph [ref=e273] [cursor=pointer]: Pulse
+        - img [ref=e275] [cursor=pointer]
+      - separator [ref=e276]
+      - button [ref=e277] [cursor=pointer]:
+        - img [ref=e278] [cursor=pointer]
+        - paragraph [ref=e279] [cursor=pointer]: Blood pressure
+        - img [ref=e281] [cursor=pointer]
+      - separator [ref=e282]
+      - button [ref=e283] [cursor=pointer]:
+        - img [ref=e284] [cursor=pointer]
+        - paragraph [ref=e285] [cursor=pointer]: Respiratory rate
+        - img [ref=e287] [cursor=pointer]
+      - separator [ref=e288]
+      - button [ref=e289] [cursor=pointer]:
+        - img [ref=e290] [cursor=pointer]
+        - paragraph [ref=e291] [cursor=pointer]: Oxygen Saturation
+        - img [ref=e293] [cursor=pointer]
+      - separator [ref=e294]
+      - button [ref=e295] [cursor=pointer]:
+        - img [ref=e296] [cursor=pointer]
+        - paragraph [ref=e297] [cursor=pointer]: Weight
+        - img [ref=e299] [cursor=pointer]
+      - separator [ref=e300]
+      - button [ref=e301] [cursor=pointer]:
+        - img [ref=e302] [cursor=pointer]
+        - paragraph [ref=e303] [cursor=pointer]: Height
+        - img [ref=e305] [cursor=pointer]
+      - separator [ref=e306]
+      - button [ref=e307] [cursor=pointer]:
+        - img [ref=e308] [cursor=pointer]
+        - paragraph [ref=e309] [cursor=pointer]: BMI
+        - img [ref=e311] [cursor=pointer]
+  - dialog "Oxygen Saturation" [ref=e315]:
+    - generic:
+      - button [active] [ref=e316] [cursor=pointer]:
+        - img [ref=e317] [cursor=pointer]
+      - button "Close" [ref=e318] [cursor=pointer]:
+        - img [ref=e319] [cursor=pointer]
+    - banner [ref=e322]:
+      - img [ref=e323]
+      - text: Oxygen Saturation
+    - separator [ref=e324]
+    - generic [ref=e326]:
+      - generic [ref=e327]:
+        - group [ref=e328]:
+          - textbox "Date" [ref=e330]: 02-09-2025
+          - generic: Date
+        - group [ref=e332]:
+          - textbox "Time" [ref=e333]: 19:46
+          - generic: Time
+      - separator [ref=e334]
+      - generic [ref=e335]:
+        - generic [ref=e336]:
+          - text: Oxygen Saturation
+          - generic [ref=e337]: "%"
+        - group [ref=e338]:
+          - generic [ref=e339]:
+            - textbox [ref=e340] [cursor=pointer]
+            - button [ref=e342] [cursor=pointer]:
+              - generic:
+                - img
+          - generic: Enter value
+    - contentinfo [ref=e343]:
+      - button "Add Oxygen Saturation" [ref=e345] [cursor=pointer]
+```

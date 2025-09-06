@@ -1,0 +1,223 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - navigation [ref=e6]:
+        - img [ref=e8] [cursor=pointer]
+        - generic [ref=e9]:
+          - link [ref=e10] [cursor=pointer]:
+            - /url: /home
+            - img [ref=e11] [cursor=pointer]
+            - generic [ref=e12] [cursor=pointer]: Home
+          - link [ref=e13] [cursor=pointer]:
+            - /url: /myhealth
+            - img [ref=e14] [cursor=pointer]
+            - generic [ref=e15] [cursor=pointer]: My Health
+          - link [ref=e16] [cursor=pointer]:
+            - /url: /appointments
+            - img [ref=e17] [cursor=pointer]
+            - generic [ref=e18] [cursor=pointer]: Appointments
+          - link [ref=e19] [cursor=pointer]:
+            - /url: /chat
+            - img [ref=e20] [cursor=pointer]
+            - generic [ref=e21] [cursor=pointer]: Chat
+          - link [ref=e22] [cursor=pointer]:
+            - /url: /profile
+            - img [ref=e23] [cursor=pointer]
+            - generic [ref=e24] [cursor=pointer]: Profile
+        - generic [ref=e26]:
+          - button [ref=e27] [cursor=pointer]:
+            - img [ref=e28] [cursor=pointer]
+            - generic [ref=e29] [cursor=pointer]: Please select location
+            - img [ref=e30] [cursor=pointer]
+          - button [ref=e31] [cursor=pointer]:
+            - img [ref=e32] [cursor=pointer]
+          - button [ref=e33] [cursor=pointer]:
+            - button [ref=e34] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - img
+                  - paragraph: Kyle Jenner
+      - button [ref=e35] [cursor=pointer]:
+        - img [ref=e36] [cursor=pointer]
+        - paragraph [ref=e38] [cursor=pointer]: Ask a Doctor
+      - button [ref=e39] [cursor=pointer]:
+        - img [ref=e40] [cursor=pointer]
+        - generic [ref=e41] [cursor=pointer]:
+          - paragraph [ref=e42] [cursor=pointer]: Aira - AI
+          - paragraph [ref=e43] [cursor=pointer]: Chat with your AI health guide
+      - navigation [ref=e44]:
+        - heading [level=1] [ref=e46]: My Health
+        - heading [level=1] [ref=e48]: Family History
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - complementary [ref=e54]:
+          - link [ref=e55] [cursor=pointer]:
+            - /url: /myhealth
+            - img [ref=e56] [cursor=pointer]
+            - generic [ref=e57] [cursor=pointer]: Overview
+          - link [ref=e58] [cursor=pointer]:
+            - /url: /vitals
+            - img [ref=e59] [cursor=pointer]
+            - generic [ref=e60] [cursor=pointer]: Vitals
+          - link [ref=e61] [cursor=pointer]:
+            - /url: /conditions
+            - img [ref=e62] [cursor=pointer]
+            - generic [ref=e63] [cursor=pointer]: Conditions
+          - link [ref=e64] [cursor=pointer]:
+            - /url: /surgeries
+            - img [ref=e65] [cursor=pointer]
+            - generic [ref=e66] [cursor=pointer]: Surgeries
+          - link [ref=e67] [cursor=pointer]:
+            - /url: /medications
+            - img [ref=e68] [cursor=pointer]
+            - generic [ref=e69] [cursor=pointer]: Medication
+          - link [ref=e70] [cursor=pointer]:
+            - /url: /allergies
+            - img [ref=e71] [cursor=pointer]
+            - generic [ref=e72] [cursor=pointer]: Allergies
+          - link [ref=e73] [cursor=pointer]:
+            - /url: /familyhistory
+            - img [ref=e74] [cursor=pointer]
+            - generic [ref=e75] [cursor=pointer]: Family History
+          - link [ref=e76] [cursor=pointer]:
+            - /url: /vaccination
+            - img [ref=e77] [cursor=pointer]
+            - generic [ref=e78] [cursor=pointer]: Vaccinations
+          - link [ref=e79] [cursor=pointer]:
+            - /url: /socialhistory
+            - img [ref=e80] [cursor=pointer]
+            - generic [ref=e81] [cursor=pointer]: Social History
+        - generic [ref=e83]:
+          - img [ref=e84]
+          - paragraph [ref=e85]: No data available
+          - button [ref=e86] [cursor=pointer]:
+            - img [ref=e87] [cursor=pointer]
+            - text: Add Member
+      - contentinfo [ref=e88]:
+        - generic [ref=e89]:
+          - paragraph [ref=e90]: © 2025 Midoc, Inc.
+          - generic [ref=e91]:
+            - paragraph [ref=e92]: A PRODUCT OF
+            - img [ref=e93]
+  - generic:
+    - region "Notifications-top"
+    - region "Notifications-top-left"
+    - region "Notifications-top-right"
+    - region "Notifications-bottom-left"
+    - region "Notifications-bottom"
+    - region "Notifications-bottom-right"
+  - dialog "Add member" [ref=e96]:
+    - button "Close" [ref=e97] [cursor=pointer]:
+      - img [ref=e98] [cursor=pointer]
+    - banner [ref=e101]: Add member
+    - separator [ref=e102]
+    - generic [ref=e103]:
+      - generic [ref=e104]:
+        - group [ref=e105]:
+          - textbox "First Name*" [ref=e106]: ISHOW
+          - generic: First Name*
+        - group [ref=e107]:
+          - textbox "Last Name*" [ref=e108]: SPEED
+          - generic: Last Name*
+        - group [ref=e109]:
+          - generic [ref=e110]:
+            - textbox "Gender*" [ref=e111] [cursor=pointer]: Female
+            - button [ref=e113] [cursor=pointer]:
+              - generic:
+                - img
+          - generic: Gender*
+        - radiogroup [ref=e114]:
+          - generic [ref=e115]:
+            - generic [ref=e116] [cursor=pointer]:
+              - radio "Standard" [checked] [ref=e117]
+              - generic [ref=e119] [cursor=pointer]: Standard
+            - generic [ref=e120] [cursor=pointer]:
+              - radio "Metric" [ref=e121]
+              - generic [ref=e123] [cursor=pointer]: Metric
+        - generic [ref=e124]:
+          - generic [ref=e125]:
+            - text: Weight
+            - button "lbs" [ref=e126]:
+              - generic: lbs
+          - group [ref=e127]:
+            - generic [ref=e128]:
+              - textbox [ref=e129] [cursor=pointer]: "78"
+              - button [ref=e131] [cursor=pointer]:
+                - generic:
+                  - img
+            - generic: Enter Value
+        - generic [ref=e132]:
+          - generic [ref=e133]:
+            - text: Height
+            - button "ft" [ref=e134]:
+              - generic: ft
+          - generic [ref=e135]:
+            - group [ref=e136]:
+              - generic [ref=e137]:
+                - textbox [ref=e138] [cursor=pointer]: "6"
+                - button [ref=e140] [cursor=pointer]:
+                  - generic:
+                    - img
+              - generic: Feet
+            - group [ref=e141]:
+              - generic [ref=e142]:
+                - textbox [ref=e143] [cursor=pointer]: "5"
+                - button [ref=e145] [cursor=pointer]:
+                  - generic:
+                    - img
+              - generic: Inches
+        - group [ref=e146]:
+          - textbox "Date of birth*" [ref=e148]: 19-08-2002
+          - generic: Date of birth*
+        - group [ref=e150]:
+          - generic [ref=e151]:
+            - textbox "Relationship*" [ref=e152] [cursor=pointer]
+            - button [ref=e154] [cursor=pointer]:
+              - generic:
+                - img
+          - generic: Relationship*
+        - generic [ref=e156]:
+          - button "Flag +1" [ref=e158] [cursor=pointer]:
+            - generic [ref=e159] [cursor=pointer]:
+              - img "Flag" [ref=e160] [cursor=pointer]
+              - generic [ref=e161] [cursor=pointer]: "+1"
+            - img [ref=e162] [cursor=pointer]
+          - textbox "Phone number" [ref=e166]
+        - group [ref=e167]:
+          - textbox "Email Address" [ref=e168]
+          - generic: Email Address
+        - group [ref=e169]:
+          - generic [ref=e170]:
+            - textbox "Blood Type" [ref=e171] [cursor=pointer]
+            - button [ref=e173] [cursor=pointer]:
+              - generic:
+                - img
+          - generic: Blood Type
+        - group [ref=e174]:
+          - generic [ref=e175]:
+            - textbox "Marital status" [ref=e176] [cursor=pointer]
+            - button [ref=e178] [cursor=pointer]:
+              - generic:
+                - img
+          - generic: Marital status
+        - generic [ref=e179]:
+          - button "Medical Condition" [ref=e180] [cursor=pointer]:
+            - paragraph [ref=e181] [cursor=pointer]: Medical Condition
+            - img [ref=e182] [cursor=pointer]
+          - button "Allergies" [ref=e183] [cursor=pointer]:
+            - paragraph [ref=e184] [cursor=pointer]: Allergies
+            - img [ref=e185] [cursor=pointer]
+      - separator [ref=e187]
+      - generic [ref=e188]:
+        - generic [ref=e189] [cursor=pointer]:
+          - checkbox "Adopted" [ref=e190]
+          - generic [ref=e192] [cursor=pointer]: Adopted
+        - generic [ref=e193] [cursor=pointer]:
+          - checkbox "Deceased" [ref=e194]
+          - generic [ref=e196] [cursor=pointer]: Deceased
+    - contentinfo [ref=e197]:
+      - button "Add Member" [ref=e199] [cursor=pointer]
+```

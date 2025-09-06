@@ -1,0 +1,46 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - img "Logo" [ref=e8]
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - button "Back" [ref=e11] [cursor=pointer]:
+            - img [ref=e12] [cursor=pointer]
+            - paragraph [ref=e13] [cursor=pointer]: Back
+          - generic [ref=e14]:
+            - img [ref=e16]
+            - heading "Welcome Back" [level=1] [ref=e17]
+            - paragraph [ref=e19]: Enter your password to continue
+            - group [ref=e21]:
+              - textbox "Enter Email Address" [disabled] [ref=e22]: Kyle01@gmail.com
+              - generic: Enter Email Address
+            - group [ref=e24]:
+              - generic [ref=e25]:
+                - textbox "Enter your Password" [active] [ref=e26]: midoc123
+                - generic: Enter your Password
+                - button [ref=e28] [cursor=pointer]:
+                  - img [ref=e29] [cursor=pointer]
+            - button "Forgot Password" [ref=e30] [cursor=pointer]
+            - button "Continue" [ref=e31] [cursor=pointer]
+        - generic [ref=e32]:
+          - separator [ref=e33]
+          - generic [ref=e34]: OR
+          - separator [ref=e35]
+        - generic [ref=e36]:
+          - img [ref=e39]
+          - button "Connect now" [ref=e40] [cursor=pointer]
+    - paragraph [ref=e41]: © 2025 midoc, Inc.
+    - generic [ref=e42]:
+      - paragraph [ref=e43]: A PRODUCT OF
+      - img [ref=e44]
+  - generic:
+    - region "Notifications-top"
+    - region "Notifications-top-left"
+    - region "Notifications-top-right"
+    - region "Notifications-bottom-left"
+    - region "Notifications-bottom"
+    - region "Notifications-bottom-right"
+```

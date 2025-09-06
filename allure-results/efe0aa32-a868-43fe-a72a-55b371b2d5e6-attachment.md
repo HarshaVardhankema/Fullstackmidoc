@@ -1,0 +1,112 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - navigation [ref=e6]:
+        - img "Logo" [ref=e8] [cursor=pointer]
+        - generic [ref=e9]:
+          - link "Home Home" [ref=e10] [cursor=pointer]:
+            - /url: /home
+            - img "Home" [ref=e11] [cursor=pointer]
+            - generic [ref=e12] [cursor=pointer]: Home
+          - link "My Health My Health" [ref=e13] [cursor=pointer]:
+            - /url: /myhealth
+            - img "My Health" [ref=e14] [cursor=pointer]
+            - generic [ref=e15] [cursor=pointer]: My Health
+          - link "Appointments Appointments" [ref=e16] [cursor=pointer]:
+            - /url: /appointments
+            - img "Appointments" [ref=e17] [cursor=pointer]
+            - generic [ref=e18] [cursor=pointer]: Appointments
+          - link "Chat Chat" [ref=e19] [cursor=pointer]:
+            - /url: /chat
+            - img "Chat" [ref=e20] [cursor=pointer]
+            - generic [ref=e21] [cursor=pointer]: Chat
+          - link "Profile Profile" [ref=e22] [cursor=pointer]:
+            - /url: /profile
+            - img "Profile" [ref=e23] [cursor=pointer]
+            - generic [ref=e24] [cursor=pointer]: Profile
+        - generic [ref=e26]:
+          - button "Please select location" [ref=e27] [cursor=pointer]:
+            - img [ref=e28] [cursor=pointer]
+            - generic [ref=e29] [cursor=pointer]: Please select location
+            - img [ref=e30] [cursor=pointer]
+          - button [ref=e31] [cursor=pointer]:
+            - img [ref=e32] [cursor=pointer]
+          - button "Kyle Jenner" [ref=e33] [cursor=pointer]:
+            - button "Kyle Jenner" [ref=e34] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - img
+                  - paragraph: Kyle Jenner
+      - button "Ask a Doctor" [ref=e35] [cursor=pointer]:
+        - img [ref=e36] [cursor=pointer]
+        - paragraph [ref=e38] [cursor=pointer]: Ask a Doctor
+      - button "Aira - AI Chat with your AI health guide" [ref=e39] [cursor=pointer]:
+        - img [ref=e40] [cursor=pointer]
+        - generic [ref=e41] [cursor=pointer]:
+          - paragraph [ref=e42] [cursor=pointer]: Aira - AI
+          - paragraph [ref=e43] [cursor=pointer]: Chat with your AI health guide
+      - navigation [ref=e44]:
+        - heading "My Health" [level=1] [ref=e46]
+        - heading "Family History" [level=1] [ref=e48]
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - complementary [ref=e54]:
+          - link "Home Overview" [ref=e55] [cursor=pointer]:
+            - /url: /myhealth
+            - img "Home" [ref=e56] [cursor=pointer]
+            - generic [ref=e57] [cursor=pointer]: Overview
+          - link "Home Vitals" [ref=e58] [cursor=pointer]:
+            - /url: /vitals
+            - img "Home" [ref=e59] [cursor=pointer]
+            - generic [ref=e60] [cursor=pointer]: Vitals
+          - link "Home Conditions" [ref=e61] [cursor=pointer]:
+            - /url: /conditions
+            - img "Home" [ref=e62] [cursor=pointer]
+            - generic [ref=e63] [cursor=pointer]: Conditions
+          - link "Home Surgeries" [ref=e64] [cursor=pointer]:
+            - /url: /surgeries
+            - img "Home" [ref=e65] [cursor=pointer]
+            - generic [ref=e66] [cursor=pointer]: Surgeries
+          - link "Home Medication" [ref=e67] [cursor=pointer]:
+            - /url: /medications
+            - img "Home" [ref=e68] [cursor=pointer]
+            - generic [ref=e69] [cursor=pointer]: Medication
+          - link "Home Allergies" [ref=e70] [cursor=pointer]:
+            - /url: /allergies
+            - img "Home" [ref=e71] [cursor=pointer]
+            - generic [ref=e72] [cursor=pointer]: Allergies
+          - link "Home Family History" [ref=e73] [cursor=pointer]:
+            - /url: /familyhistory
+            - img "Home" [ref=e74] [cursor=pointer]
+            - generic [ref=e75] [cursor=pointer]: Family History
+          - link "Home Vaccinations" [ref=e76] [cursor=pointer]:
+            - /url: /vaccination
+            - img "Home" [ref=e77] [cursor=pointer]
+            - generic [ref=e78] [cursor=pointer]: Vaccinations
+          - link "Home Social History" [ref=e79] [cursor=pointer]:
+            - /url: /socialhistory
+            - img "Home" [ref=e80] [cursor=pointer]
+            - generic [ref=e81] [cursor=pointer]: Social History
+        - generic [ref=e83]:
+          - img [ref=e84]
+          - paragraph [ref=e85]: No data available
+          - button "Add Member" [ref=e86] [cursor=pointer]:
+            - img [ref=e87] [cursor=pointer]
+            - text: Add Member
+      - contentinfo [ref=e88]:
+        - generic [ref=e89]:
+          - paragraph [ref=e90]: © 2025 Midoc, Inc.
+          - generic [ref=e91]:
+            - paragraph [ref=e92]: A PRODUCT OF
+            - img [ref=e93]
+  - generic:
+    - region "Notifications-top"
+    - region "Notifications-top-left"
+    - region "Notifications-top-right"
+    - region "Notifications-bottom-left"
+    - region "Notifications-bottom"
+    - region "Notifications-bottom-right"
+```

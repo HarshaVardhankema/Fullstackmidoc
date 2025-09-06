@@ -1,0 +1,153 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - navigation [ref=e6]:
+        - img [ref=e8] [cursor=pointer]
+        - generic [ref=e9]:
+          - link [ref=e10] [cursor=pointer]:
+            - /url: /home
+            - img [ref=e11] [cursor=pointer]
+            - generic [ref=e12] [cursor=pointer]: Home
+          - link [ref=e13] [cursor=pointer]:
+            - /url: /myhealth
+            - img [ref=e14] [cursor=pointer]
+            - generic [ref=e15] [cursor=pointer]: My Health
+          - link [ref=e16] [cursor=pointer]:
+            - /url: /appointments
+            - img [ref=e17] [cursor=pointer]
+            - generic [ref=e18] [cursor=pointer]: Appointments
+          - link [ref=e19] [cursor=pointer]:
+            - /url: /chat
+            - img [ref=e20] [cursor=pointer]
+            - generic [ref=e21] [cursor=pointer]: Chat
+          - link [ref=e22] [cursor=pointer]:
+            - /url: /profile
+            - img [ref=e23] [cursor=pointer]
+            - generic [ref=e24] [cursor=pointer]: Profile
+        - generic [ref=e26]:
+          - button [ref=e27] [cursor=pointer]:
+            - img [ref=e28] [cursor=pointer]
+            - generic [ref=e29] [cursor=pointer]: Please select location
+            - img [ref=e30] [cursor=pointer]
+          - button [ref=e31] [cursor=pointer]:
+            - img [ref=e32] [cursor=pointer]
+          - button [ref=e33] [cursor=pointer]:
+            - button [ref=e34] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - img
+                  - paragraph: Kyle Jenner
+      - button [ref=e35] [cursor=pointer]:
+        - img [ref=e36] [cursor=pointer]
+        - paragraph [ref=e38] [cursor=pointer]: Ask a Doctor
+      - button [ref=e39] [cursor=pointer]:
+        - img [ref=e40] [cursor=pointer]
+        - generic [ref=e41] [cursor=pointer]:
+          - paragraph [ref=e42] [cursor=pointer]: Aira - AI
+          - paragraph [ref=e43] [cursor=pointer]: Chat with your AI health guide
+      - navigation [ref=e44]:
+        - heading [level=1] [ref=e46]: My Health
+        - heading [level=1] [ref=e48]: Social History
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - complementary [ref=e54]:
+          - link [ref=e55] [cursor=pointer]:
+            - /url: /myhealth
+            - img [ref=e56] [cursor=pointer]
+            - generic [ref=e57] [cursor=pointer]: Overview
+          - link [ref=e58] [cursor=pointer]:
+            - /url: /vitals
+            - img [ref=e59] [cursor=pointer]
+            - generic [ref=e60] [cursor=pointer]: Vitals
+          - link [ref=e61] [cursor=pointer]:
+            - /url: /conditions
+            - img [ref=e62] [cursor=pointer]
+            - generic [ref=e63] [cursor=pointer]: Conditions
+          - link [ref=e64] [cursor=pointer]:
+            - /url: /surgeries
+            - img [ref=e65] [cursor=pointer]
+            - generic [ref=e66] [cursor=pointer]: Surgeries
+          - link [ref=e67] [cursor=pointer]:
+            - /url: /medications
+            - img [ref=e68] [cursor=pointer]
+            - generic [ref=e69] [cursor=pointer]: Medication
+          - link [ref=e70] [cursor=pointer]:
+            - /url: /allergies
+            - img [ref=e71] [cursor=pointer]
+            - generic [ref=e72] [cursor=pointer]: Allergies
+          - link [ref=e73] [cursor=pointer]:
+            - /url: /familyhistory
+            - img [ref=e74] [cursor=pointer]
+            - generic [ref=e75] [cursor=pointer]: Family History
+          - link [ref=e76] [cursor=pointer]:
+            - /url: /vaccination
+            - img [ref=e77] [cursor=pointer]
+            - generic [ref=e78] [cursor=pointer]: Vaccinations
+          - link [ref=e79] [cursor=pointer]:
+            - /url: /socialhistory
+            - img [ref=e80] [cursor=pointer]
+            - generic [ref=e81] [cursor=pointer]: Social History
+        - generic [ref=e83]:
+          - img [ref=e84]
+          - paragraph [ref=e85]: No data available
+          - button [ref=e86] [cursor=pointer]:
+            - img [ref=e87] [cursor=pointer]
+            - text: Add Social History
+      - contentinfo [ref=e88]:
+        - generic [ref=e89]:
+          - paragraph [ref=e90]: © 2025 Midoc, Inc.
+          - generic [ref=e91]:
+            - paragraph [ref=e92]: A PRODUCT OF
+            - img [ref=e93]
+  - generic:
+    - region "Notifications-top"
+    - region "Notifications-top-left"
+    - region "Notifications-top-right"
+    - region "Notifications-bottom-left"
+    - region "Notifications-bottom"
+    - region "Notifications-bottom-right"
+  - dialog "Add Social History" [ref=e96]:
+    - button "Close" [ref=e97] [cursor=pointer]:
+      - img [ref=e98] [cursor=pointer]
+    - banner [ref=e101]: Add Social History
+    - separator [ref=e102]
+    - generic [ref=e104]:
+      - group [ref=e105]:
+        - generic [ref=e106]:
+          - textbox "Type*" [ref=e107] [cursor=pointer]: Alcohol
+          - button [ref=e109] [cursor=pointer]:
+            - generic:
+              - img
+        - generic: Type*
+      - radiogroup [ref=e110]:
+        - generic [ref=e111]:
+          - generic [ref=e112] [cursor=pointer]:
+            - radio "Current" [checked] [ref=e113]
+            - generic [ref=e115] [cursor=pointer]: Current
+          - generic [ref=e116] [cursor=pointer]:
+            - radio "Former" [ref=e117]
+            - generic [ref=e119] [cursor=pointer]: Former
+          - generic [ref=e120] [cursor=pointer]:
+            - radio "Never" [ref=e121]
+            - generic [ref=e123] [cursor=pointer]: Never
+      - group [ref=e125]:
+        - generic [ref=e126]:
+          - textbox "Start year*" [ref=e127] [cursor=pointer]: "2020"
+          - button [ref=e129] [cursor=pointer]:
+            - generic:
+              - img
+        - generic: Start year*
+      - group [ref=e131]:
+        - textbox "Drinks per week*" [active] [ref=e132]: "12"
+        - generic: Drinks per week*
+      - generic [ref=e134]:
+        - checkbox "Current" [checked] [disabled] [ref=e135]
+        - img [ref=e138]
+        - generic [ref=e140]: Current
+      - separator [ref=e141]
+    - contentinfo [ref=e142]:
+      - button "Add Social History" [ref=e144] [cursor=pointer]
+```

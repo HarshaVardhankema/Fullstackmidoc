@@ -1,0 +1,47 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - img [ref=e8]
+      - generic [ref=e15]:
+        - paragraph [ref=e16]: Seamlessly manage your appointments
+        - paragraph [ref=e17]: Create your schedule and automatically take appointments through midoc.
+    - generic [ref=e18]:
+      - generic [ref=e20]:
+        - img [ref=e21]
+        - heading "Login" [level=1] [ref=e22]
+        - paragraph [ref=e24]: Enter your email address to continue
+        - group [ref=e26]:
+          - textbox "Enter Email Address" [ref=e27]: CamelSalt@gmail.com
+          - generic: Enter Email Address
+        - group [ref=e29]:
+          - generic [ref=e30]:
+            - textbox "Enter your Password" [ref=e31]: midoc123
+            - generic: Enter your Password
+            - button [ref=e33] [cursor=pointer]:
+              - img [ref=e34] [cursor=pointer]
+        - button "Forgot Password?" [ref=e35] [cursor=pointer]
+        - button "Continue" [active] [ref=e36] [cursor=pointer]
+        - generic [ref=e37]:
+          - separator [ref=e38]
+          - generic [ref=e39]: OR
+          - separator [ref=e40]
+        - button "Login with phone number" [ref=e41] [cursor=pointer]
+        - generic [ref=e42]:
+          - text: Don’t have an account?
+          - button "Signup now" [ref=e43] [cursor=pointer]
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - paragraph [ref=e46]: A PRODUCT OF
+          - img [ref=e47]
+        - paragraph [ref=e49]: © 2025 midoc inc.
+  - generic [ref=e50]:
+    - region "Notifications-top"
+    - region "Notifications-top-left"
+    - region "Notifications-top-right"
+    - region "Notifications-bottom-left"
+    - region "Notifications-bottom"
+    - region "Notifications-bottom-right"
+```

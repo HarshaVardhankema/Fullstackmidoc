@@ -1,0 +1,194 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - navigation [ref=e6]:
+        - img "Logo" [ref=e8] [cursor=pointer]
+        - generic [ref=e9]:
+          - link "Home Home" [ref=e10] [cursor=pointer]:
+            - /url: /home
+            - img "Home" [ref=e11] [cursor=pointer]
+            - generic [ref=e12] [cursor=pointer]: Home
+          - link "My Health My Health" [ref=e13] [cursor=pointer]:
+            - /url: /myhealth
+            - img "My Health" [ref=e14] [cursor=pointer]
+            - generic [ref=e15] [cursor=pointer]: My Health
+          - link "Appointments Appointments" [ref=e16] [cursor=pointer]:
+            - /url: /appointments
+            - img "Appointments" [ref=e17] [cursor=pointer]
+            - generic [ref=e18] [cursor=pointer]: Appointments
+          - link "Chat Chat" [ref=e19] [cursor=pointer]:
+            - /url: /chat
+            - img "Chat" [ref=e20] [cursor=pointer]
+            - generic [ref=e21] [cursor=pointer]: Chat
+          - link "Profile Profile" [ref=e22] [cursor=pointer]:
+            - /url: /profile
+            - img "Profile" [ref=e23] [cursor=pointer]
+            - generic [ref=e24] [cursor=pointer]: Profile
+        - generic [ref=e26]:
+          - button "Please select location" [ref=e27] [cursor=pointer]:
+            - img [ref=e28] [cursor=pointer]
+            - generic [ref=e29] [cursor=pointer]: Please select location
+            - img [ref=e30] [cursor=pointer]
+          - button [ref=e31] [cursor=pointer]:
+            - img [ref=e32] [cursor=pointer]
+          - button "Kyle Jenner" [ref=e33] [cursor=pointer]:
+            - button "Kyle Jenner" [ref=e34] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - img
+                  - paragraph: Kyle Jenner
+      - button "Ask a Doctor" [ref=e35] [cursor=pointer]:
+        - img [ref=e36] [cursor=pointer]
+        - paragraph [ref=e38] [cursor=pointer]: Ask a Doctor
+      - button "Aira - AI Chat with your AI health guide" [ref=e39] [cursor=pointer]:
+        - img [ref=e40] [cursor=pointer]
+        - generic [ref=e41] [cursor=pointer]:
+          - paragraph [ref=e42] [cursor=pointer]: Aira - AI
+          - paragraph [ref=e43] [cursor=pointer]: Chat with your AI health guide
+    - generic [ref=e44]:
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - generic [ref=e48]:
+            - paragraph [ref=e49]: Appointments
+            - button "View all" [ref=e51] [cursor=pointer]
+          - generic [ref=e52]:
+            - generic [ref=e54]:
+              - generic [ref=e56]:
+                - generic [ref=e57]:
+                  - generic [ref=e58]:
+                    - img [ref=e60]
+                    - generic [ref=e61]:
+                      - paragraph [ref=e62]: Cardiology
+                      - paragraph [ref=e63]: Camel salt
+                  - paragraph [ref=e64]: Pending
+                - separator [ref=e65]
+                - generic [ref=e66]:
+                  - generic [ref=e67]:
+                    - generic [ref=e68]:
+                      - img [ref=e69]
+                      - paragraph [ref=e70]: 5th Sep, 2025
+                    - generic [ref=e71]:
+                      - img [ref=e72]
+                      - paragraph [ref=e73]: clinical visit
+                  - generic [ref=e74]:
+                    - generic [ref=e75]:
+                      - img [ref=e76]
+                      - paragraph [ref=e77]: 11:20
+                    - generic [ref=e78]:
+                      - img [ref=e79]
+                      - paragraph [ref=e80]: Zen Hospital
+              - generic [ref=e81]:
+                - button "Let us know more" [ref=e82] [cursor=pointer]:
+                  - generic [ref=e83] [cursor=pointer]: Let us know more
+                  - img [ref=e85] [cursor=pointer]
+                - separator [ref=e86]
+                - button "View appointment" [ref=e87] [cursor=pointer]:
+                  - generic [ref=e88] [cursor=pointer]: View appointment
+                  - img [ref=e90] [cursor=pointer]
+            - generic [ref=e92]:
+              - generic [ref=e94]:
+                - generic [ref=e95]:
+                  - generic [ref=e96]:
+                    - img [ref=e98]
+                    - generic [ref=e99]:
+                      - paragraph [ref=e100]: Cardiology
+                      - paragraph [ref=e101]: Camel salt
+                  - paragraph [ref=e102]: Pending
+                - separator [ref=e103]
+                - generic [ref=e104]:
+                  - generic [ref=e105]:
+                    - generic [ref=e106]:
+                      - img [ref=e107]
+                      - paragraph [ref=e108]: 5th Sep, 2025
+                    - generic [ref=e109]:
+                      - img [ref=e110]
+                      - paragraph [ref=e111]: clinical visit
+                  - generic [ref=e112]:
+                    - generic [ref=e113]:
+                      - img [ref=e114]
+                      - paragraph [ref=e115]: 11:20
+                    - generic [ref=e116]:
+                      - img [ref=e117]
+                      - paragraph [ref=e118]: Zen Hospital
+              - generic [ref=e119]:
+                - button "Let us know more" [ref=e120] [cursor=pointer]:
+                  - generic [ref=e121] [cursor=pointer]: Let us know more
+                  - img [ref=e123] [cursor=pointer]
+                - separator [ref=e124]
+                - button "View appointment" [ref=e125] [cursor=pointer]:
+                  - generic [ref=e126] [cursor=pointer]: View appointment
+                  - img [ref=e128] [cursor=pointer]
+        - generic [ref=e129]:
+          - paragraph [ref=e131]: Top doctors around you
+          - generic [ref=e132]: No data
+        - generic [ref=e133]:
+          - paragraph [ref=e135]: Find a doctor
+          - generic [ref=e136]:
+            - button "Cardiology" [ref=e137] [cursor=pointer]:
+              - img [ref=e138] [cursor=pointer]
+              - paragraph [ref=e139] [cursor=pointer]: Cardiology
+            - button "Dentist" [ref=e140] [cursor=pointer]:
+              - img [ref=e141] [cursor=pointer]
+              - paragraph [ref=e142] [cursor=pointer]: Dentist
+            - button "Endocrinology" [ref=e143] [cursor=pointer]:
+              - img [ref=e144] [cursor=pointer]
+              - paragraph [ref=e145] [cursor=pointer]: Endocrinology
+            - button "Family medicine" [ref=e146] [cursor=pointer]:
+              - img [ref=e147] [cursor=pointer]
+              - paragraph [ref=e148] [cursor=pointer]: Family medicine
+            - button "Gastroenterology" [ref=e149] [cursor=pointer]:
+              - img [ref=e150] [cursor=pointer]
+              - paragraph [ref=e151] [cursor=pointer]: Gastroenterology
+            - button "Gynecology" [ref=e152] [cursor=pointer]:
+              - img [ref=e153] [cursor=pointer]
+              - paragraph [ref=e154] [cursor=pointer]: Gynecology
+            - button "Micro Biology" [ref=e155] [cursor=pointer]:
+              - img [ref=e156] [cursor=pointer]
+              - paragraph [ref=e157] [cursor=pointer]: Micro Biology
+            - button "Nephrology" [ref=e158] [cursor=pointer]:
+              - img [ref=e159] [cursor=pointer]
+              - paragraph [ref=e160] [cursor=pointer]: Nephrology
+            - button "Neurology" [ref=e161] [cursor=pointer]:
+              - img [ref=e162] [cursor=pointer]
+              - paragraph [ref=e163] [cursor=pointer]: Neurology
+            - button "Oncology" [ref=e164] [cursor=pointer]:
+              - img [ref=e165] [cursor=pointer]
+              - paragraph [ref=e166] [cursor=pointer]: Oncology
+            - button "Ophthalmology" [ref=e167] [cursor=pointer]:
+              - img [ref=e168] [cursor=pointer]
+              - paragraph [ref=e169] [cursor=pointer]: Ophthalmology
+            - button "Orthopedics" [ref=e170] [cursor=pointer]:
+              - img [ref=e171] [cursor=pointer]
+              - paragraph [ref=e172] [cursor=pointer]: Orthopedics
+            - button "Pediatrics" [ref=e173] [cursor=pointer]:
+              - img [ref=e174] [cursor=pointer]
+              - paragraph [ref=e175] [cursor=pointer]: Pediatrics
+            - button "Psychiatry" [ref=e176] [cursor=pointer]:
+              - img [ref=e177] [cursor=pointer]
+              - paragraph [ref=e178] [cursor=pointer]: Psychiatry
+            - button "Pulmonology" [ref=e179] [cursor=pointer]:
+              - img [ref=e180] [cursor=pointer]
+              - paragraph [ref=e181] [cursor=pointer]: Pulmonology
+            - button "Surgery" [ref=e182] [cursor=pointer]:
+              - img [ref=e183] [cursor=pointer]
+              - paragraph [ref=e184] [cursor=pointer]: Surgery
+            - button "Other" [ref=e185] [cursor=pointer]:
+              - img [ref=e186] [cursor=pointer]
+              - paragraph [ref=e187] [cursor=pointer]: Other
+      - contentinfo [ref=e188]:
+        - generic [ref=e189]:
+          - paragraph [ref=e190]: © 2025 Midoc, Inc.
+          - generic [ref=e191]:
+            - paragraph [ref=e192]: A PRODUCT OF
+            - img [ref=e193]
+  - generic:
+    - region "Notifications-top"
+    - region "Notifications-top-left"
+    - region "Notifications-top-right"
+    - region "Notifications-bottom-left"
+    - region "Notifications-bottom"
+    - region "Notifications-bottom-right"
+```

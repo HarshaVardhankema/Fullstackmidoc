@@ -1,0 +1,293 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e6]:
+    - generic [ref=e8]:
+      - img [ref=e9]
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - link [ref=e12] [cursor=pointer]:
+            - /url: /home
+            - generic [ref=e13] [cursor=pointer]:
+              - img [ref=e14] [cursor=pointer]
+              - paragraph [ref=e15] [cursor=pointer]: Dashboard
+          - link [ref=e16] [cursor=pointer]:
+            - /url: /visits
+            - generic [ref=e17] [cursor=pointer]:
+              - img [ref=e18] [cursor=pointer]
+              - paragraph [ref=e19] [cursor=pointer]: Visits
+          - link [ref=e20] [cursor=pointer]:
+            - /url: /messages
+            - generic [ref=e21] [cursor=pointer]:
+              - img [ref=e22] [cursor=pointer]
+              - paragraph [ref=e23] [cursor=pointer]: Messages
+          - link [ref=e24] [cursor=pointer]:
+            - /url: /patients
+            - generic [ref=e25] [cursor=pointer]:
+              - img [ref=e26] [cursor=pointer]
+              - paragraph [ref=e27] [cursor=pointer]: Patients
+          - link [ref=e28] [cursor=pointer]:
+            - /url: /ipdpatients
+            - generic [ref=e29] [cursor=pointer]:
+              - img [ref=e30] [cursor=pointer]
+              - paragraph [ref=e31] [cursor=pointer]: IPD Patients
+          - link [ref=e32] [cursor=pointer]:
+            - /url: /prescriptions
+            - generic [ref=e33] [cursor=pointer]:
+              - img [ref=e34] [cursor=pointer]
+              - paragraph [ref=e35] [cursor=pointer]: Orders
+          - link [ref=e36] [cursor=pointer]:
+            - /url: /medicines
+            - generic [ref=e37] [cursor=pointer]:
+              - img [ref=e38] [cursor=pointer]
+              - paragraph [ref=e39] [cursor=pointer]: Medicines
+          - link [ref=e40] [cursor=pointer]:
+            - /url: /reports
+            - generic [ref=e41] [cursor=pointer]:
+              - img [ref=e42] [cursor=pointer]
+              - paragraph [ref=e43] [cursor=pointer]: Reports
+          - link [ref=e44] [cursor=pointer]:
+            - /url: /notifications
+            - generic [ref=e45] [cursor=pointer]:
+              - img [ref=e46] [cursor=pointer]
+              - paragraph [ref=e47] [cursor=pointer]: Notifications
+          - generic [ref=e48] [cursor=pointer]:
+            - generic:
+              - generic:
+                - generic:
+                  - img
+                  - paragraph: Apps
+        - generic [ref=e50] [cursor=pointer]:
+          - generic:
+            - generic:
+              - link:
+                - /url: /doctorprofile
+                - generic:
+                  - img
+    - generic [ref=e51]:
+      - navigation [ref=e52]:
+        - img [ref=e53] [cursor=pointer]
+        - paragraph [ref=e55]: Visit Detail
+        - generic [ref=e57]:
+          - button [ref=e60] [cursor=pointer]:
+            - img [ref=e61] [cursor=pointer]
+            - paragraph [ref=e63] [cursor=pointer]: Aira - Chat
+          - button [ref=e65] [cursor=pointer]:
+            - img [ref=e66] [cursor=pointer]
+            - paragraph [ref=e68] [cursor=pointer]: Record
+          - button [ref=e70] [cursor=pointer]:
+            - paragraph [ref=e71] [cursor=pointer]: Unavailable
+            - checkbox [ref=e73]
+        - text: ;
+      - generic [ref=e77]:
+        - generic [ref=e78]:
+          - generic [ref=e79]:
+            - generic [ref=e80]:
+              - img [ref=e81] [cursor=pointer]
+              - generic [ref=e82]:
+                - paragraph [ref=e83] [cursor=pointer]: Ben Stock
+                - paragraph [ref=e84]: "#D517E1-D"
+            - generic [ref=e85]:
+              - button [ref=e86] [cursor=pointer]: Message patient
+              - button [ref=e87] [cursor=pointer]: View Profile
+          - generic [ref=e90]:
+            - generic [ref=e91]:
+              - generic [ref=e92]:
+                - img [ref=e93]
+                - paragraph [ref=e94]: 5th Sep, 2025
+              - separator [ref=e95]
+              - generic [ref=e96]:
+                - img [ref=e97]
+                - paragraph [ref=e98]: 03:10 PM
+            - generic [ref=e99]:
+              - img [ref=e100]
+              - paragraph [ref=e101]: Ben04@gmail.com
+            - generic [ref=e102]:
+              - img [ref=e103]
+              - generic [ref=e104]:
+                - img [ref=e105]
+                - paragraph [ref=e106]: (+1) 9887765673
+            - generic [ref=e107]:
+              - img [ref=e108]
+              - paragraph [ref=e109]: female
+            - generic [ref=e110]:
+              - img [ref=e111]
+              - paragraph [ref=e112]: 6.1 ft
+            - generic [ref=e113]:
+              - img [ref=e114]
+              - paragraph [ref=e115]: 80 lbs
+            - generic [ref=e116]:
+              - img [ref=e117]
+              - paragraph [ref=e118]:
+                - paragraph [ref=e119]: 20 August, 2000 (25 Years0)
+            - generic [ref=e120]:
+              - img [ref=e121]
+              - paragraph [ref=e122]: "73888352"
+            - generic [ref=e123]:
+              - button [ref=e124] [cursor=pointer]:
+                - img [ref=e125] [cursor=pointer]
+              - button [ref=e126] [cursor=pointer]: Start call
+        - generic [ref=e128]:
+          - generic [ref=e129]:
+            - generic [ref=e130]:
+              - heading [level=2] [ref=e132]: chief complaint
+              - img [ref=e134]
+            - generic [ref=e136]:
+              - img [ref=e138]
+              - paragraph [ref=e139]: No Data available
+          - generic [ref=e140]:
+            - generic [ref=e141]:
+              - heading [level=2] [ref=e143]: history of present illness
+              - img [ref=e145]
+            - generic [ref=e147]:
+              - img [ref=e149]
+              - paragraph [ref=e150]: No Data available
+          - generic [ref=e152]:
+            - generic [ref=e153]:
+              - generic [ref=e154]:
+                - heading [level=2] [ref=e156]: Demographics
+                - img [ref=e158]
+              - generic [ref=e160]:
+                - generic [ref=e161]:
+                  - generic [ref=e162]:
+                    - paragraph [ref=e163]:
+                      - paragraph [ref=e164]: "6.1"
+                    - paragraph [ref=e166]: ft
+                  - paragraph [ref=e167]: Height
+                - generic [ref=e168]:
+                  - generic [ref=e169]:
+                    - paragraph [ref=e170]:
+                      - paragraph [ref=e171]: "80"
+                    - paragraph [ref=e172]:
+                      - paragraph [ref=e173]: lbs
+                  - paragraph [ref=e174]: Weight
+                - generic [ref=e175]:
+                  - paragraph [ref=e177]:
+                    - paragraph [ref=e178]: "10.6"
+                  - paragraph [ref=e179]: BMI
+            - generic [ref=e180]:
+              - generic [ref=e181]:
+                - heading [level=2] [ref=e183]: Treatment Team
+                - img [ref=e185]
+              - generic [ref=e188]:
+                - paragraph [ref=e189]: High Lander
+                - paragraph [ref=e190]: "Plan: Appointments"
+                - paragraph [ref=e191]: 5th Sep, 2025
+            - generic [ref=e192]:
+              - generic [ref=e193]:
+                - heading [level=2] [ref=e195]: Medical History
+                - img [ref=e197]
+              - generic [ref=e201]:
+                - img [ref=e203]
+                - paragraph [ref=e204]: No Data available
+            - generic [ref=e205]:
+              - generic [ref=e206]:
+                - heading [level=2] [ref=e208]: Surgical History
+                - img [ref=e210]
+              - generic [ref=e214]:
+                - img [ref=e216]
+                - paragraph [ref=e217]: No Data available
+            - generic [ref=e218]:
+              - generic [ref=e219]:
+                - heading [level=2] [ref=e221]: Family history
+                - img [ref=e223]
+              - generic [ref=e226]:
+                - img [ref=e228]
+                - paragraph [ref=e229]: No Data available
+            - generic [ref=e230]:
+              - generic [ref=e231]:
+                - heading [level=2] [ref=e233]: social History
+                - img [ref=e235]
+              - generic [ref=e238]:
+                - img [ref=e240]
+                - paragraph [ref=e241]: No Data available
+            - generic [ref=e242]:
+              - generic [ref=e243]:
+                - heading [level=2] [ref=e245]: current medications
+                - img [ref=e247]
+              - list [ref=e251]:
+                - generic [ref=e252]:
+                  - img [ref=e254]
+                  - paragraph [ref=e255]: No Data available
+            - generic [ref=e258]:
+              - generic [ref=e259]:
+                - heading [level=2] [ref=e261]: vitals
+                - img [ref=e263]
+              - generic [ref=e266]:
+                - generic [ref=e267]:
+                  - paragraph [ref=e268]: SPO2
+                  - paragraph [ref=e270]: "-"
+                - generic [ref=e271]:
+                  - paragraph [ref=e272]: Respiratory
+                  - paragraph [ref=e274]: "-"
+                - generic [ref=e275]:
+                  - paragraph [ref=e276]: Postprandial Blood Glucose
+                  - paragraph [ref=e278]: "-"
+                - generic [ref=e279]:
+                  - paragraph [ref=e280]: Heart rate
+                  - paragraph [ref=e282]: "-"
+                - generic [ref=e283]:
+                  - paragraph [ref=e284]: Fasting Blood Glucose
+                  - paragraph [ref=e286]: "-"
+                - generic [ref=e287]:
+                  - paragraph [ref=e288]: BP
+                  - paragraph [ref=e290]: "-"
+                - generic [ref=e291]:
+                  - paragraph [ref=e292]: Body temperature
+                  - paragraph [ref=e294]: "-"
+            - generic [ref=e297]:
+              - generic [ref=e298]:
+                - heading [level=2] [ref=e300]: Investigations
+                - img [ref=e302]
+              - paragraph [ref=e307]: No Data Available
+            - generic [ref=e308]:
+              - generic [ref=e309]:
+                - generic [ref=e310]:
+                  - heading [level=2] [ref=e312]: labs
+                  - img [ref=e314]
+                - generic [ref=e318]:
+                  - img [ref=e320]
+                  - paragraph [ref=e321]: No Data available
+              - generic [ref=e322]:
+                - generic [ref=e323]:
+                  - heading [level=2] [ref=e325]: IMAGING
+                  - img [ref=e327]
+                - generic [ref=e331]:
+                  - img [ref=e333]
+                  - paragraph [ref=e334]: No Data available
+        - generic [ref=e336]:
+          - generic [ref=e337]:
+            - heading [level=2] [ref=e338]: Quick Links
+            - link [ref=e341] [cursor=pointer]:
+              - /url: "#"
+              - text: New visit
+          - button [disabled] [ref=e344]: Current Visit
+          - heading [level=2] [ref=e345]:
+            - text: Previous visits
+            - generic [ref=e350]:
+              - generic [ref=e351]:
+                - paragraph [ref=e352]: 5th Sep, 2025
+                - paragraph [ref=e353]: High Lander , 571124-2
+                - paragraph [ref=e354]: Cardiology
+              - paragraph [ref=e355]:
+                - paragraph [ref=e357]: "Reason: -/-"
+                - button [ref=e358] [cursor=pointer]:
+                  - paragraph [ref=e359] [cursor=pointer]: View details
+  - generic [ref=e360]:
+    - region "Notifications-top"
+    - region "Notifications-top-left"
+    - region "Notifications-top-right"
+    - region "Notifications-bottom-left"
+    - region "Notifications-bottom"
+    - region "Notifications-bottom-right"
+  - dialog "Start Visit" [ref=e364]:
+    - banner [ref=e365]: Start Visit
+    - button "Close" [active] [ref=e366] [cursor=pointer]:
+      - img [ref=e367] [cursor=pointer]
+    - button "Close" [ref=e369] [cursor=pointer]:
+      - img [ref=e370] [cursor=pointer]
+    - paragraph [ref=e374]: Are you sure you want to start this visit now?
+    - contentinfo [ref=e375]:
+      - button "Start call" [ref=e376] [cursor=pointer]
+```

@@ -1,0 +1,528 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e6]:
+    - generic [ref=e8]:
+      - img [ref=e9]
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - link [ref=e12] [cursor=pointer]:
+            - /url: /home
+            - generic [ref=e13] [cursor=pointer]:
+              - img [ref=e14] [cursor=pointer]
+              - paragraph [ref=e15] [cursor=pointer]: Dashboard
+          - link [ref=e16] [cursor=pointer]:
+            - /url: /visits
+            - generic [ref=e17] [cursor=pointer]:
+              - img [ref=e18] [cursor=pointer]
+              - paragraph [ref=e19] [cursor=pointer]: Visits
+          - link [ref=e20] [cursor=pointer]:
+            - /url: /messages
+            - generic [ref=e21] [cursor=pointer]:
+              - img [ref=e22] [cursor=pointer]
+              - paragraph [ref=e23] [cursor=pointer]: Messages
+          - link [ref=e24] [cursor=pointer]:
+            - /url: /patients
+            - generic [ref=e25] [cursor=pointer]:
+              - img [ref=e26] [cursor=pointer]
+              - paragraph [ref=e27] [cursor=pointer]: Patients
+          - link [ref=e28] [cursor=pointer]:
+            - /url: /ipdpatients
+            - generic [ref=e29] [cursor=pointer]:
+              - img [ref=e30] [cursor=pointer]
+              - paragraph [ref=e31] [cursor=pointer]: IPD Patients
+          - link [ref=e32] [cursor=pointer]:
+            - /url: /prescriptions
+            - generic [ref=e33] [cursor=pointer]:
+              - img [ref=e34] [cursor=pointer]
+              - paragraph [ref=e35] [cursor=pointer]: Orders
+          - link [ref=e36] [cursor=pointer]:
+            - /url: /medicines
+            - generic [ref=e37] [cursor=pointer]:
+              - img [ref=e38] [cursor=pointer]
+              - paragraph [ref=e39] [cursor=pointer]: Medicines
+          - link [ref=e40] [cursor=pointer]:
+            - /url: /reports
+            - generic [ref=e41] [cursor=pointer]:
+              - img [ref=e42] [cursor=pointer]
+              - paragraph [ref=e43] [cursor=pointer]: Reports
+          - link [ref=e44] [cursor=pointer]:
+            - /url: /notifications
+            - generic [ref=e45] [cursor=pointer]:
+              - img [ref=e46] [cursor=pointer]
+              - paragraph [ref=e47] [cursor=pointer]: Notifications
+          - generic [ref=e48] [cursor=pointer]:
+            - generic:
+              - generic:
+                - generic:
+                  - img
+                  - paragraph: Apps
+        - generic [ref=e50] [cursor=pointer]:
+          - generic:
+            - generic:
+              - link:
+                - /url: /doctorprofile
+                - generic:
+                  - img
+    - generic [ref=e51]:
+      - navigation [ref=e52]:
+        - generic [ref=e53]:
+          - img [ref=e54]
+          - generic [ref=e55]:
+            - paragraph [ref=e56]: Ben Stock
+            - paragraph [ref=e58]: "#73888352 Female, 25 years, (+1) 9887765673, 6.1 ft, 80 lbs, 10.6 BMI"
+        - generic [ref=e59]:
+          - button [ref=e60] [cursor=pointer]:
+            - img [ref=e62] [cursor=pointer]
+            - paragraph [ref=e63] [cursor=pointer]: 00:00:02
+          - button [ref=e64] [cursor=pointer]: End/pause Visit
+          - button [ref=e65] [cursor=pointer]: Generate Prescription
+          - button [ref=e66] [cursor=pointer]: Progress Notes
+      - generic [ref=e67]:
+        - generic [ref=e69]:
+          - generic [ref=e71]:
+            - paragraph [ref=e72]: Patient Overview
+            - button [ref=e74] [cursor=pointer]: Assign
+            - button [ref=e75] [cursor=pointer]: Chat
+            - button [ref=e76] [cursor=pointer]:
+              - img [ref=e77] [cursor=pointer]
+          - generic [ref=e78]:
+            - button [ref=e79] [cursor=pointer]:
+              - img [ref=e80] [cursor=pointer]
+            - button [ref=e81] [cursor=pointer]:
+              - img [ref=e82] [cursor=pointer]
+            - generic [ref=e84]:
+              - generic [ref=e85] [cursor=pointer]: Overview
+              - generic [ref=e86] [cursor=pointer]: Past Visits
+              - generic [ref=e87] [cursor=pointer]: Vitals
+              - generic [ref=e88] [cursor=pointer]: Medications
+              - generic [ref=e89] [cursor=pointer]: Medical History
+              - generic [ref=e90] [cursor=pointer]: Surgical History
+              - generic [ref=e91] [cursor=pointer]: Family History
+              - generic [ref=e92] [cursor=pointer]: Social History
+              - generic [ref=e93] [cursor=pointer]: Allergies
+              - generic [ref=e94] [cursor=pointer]: Vaccinations
+              - generic [ref=e95] [cursor=pointer]: Investigations
+              - generic [ref=e96] [cursor=pointer]: Lab Tests
+              - generic [ref=e97] [cursor=pointer]: Imaging Reports
+          - generic [ref=e100]:
+            - button [ref=e103] [cursor=pointer]:
+              - img [ref=e104] [cursor=pointer]
+              - text: Add Condition
+            - generic [ref=e106]:
+              - paragraph [ref=e110]: 1st Sep, 2025
+              - generic [ref=e113]:
+                - paragraph [ref=e116]: Anxiety Disorders
+                - generic [ref=e117]:
+                  - button [ref=e118] [cursor=pointer]:
+                    - img [ref=e119] [cursor=pointer]
+                  - button [ref=e120] [cursor=pointer]:
+                    - img [ref=e121] [cursor=pointer]
+                  - button [ref=e122] [cursor=pointer]:
+                    - img [ref=e123] [cursor=pointer]
+        - separator [ref=e124]
+        - separator [ref=e125]
+        - separator [ref=e127]
+        - separator [ref=e128]
+        - separator [ref=e129]
+        - generic [ref=e131]:
+          - generic [ref=e133]:
+            - paragraph [ref=e134]: Doctor Notes
+            - generic [ref=e135]:
+              - button [ref=e138] [cursor=pointer]:
+                - img [ref=e139] [cursor=pointer]
+                - paragraph [ref=e141] [cursor=pointer]: Aira - Chat
+              - button [ref=e143] [cursor=pointer]:
+                - img [ref=e144] [cursor=pointer]
+                - paragraph [ref=e146] [cursor=pointer]: Record
+              - button [ref=e147] [cursor=pointer]:
+                - img [ref=e148] [cursor=pointer]
+          - generic [ref=e149]:
+            - button [ref=e150] [cursor=pointer]:
+              - img [ref=e151] [cursor=pointer]
+            - button [ref=e152] [cursor=pointer]:
+              - img [ref=e153] [cursor=pointer]
+            - generic [ref=e155]:
+              - generic [ref=e156] [cursor=pointer]: Chief complaint
+              - generic [ref=e157] [cursor=pointer]: HPI
+              - generic [ref=e158] [cursor=pointer]: ROS
+              - generic [ref=e159] [cursor=pointer]: Vitals
+              - generic [ref=e160] [cursor=pointer]: Physical Exam
+              - generic [ref=e161] [cursor=pointer]: Assessment
+              - generic [ref=e162] [cursor=pointer]: Orders
+              - generic [ref=e163] [cursor=pointer]: Documents
+          - generic [ref=e170]:
+            - generic [ref=e171]:
+              - textbox [ref=e172]
+              - paragraph [ref=e173]: Click anywhere to start typing....
+              - button [ref=e174] [cursor=pointer]: Advance
+            - generic [ref=e176]:
+              - button [ref=e177] [cursor=pointer]: Typoid
+              - button [ref=e178] [cursor=pointer]: fever
+              - button [ref=e179] [cursor=pointer]: ww
+            - generic [ref=e180]:
+              - img [ref=e183] [cursor=pointer]
+              - button:
+                - img
+              - button [disabled] [ref=e184]: Submit
+  - generic [ref=e185]:
+    - region "Notifications-top"
+    - region "Notifications-top-left"
+    - region "Notifications-top-right"
+    - region "Notifications-bottom-left"
+    - region "Notifications-bottom":
+      - status [ref=e186]:
+        - generic [ref=e187]:
+          - img [ref=e189]
+          - generic [ref=e191]: Visit Started Successfully.
+          - button "Close" [ref=e192] [cursor=pointer]:
+            - img [ref=e193] [cursor=pointer]
+    - region "Notifications-bottom-right"
+  - dialog "Add condition" [ref=e198]:
+    - button "Close" [ref=e199] [cursor=pointer]:
+      - img [ref=e200] [cursor=pointer]
+    - banner [ref=e203]: Add condition
+    - separator [ref=e204]
+    - generic [ref=e205]:
+      - group [ref=e206]:
+        - generic [ref=e207]:
+          - textbox "Search condition" [ref=e208]
+          - generic [ref=e209]: Search condition
+          - button [ref=e211] [cursor=pointer]:
+            - img [ref=e212] [cursor=pointer]
+      - radiogroup [ref=e213]:
+        - generic [ref=e217]:
+          - heading "common conditions" [level=2] [ref=e218]
+          - generic [ref=e220]:
+            - paragraph [ref=e222]: Anxiety Disorders
+            - checkbox "Anxiety Disorders" [ref=e225]
+          - generic [ref=e228]:
+            - paragraph [ref=e230]: Arthritis
+            - generic [ref=e232] [cursor=pointer]:
+              - checkbox "Arthritis" [checked] [active] [ref=e233]
+              - img [ref=e236] [cursor=pointer]
+          - generic [ref=e239]:
+            - paragraph [ref=e241]: Asthma
+            - checkbox "Asthma" [ref=e244]
+          - generic [ref=e247]:
+            - paragraph [ref=e249]: Chronic Kidney Disease (CKD)
+            - checkbox "Chronic Kidney Disease (CKD)" [ref=e252]
+          - generic [ref=e255]:
+            - paragraph [ref=e257]: Coronary Artery Disease (CAD)
+            - checkbox "Coronary Artery Disease (CAD)" [ref=e260]
+          - generic [ref=e263]:
+            - paragraph [ref=e265]: Depression
+            - checkbox "Depression" [ref=e268]
+          - generic [ref=e271]:
+            - paragraph [ref=e273]: Diabetes Mellitus Type 1
+            - checkbox "Diabetes Mellitus Type 1" [ref=e276]
+          - generic [ref=e279]:
+            - paragraph [ref=e281]: Diabetes Mellitus Type 2
+            - checkbox "Diabetes Mellitus Type 2" [ref=e284]
+          - generic [ref=e287]:
+            - paragraph [ref=e289]: Hypertension (High Blood Pressure)
+            - checkbox "Hypertension (High Blood Pressure)" [ref=e292]
+          - generic [ref=e295]:
+            - paragraph [ref=e297]: Influenza
+            - checkbox "Influenza" [ref=e300]
+          - generic [ref=e303]:
+            - paragraph [ref=e305]: Obesity
+            - checkbox "Obesity" [ref=e308]
+          - heading "Cancer" [level=2] [ref=e310]
+          - generic [ref=e312]:
+            - paragraph [ref=e314]: Breast Cancer
+            - checkbox "Breast Cancer" [ref=e317]
+          - generic [ref=e320]:
+            - paragraph [ref=e322]: Colorectal Cancer
+            - checkbox "Colorectal Cancer" [ref=e325]
+          - generic [ref=e328]:
+            - paragraph [ref=e330]: Lung Cancer
+            - checkbox "Lung Cancer" [ref=e333]
+          - generic [ref=e336]:
+            - paragraph [ref=e338]: Prostate Cancer
+            - checkbox "Prostate Cancer" [ref=e341]
+          - heading "Cardiovascular Conditions" [level=2] [ref=e343]
+          - generic [ref=e345]:
+            - paragraph [ref=e347]: Angina
+            - checkbox "Angina" [ref=e350]
+          - generic [ref=e353]:
+            - paragraph [ref=e355]: Arrhythmias
+            - checkbox "Arrhythmias" [ref=e358]
+          - generic [ref=e361]:
+            - paragraph [ref=e363]: Atrial fibrillation
+            - checkbox "Atrial fibrillation" [ref=e366]
+          - generic [ref=e369]:
+            - paragraph [ref=e371]: Coronary Artery Disease
+            - checkbox "Coronary Artery Disease" [ref=e374]
+          - generic [ref=e377]:
+            - paragraph [ref=e379]: Endocarditis
+            - checkbox "Endocarditis" [ref=e382]
+          - generic [ref=e385]:
+            - paragraph [ref=e387]: Heart attack
+            - checkbox "Heart attack" [ref=e390]
+          - generic [ref=e393]:
+            - paragraph [ref=e395]: Heart failure
+            - checkbox "Heart failure" [ref=e398]
+          - generic [ref=e401]:
+            - paragraph [ref=e403]: Hypertrophic cardiomyopathy
+            - checkbox "Hypertrophic cardiomyopathy" [ref=e406]
+          - generic [ref=e409]:
+            - paragraph [ref=e411]: Myocardial infarction (Heart attack)
+            - checkbox "Myocardial infarction (Heart attack)" [ref=e414]
+          - generic [ref=e417]:
+            - paragraph [ref=e419]: Pericarditis
+            - checkbox "Pericarditis" [ref=e422]
+          - generic [ref=e425]:
+            - paragraph [ref=e427]: Valvular heart disease
+            - checkbox "Valvular heart disease" [ref=e430]
+          - heading "Dermatological Conditions" [level=2] [ref=e432]
+          - generic [ref=e434]:
+            - paragraph [ref=e436]: Acne
+            - checkbox "Acne" [ref=e439]
+          - generic [ref=e442]:
+            - paragraph [ref=e444]: Dermatitis
+            - checkbox "Dermatitis" [ref=e447]
+          - generic [ref=e450]:
+            - paragraph [ref=e452]: Eczema
+            - checkbox "Eczema" [ref=e455]
+          - generic [ref=e458]:
+            - paragraph [ref=e460]: Psoriasis
+            - checkbox "Psoriasis" [ref=e463]
+          - heading "Endocrine Conditions" [level=2] [ref=e465]
+          - generic [ref=e467]:
+            - paragraph [ref=e469]: Adrenal Disorders (Cushing's Syndrome, Addison's Disease)
+            - checkbox "Adrenal Disorders (Cushing's Syndrome, Addison's Disease)" [ref=e472]
+          - generic [ref=e475]:
+            - paragraph [ref=e477]: Separate out
+            - checkbox "Separate out" [ref=e480]
+          - generic [ref=e483]:
+            - paragraph [ref=e485]: Thyroid Disorders (Hypothyroidism, Hyperthyroidism)
+            - checkbox "Thyroid Disorders (Hypothyroidism, Hyperthyroidism)" [ref=e488]
+          - heading "Gastrointestinal Conditions" [level=2] [ref=e490]
+          - generic [ref=e492]:
+            - paragraph [ref=e494]: Crohn's Disease
+            - checkbox "Crohn's Disease" [ref=e497]
+          - generic [ref=e500]:
+            - paragraph [ref=e502]: Gastroesophageal Reflux Disease (GERD)
+            - checkbox "Gastroesophageal Reflux Disease (GERD)" [ref=e505]
+          - generic [ref=e508]:
+            - paragraph [ref=e510]: Irritable Bowel Syndrome (IBS)
+            - checkbox "Irritable Bowel Syndrome (IBS)" [ref=e513]
+          - generic [ref=e516]:
+            - paragraph [ref=e518]: Ulcerative Colitis
+            - checkbox "Ulcerative Colitis" [ref=e521]
+          - heading "Genitourinary Conditions" [level=2] [ref=e523]
+          - generic [ref=e525]:
+            - paragraph [ref=e527]: Benign Prostatic Hyperplasia (BPH)
+            - checkbox "Benign Prostatic Hyperplasia (BPH)" [ref=e530]
+          - generic [ref=e533]:
+            - paragraph [ref=e535]: Chronic Kidney Disease
+            - checkbox "Chronic Kidney Disease" [ref=e538]
+          - generic [ref=e541]:
+            - paragraph [ref=e543]: Polycystic Kidney Disease
+            - checkbox "Polycystic Kidney Disease" [ref=e546]
+          - generic [ref=e549]:
+            - paragraph [ref=e551]: Urinary Tract Infections
+            - checkbox "Urinary Tract Infections" [ref=e554]
+          - heading "Hematological Conditions" [level=2] [ref=e556]
+          - generic [ref=e558]:
+            - paragraph [ref=e560]: Anemia
+            - checkbox "Anemia" [ref=e563]
+          - generic [ref=e566]:
+            - paragraph [ref=e568]: Hemophilia
+            - checkbox "Hemophilia" [ref=e571]
+          - generic [ref=e574]:
+            - paragraph [ref=e576]: Leukemia
+            - checkbox "Leukemia" [ref=e579]
+          - generic [ref=e582]:
+            - paragraph [ref=e584]: Thrombosis
+            - checkbox "Thrombosis" [ref=e587]
+          - heading "Infectious Diseases" [level=2] [ref=e589]
+          - generic [ref=e591]:
+            - paragraph [ref=e593]: Hepatitis
+            - checkbox "Hepatitis" [ref=e596]
+          - generic [ref=e599]:
+            - paragraph [ref=e601]: HIV/AIDS
+            - checkbox "HIV/AIDS" [ref=e604]
+          - generic [ref=e607]:
+            - paragraph [ref=e609]: Tuberculosis
+            - checkbox "Tuberculosis" [ref=e612]
+          - heading "Liver" [level=2] [ref=e614]
+          - generic [ref=e616]:
+            - paragraph [ref=e618]: Alcoholic liver disease
+            - checkbox "Alcoholic liver disease" [ref=e621]
+          - generic [ref=e624]:
+            - paragraph [ref=e626]: Cirrhosis
+            - checkbox "Cirrhosis" [ref=e629]
+          - generic [ref=e632]:
+            - paragraph [ref=e634]: Fatty liver disease
+            - checkbox "Fatty liver disease" [ref=e637]
+          - generic [ref=e640]:
+            - paragraph [ref=e642]: Hemochromatosis
+            - checkbox "Hemochromatosis" [ref=e645]
+          - generic [ref=e648]:
+            - paragraph [ref=e650]: Hepatitis (A, B, C)
+            - checkbox "Hepatitis (A, B, C)" [ref=e653]
+          - generic [ref=e656]:
+            - paragraph [ref=e658]: Liver abscess
+            - checkbox "Liver abscess" [ref=e661]
+          - generic [ref=e664]:
+            - paragraph [ref=e666]: Liver cancer
+            - checkbox "Liver cancer" [ref=e669]
+          - generic [ref=e672]:
+            - paragraph [ref=e674]: Portal hypertension
+            - checkbox "Portal hypertension" [ref=e677]
+          - generic [ref=e680]:
+            - paragraph [ref=e682]: Primary biliary cirrhosis
+            - checkbox "Primary biliary cirrhosis" [ref=e685]
+          - generic [ref=e688]:
+            - paragraph [ref=e690]: Wilson's disease
+            - checkbox "Wilson's disease" [ref=e693]
+          - heading "Lungs" [level=2] [ref=e695]
+          - generic [ref=e697]:
+            - paragraph [ref=e699]: Bronchitis
+            - checkbox "Bronchitis" [ref=e702]
+          - generic [ref=e705]:
+            - paragraph [ref=e707]: Chronic obstructive pulmonary disease (COPD)
+            - checkbox "Chronic obstructive pulmonary disease (COPD)" [ref=e710]
+          - generic [ref=e713]:
+            - paragraph [ref=e715]: Emphysema
+            - checkbox "Emphysema" [ref=e718]
+          - generic [ref=e721]:
+            - paragraph [ref=e723]: Pleurisy
+            - checkbox "Pleurisy" [ref=e726]
+          - generic [ref=e729]:
+            - paragraph [ref=e731]: Pneumonia
+            - checkbox "Pneumonia" [ref=e734]
+          - generic [ref=e737]:
+            - paragraph [ref=e739]: Pulmonary embolism
+            - checkbox "Pulmonary embolism" [ref=e742]
+          - generic [ref=e745]:
+            - paragraph [ref=e747]: Pulmonary fibrosis
+            - checkbox "Pulmonary fibrosis" [ref=e750]
+          - generic [ref=e753]:
+            - paragraph [ref=e755]: Tuberculosis
+            - checkbox "Tuberculosis" [ref=e758]
+          - heading "Musculoskeletal Conditions" [level=2] [ref=e760]
+          - generic [ref=e762]:
+            - paragraph [ref=e764]: Fibromyalgia
+            - checkbox "Fibromyalgia" [ref=e767]
+          - generic [ref=e770]:
+            - paragraph [ref=e772]: Osteoarthritis
+            - checkbox "Osteoarthritis" [ref=e775]
+          - generic [ref=e778]:
+            - paragraph [ref=e780]: Osteoporosis
+            - checkbox "Osteoporosis" [ref=e783]
+          - generic [ref=e786]:
+            - paragraph [ref=e788]: Rheumatoid Arthritis
+            - checkbox "Rheumatoid Arthritis" [ref=e791]
+          - heading "Neurological Conditions" [level=2] [ref=e793]
+          - generic [ref=e795]:
+            - paragraph [ref=e797]: Cerebral Aneurysm
+            - checkbox "Cerebral Aneurysm" [ref=e800]
+          - generic [ref=e803]:
+            - paragraph [ref=e805]: Epilepsy
+            - checkbox "Epilepsy" [ref=e808]
+          - generic [ref=e811]:
+            - paragraph [ref=e813]: Hemorrhagic Stroke
+            - checkbox "Hemorrhagic Stroke" [ref=e816]
+          - generic [ref=e819]:
+            - paragraph [ref=e821]: Migraines
+            - checkbox "Migraines" [ref=e824]
+          - generic [ref=e827]:
+            - paragraph [ref=e829]: Multiple Sclerosis
+            - checkbox "Multiple Sclerosis" [ref=e832]
+          - generic [ref=e835]:
+            - paragraph [ref=e837]: Parkinson's Disease
+            - checkbox "Parkinson's Disease" [ref=e840]
+          - generic [ref=e843]:
+            - paragraph [ref=e845]: Stroke
+            - checkbox "Stroke" [ref=e848]
+          - heading "other" [level=2] [ref=e850]
+          - generic [ref=e852]:
+            - paragraph [ref=e854]: add updated dolo
+            - checkbox "add updated dolo" [ref=e857]
+          - generic [ref=e860]:
+            - paragraph [ref=e862]: dolo test reacto
+            - checkbox "dolo test reacto" [ref=e865]
+          - generic [ref=e868]:
+            - paragraph [ref=e870]: family condition
+            - checkbox "family condition" [ref=e873]
+          - generic [ref=e876]:
+            - paragraph [ref=e878]: Flannel
+            - checkbox "Flannel" [ref=e881]
+          - generic [ref=e884]:
+            - paragraph [ref=e886]: Health Condition
+            - checkbox "Health Condition" [ref=e889]
+          - generic [ref=e892]:
+            - paragraph [ref=e894]: ijij
+            - checkbox "ijij" [ref=e897]
+          - generic [ref=e900]:
+            - paragraph [ref=e902]: Just Checking
+            - checkbox "Just Checking" [ref=e905]
+          - generic [ref=e908]:
+            - paragraph [ref=e910]: Orthamatic edit
+            - checkbox "Orthamatic edit" [ref=e913]
+          - generic [ref=e916]:
+            - paragraph [ref=e918]: Urinary tract infections (UTIs)Urinary tract infections (UTIs)ee
+            - checkbox "Urinary tract infections (UTIs)Urinary tract infections (UTIs)ee" [ref=e921]
+          - generic [ref=e924]:
+            - paragraph [ref=e926]: User manual
+            - checkbox "User manual" [ref=e929]
+          - heading "Psychological and Psychiatric Conditions" [level=2] [ref=e931]
+          - generic [ref=e933]:
+            - paragraph [ref=e935]: Anxiety Disorders (Generalized Anxiety Disorder, Panic Disorder)
+            - checkbox "Anxiety Disorders (Generalized Anxiety Disorder, Panic Disorder)" [ref=e938]
+          - generic [ref=e941]:
+            - paragraph [ref=e943]: Bipolar Disorder
+            - checkbox "Bipolar Disorder" [ref=e946]
+          - generic [ref=e949]:
+            - paragraph [ref=e951]: Schizophrenia
+            - checkbox "Schizophrenia" [ref=e954]
+          - heading "Respiratory Conditions" [level=2] [ref=e956]
+          - generic [ref=e958]:
+            - paragraph [ref=e960]: Bronchitis
+            - checkbox "Bronchitis" [ref=e963]
+          - generic [ref=e966]:
+            - paragraph [ref=e968]: Chronic Obstructive Pulmonary Disease (COPD)
+            - checkbox "Chronic Obstructive Pulmonary Disease (COPD)" [ref=e971]
+          - generic [ref=e974]:
+            - paragraph [ref=e976]: Pneumonia
+            - checkbox "Pneumonia" [ref=e979]
+          - heading "Urinary System" [level=2] [ref=e981]
+          - generic [ref=e983]:
+            - paragraph [ref=e985]: Benign prostatic hyperplasia (BPH)
+            - checkbox "Benign prostatic hyperplasia (BPH)" [ref=e988]
+          - generic [ref=e991]:
+            - paragraph [ref=e993]: Bladder cancer
+            - checkbox "Bladder cancer" [ref=e996]
+          - generic [ref=e999]:
+            - paragraph [ref=e1001]: Hematuria
+            - checkbox "Hematuria" [ref=e1004]
+          - generic [ref=e1007]:
+            - paragraph [ref=e1009]: Incontinence
+            - checkbox "Incontinence" [ref=e1012]
+          - generic [ref=e1015]:
+            - paragraph [ref=e1017]: Interstitial cystitis
+            - checkbox "Interstitial cystitis" [ref=e1020]
+          - generic [ref=e1023]:
+            - paragraph [ref=e1025]: Kidney stones
+            - checkbox "Kidney stones" [ref=e1028]
+          - generic [ref=e1031]:
+            - paragraph [ref=e1033]: Prostatitis
+            - checkbox "Prostatitis" [ref=e1036]
+          - generic [ref=e1039]:
+            - paragraph [ref=e1041]: Renal failure
+            - checkbox "Renal failure" [ref=e1044]
+          - generic [ref=e1047]:
+            - paragraph [ref=e1049]: Urinary tract infections (UTIs)
+            - checkbox "Urinary tract infections (UTIs)" [ref=e1052]
+          - separator [ref=e1054]
+          - heading "Other Condition" [level=2] [ref=e1055]
+          - group [ref=e1056]:
+            - textbox "Condition" [ref=e1057]
+            - generic: Condition
+    - contentinfo [ref=e1058]:
+      - button "Continue" [ref=e1060] [cursor=pointer]
+```
