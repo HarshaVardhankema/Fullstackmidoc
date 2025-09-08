@@ -1,0 +1,442 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e6]:
+    - generic [ref=e8]:
+      - img [ref=e9]
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - link [ref=e12] [cursor=pointer]:
+            - /url: /home
+            - generic [ref=e13] [cursor=pointer]:
+              - img [ref=e14] [cursor=pointer]
+              - paragraph [ref=e15] [cursor=pointer]: Dashboard
+          - link [ref=e16] [cursor=pointer]:
+            - /url: /visits
+            - generic [ref=e17] [cursor=pointer]:
+              - img [ref=e18] [cursor=pointer]
+              - paragraph [ref=e19] [cursor=pointer]: Visits
+          - link [ref=e20] [cursor=pointer]:
+            - /url: /messages
+            - generic [ref=e21] [cursor=pointer]:
+              - img [ref=e22] [cursor=pointer]
+              - paragraph [ref=e23] [cursor=pointer]: Messages
+          - link [ref=e24] [cursor=pointer]:
+            - /url: /patients
+            - generic [ref=e25] [cursor=pointer]:
+              - img [ref=e26] [cursor=pointer]
+              - paragraph [ref=e27] [cursor=pointer]: Patients
+          - link [ref=e28] [cursor=pointer]:
+            - /url: /ipdpatients
+            - generic [ref=e29] [cursor=pointer]:
+              - img [ref=e30] [cursor=pointer]
+              - paragraph [ref=e31] [cursor=pointer]: IPD Patients
+          - link [ref=e32] [cursor=pointer]:
+            - /url: /prescriptions
+            - generic [ref=e33] [cursor=pointer]:
+              - img [ref=e34] [cursor=pointer]
+              - paragraph [ref=e35] [cursor=pointer]: Orders
+          - link [ref=e36] [cursor=pointer]:
+            - /url: /medicines
+            - generic [ref=e37] [cursor=pointer]:
+              - img [ref=e38] [cursor=pointer]
+              - paragraph [ref=e39] [cursor=pointer]: Medicines
+          - link [ref=e40] [cursor=pointer]:
+            - /url: /reports
+            - generic [ref=e41] [cursor=pointer]:
+              - img [ref=e42] [cursor=pointer]
+              - paragraph [ref=e43] [cursor=pointer]: Reports
+          - link [ref=e44] [cursor=pointer]:
+            - /url: /notifications
+            - generic [ref=e45] [cursor=pointer]:
+              - img [ref=e46] [cursor=pointer]
+              - paragraph [ref=e47] [cursor=pointer]: Notifications
+          - generic [ref=e48] [cursor=pointer]:
+            - generic:
+              - generic:
+                - generic:
+                  - img
+                  - paragraph: Apps
+        - generic [ref=e50] [cursor=pointer]:
+          - generic:
+            - generic:
+              - link:
+                - /url: /doctorprofile
+                - generic:
+                  - img
+    - generic [ref=e51]:
+      - navigation [ref=e52]:
+        - generic [ref=e53]:
+          - img [ref=e54]
+          - generic [ref=e55]:
+            - paragraph [ref=e56]: Olura Jenson
+            - paragraph [ref=e58]: "#19154120 Male, 41 years, (+91) 0478987654, 5.5 ft, 75 lbs, 12.5 BMI"
+        - generic [ref=e59]:
+          - button [ref=e60] [cursor=pointer]:
+            - img [ref=e62] [cursor=pointer]
+            - paragraph [ref=e63] [cursor=pointer]: 00:00:10
+          - button [ref=e64] [cursor=pointer]: End/pause Visit
+          - button [ref=e65] [cursor=pointer]: Generate Prescription
+          - button [ref=e66] [cursor=pointer]: Progress Notes
+      - generic [ref=e67]:
+        - generic [ref=e69]:
+          - generic [ref=e71]:
+            - paragraph [ref=e72]: Patient Overview
+            - button [ref=e74] [cursor=pointer]: Assign
+            - button [ref=e75] [cursor=pointer]: Chat
+            - button [ref=e76] [cursor=pointer]:
+              - img [ref=e77] [cursor=pointer]
+          - generic [ref=e78]:
+            - button [ref=e79] [cursor=pointer]:
+              - img [ref=e80] [cursor=pointer]
+            - button [ref=e81] [cursor=pointer]:
+              - img [ref=e82] [cursor=pointer]
+            - generic [ref=e84]:
+              - generic [ref=e85] [cursor=pointer]: Overview
+              - generic [ref=e86] [cursor=pointer]: Past Visits
+              - generic [ref=e87] [cursor=pointer]: Vitals
+              - generic [ref=e88] [cursor=pointer]: Medications
+              - generic [ref=e89] [cursor=pointer]: Medical History
+              - generic [ref=e90] [cursor=pointer]: Surgical History
+              - generic [ref=e91] [cursor=pointer]: Family History
+              - generic [ref=e92] [cursor=pointer]: Social History
+              - generic [ref=e93] [cursor=pointer]: Allergies
+              - generic [ref=e94] [cursor=pointer]: Vaccinations
+              - generic [ref=e95] [cursor=pointer]: Investigations
+              - generic [ref=e96] [cursor=pointer]: Lab Tests
+              - generic [ref=e97] [cursor=pointer]: Imaging Reports
+          - generic [ref=e101]:
+            - generic [ref=e102]:
+              - generic [ref=e103] [cursor=pointer]:
+                - heading [level=2] [ref=e105] [cursor=pointer]: Medical History
+                - img [ref=e107] [cursor=pointer]
+              - generic [ref=e111]:
+                - img [ref=e113]
+                - paragraph [ref=e114]: No Data available
+              - button [ref=e116] [cursor=pointer]:
+                - generic [ref=e117] [cursor=pointer]: Add Condition
+                - img [ref=e119] [cursor=pointer]
+            - generic [ref=e120]:
+              - generic [ref=e121] [cursor=pointer]:
+                - heading [level=2] [ref=e123] [cursor=pointer]: Surgical History
+                - img [ref=e125] [cursor=pointer]
+              - generic [ref=e129]:
+                - img [ref=e131]
+                - paragraph [ref=e132]: No Data available
+              - button [ref=e134] [cursor=pointer]:
+                - generic [ref=e135] [cursor=pointer]: Add Surgery
+                - img [ref=e137] [cursor=pointer]
+            - generic [ref=e138]:
+              - generic [ref=e139] [cursor=pointer]:
+                - heading [level=2] [ref=e141] [cursor=pointer]: Allergies
+                - img [ref=e143] [cursor=pointer]
+              - generic [ref=e146]:
+                - img [ref=e148]
+                - paragraph [ref=e149]: No Data available
+              - button [ref=e151] [cursor=pointer]:
+                - generic [ref=e152] [cursor=pointer]: Add Allergy
+                - img [ref=e154] [cursor=pointer]
+            - generic [ref=e155]:
+              - generic [ref=e156] [cursor=pointer]:
+                - heading [level=2] [ref=e158] [cursor=pointer]: social History
+                - img [ref=e160] [cursor=pointer]
+              - generic [ref=e163]:
+                - generic [ref=e164]:
+                  - paragraph [ref=e165]: Illicit Drugs
+                  - paragraph [ref=e167]:
+                    - generic [ref=e168]:
+                      - paragraph [ref=e169]: "Status:"
+                      - paragraph [ref=e170]: Current
+                    - paragraph [ref=e171]: 12 Times Per Week x 7 years
+                - separator [ref=e172]
+            - generic [ref=e173]:
+              - generic [ref=e174] [cursor=pointer]:
+                - heading [level=2] [ref=e176] [cursor=pointer]: Vaccination History
+                - img [ref=e178] [cursor=pointer]
+              - generic [ref=e181]:
+                - generic [ref=e182]:
+                  - paragraph [ref=e185]: BCG
+                  - paragraph [ref=e188]: 1st Sep, 2025
+                - generic [ref=e189]:
+                  - paragraph [ref=e192]: COVID-19
+                  - paragraph [ref=e195]: 1st Apr, 2025
+              - button [ref=e197] [cursor=pointer]:
+                - generic [ref=e198] [cursor=pointer]: Add Vaccine
+                - img [ref=e200] [cursor=pointer]
+            - generic [ref=e201]:
+              - generic [ref=e202] [cursor=pointer]:
+                - heading [level=2] [ref=e204] [cursor=pointer]: current medications
+                - img [ref=e206] [cursor=pointer]
+              - generic [ref=e209]:
+                - generic [ref=e210]:
+                  - paragraph [ref=e213]: "Dolo650: Daily thrice"
+                  - paragraph [ref=e216]: "Composition: -"
+                - generic [ref=e217]:
+                  - paragraph [ref=e220]: "Dolo650: Daily thrice"
+                  - paragraph [ref=e223]: "Composition: Paracetamol"
+                - generic [ref=e224]:
+                  - paragraph [ref=e227]: "Doloper: (Afternoon)"
+                  - paragraph [ref=e230]: "Composition: Paracetamol, Ibuprofen"
+              - button [ref=e232] [cursor=pointer]:
+                - generic [ref=e233] [cursor=pointer]: Add Medication
+                - img [ref=e235] [cursor=pointer]
+            - generic [ref=e238]:
+              - generic [ref=e239] [cursor=pointer]:
+                - heading [level=2] [ref=e241] [cursor=pointer]: vitals
+                - img [ref=e243] [cursor=pointer]
+              - generic [ref=e246]:
+                - generic [ref=e247]:
+                  - paragraph [ref=e248]: SPO2
+                  - paragraph [ref=e250]: "-"
+                - generic [ref=e251]:
+                  - paragraph [ref=e252]: Respiratory
+                  - paragraph [ref=e254]: "-"
+                - generic [ref=e255]:
+                  - paragraph [ref=e256]: Postprandial Blood Glucose
+                  - paragraph [ref=e258]: "-"
+                - generic [ref=e259]:
+                  - paragraph [ref=e260]: Heart rate
+                  - paragraph [ref=e261]: "52"
+                  - paragraph [ref=e262]: bpm
+                  - paragraph [ref=e264]: 1st Jul, 2025
+                  - generic [ref=e265]:
+                    - img [ref=e266]
+                    - generic [ref=e267]: Low
+                - generic [ref=e268]:
+                  - paragraph [ref=e269]: Fasting Blood Glucose
+                  - paragraph [ref=e271]: "-"
+                - generic [ref=e272]:
+                  - paragraph [ref=e273]: BP
+                  - paragraph [ref=e275]: "-"
+                - generic [ref=e276]:
+                  - paragraph [ref=e277]: Body temperature
+                  - paragraph [ref=e278]: "98"
+                  - paragraph [ref=e279]: °F
+                  - paragraph [ref=e281]: 1st Jul, 2025
+                  - generic [ref=e282]:
+                    - img [ref=e283]
+                    - generic [ref=e284]: Ok
+        - separator [ref=e285]
+        - separator [ref=e286]
+        - separator [ref=e288]
+        - separator [ref=e289]
+        - separator [ref=e290]
+        - generic [ref=e292]:
+          - generic [ref=e294]:
+            - paragraph [ref=e295]: Doctor Notes
+            - generic [ref=e296]:
+              - button [ref=e298] [cursor=pointer]:
+                - img [ref=e299] [cursor=pointer]
+                - paragraph [ref=e301] [cursor=pointer]: Aira - Assist
+              - button [ref=e304] [cursor=pointer]:
+                - img [ref=e305] [cursor=pointer]
+                - paragraph [ref=e307] [cursor=pointer]: Aira - Chat
+              - button [ref=e309] [cursor=pointer]:
+                - img [ref=e310] [cursor=pointer]
+                - paragraph [ref=e312] [cursor=pointer]: Record
+              - button [ref=e313] [cursor=pointer]:
+                - img [ref=e314] [cursor=pointer]
+          - generic [ref=e315]:
+            - button [ref=e316] [cursor=pointer]:
+              - img [ref=e317] [cursor=pointer]
+            - button [ref=e318] [cursor=pointer]:
+              - img [ref=e319] [cursor=pointer]
+            - generic [ref=e321]:
+              - generic [ref=e322] [cursor=pointer]: Chief complaint
+              - generic [ref=e323] [cursor=pointer]: HPI
+              - generic [ref=e324] [cursor=pointer]: ROS
+              - generic [ref=e325] [cursor=pointer]: Vitals
+              - generic [ref=e326] [cursor=pointer]: Physical Exam
+              - generic [ref=e327] [cursor=pointer]: Assessment
+              - generic [ref=e328] [cursor=pointer]: Orders
+              - generic [ref=e329] [cursor=pointer]: Documents
+          - generic [ref=e335]:
+            - heading [level=2] [ref=e337]:
+              - button [ref=e338] [cursor=pointer]:
+                - generic [ref=e339] [cursor=pointer]: Prescription
+                - generic [ref=e340] [cursor=pointer]: + Add
+                - img [ref=e341] [cursor=pointer]
+            - heading [level=2] [ref=e344]:
+              - button [ref=e345] [cursor=pointer]:
+                - generic [ref=e346] [cursor=pointer]: Procedure
+                - generic [ref=e347] [cursor=pointer]: + Add
+                - img [ref=e348] [cursor=pointer]
+            - heading [level=2] [ref=e351]:
+              - button [ref=e352] [cursor=pointer]:
+                - generic [ref=e353] [cursor=pointer]: Labs
+                - generic [ref=e354] [cursor=pointer]: + Add
+                - img [ref=e355] [cursor=pointer]
+            - heading [level=2] [ref=e358]:
+              - button [ref=e359] [cursor=pointer]:
+                - generic [ref=e360] [cursor=pointer]: Imaging
+                - generic [ref=e361] [cursor=pointer]: + Add
+                - img [ref=e362] [cursor=pointer]
+            - heading [level=2] [ref=e365]:
+              - button [ref=e366] [cursor=pointer]:
+                - generic [ref=e367] [cursor=pointer]: Dietician Notes
+                - generic [ref=e368] [cursor=pointer]: + Add
+                - img [ref=e369] [cursor=pointer]
+            - heading [level=2] [ref=e372]:
+              - button [ref=e373] [cursor=pointer]:
+                - generic [ref=e374] [cursor=pointer]: General Notes
+                - generic [ref=e375] [cursor=pointer]: + Add
+                - img [ref=e376] [cursor=pointer]
+            - heading [level=2] [ref=e379]:
+              - button [ref=e380] [cursor=pointer]:
+                - generic [ref=e381] [cursor=pointer]: Vaccinations
+                - generic [ref=e382] [cursor=pointer]: + Add
+                - img [ref=e383] [cursor=pointer]
+  - generic [ref=e385]:
+    - region "Notifications-top"
+    - region "Notifications-top-left"
+    - region "Notifications-top-right"
+    - region "Notifications-bottom-left"
+    - region "Notifications-bottom":
+      - status [ref=e386]:
+        - generic [ref=e387]:
+          - img [ref=e389]
+          - generic [ref=e391]: Fetched Medicine composition successfully
+          - button "Close" [ref=e392] [cursor=pointer]:
+            - img [ref=e393] [cursor=pointer]
+      - status [ref=e395]:
+        - generic [ref=e396]:
+          - img [ref=e398]
+          - generic [ref=e400]: "• Caution: Dolo650 can conflict with existing Dolo650."
+          - button "Close" [ref=e401] [cursor=pointer]:
+            - img [ref=e402] [cursor=pointer]
+    - region "Notifications-bottom-right"
+  - dialog [ref=e407]:
+    - button [ref=e408] [cursor=pointer]:
+      - img [ref=e409] [cursor=pointer]
+    - banner [ref=e412]:
+      - generic [ref=e414]:
+        - generic [ref=e415]:
+          - img [ref=e416]
+          - generic [ref=e417]:
+            - paragraph [ref=e418]: Olura Jenson
+            - paragraph [ref=e419]: "#19154120, Male, 41 years, (+91) 0478987654, 5.5 ft, 75 lbs, 12.5 BMI"
+          - paragraph [ref=e422]: VITALS
+        - generic [ref=e424]:
+          - generic [ref=e425]:
+            - paragraph [ref=e426]: "CC:"
+            - paragraph [ref=e427]: "-"
+          - generic [ref=e428]:
+            - paragraph [ref=e429]: "HPI:"
+            - paragraph [ref=e430]: "-"
+    - separator [ref=e431]
+    - generic [ref=e433]:
+      - generic [ref=e435]:
+        - tablist [ref=e436]:
+          - tab [selected] [ref=e437] [cursor=pointer]: My Prescribed Medicines
+          - tab [ref=e438] [cursor=pointer]: Patient Current Medicine
+          - generic [ref=e439]:
+            - generic [ref=e441]:
+              - combobox [ref=e442] [cursor=pointer]
+              - generic:
+                - img
+            - group [ref=e444]:
+              - generic [ref=e445]:
+                - textbox [ref=e446]
+                - generic [ref=e447]: Search
+                - button [ref=e449] [cursor=pointer]:
+                  - img [ref=e450] [cursor=pointer]
+        - tabpanel [ref=e452]:
+          - generic [ref=e453]:
+            - button [ref=e454] [cursor=pointer]:
+              - img [ref=e455] [cursor=pointer]
+            - button [ref=e456] [cursor=pointer]:
+              - img [ref=e457] [cursor=pointer]
+            - button [ref=e459] [cursor=pointer]:
+              - checkbox [ref=e461]
+              - generic [ref=e463] [cursor=pointer]:
+                - generic [ref=e464] [cursor=pointer]:
+                  - text: dolo650
+                  - generic [ref=e465] [cursor=pointer]: Tablet
+                  - generic [ref=e466] [cursor=pointer]: Out of Stock
+                - generic [ref=e467] [cursor=pointer]: "Composition:"
+              - generic [ref=e468] [cursor=pointer]:
+                - generic [ref=e469] [cursor=pointer]: Daily twice
+                - generic [ref=e470] [cursor=pointer]: Before Food - 1 Qty
+      - generic [ref=e471]:
+        - generic [ref=e472]:
+          - generic [ref=e473]: New Prescription
+          - button [ref=e474] [cursor=pointer]: + Add medicine
+        - generic [ref=e476]:
+          - generic [ref=e478]:
+            - generic [ref=e479]:
+              - generic [ref=e480]:
+                - text: Dolo650 (650 mg)
+                - generic [ref=e481]: Tablet
+                - generic [ref=e482]: Current
+              - generic [ref=e483]: "Composition:"
+            - generic [ref=e484]: Daily 3
+            - generic [ref=e485]: Before Food - 1 Qty
+            - generic [ref=e486]:
+              - button [ref=e487] [cursor=pointer]:
+                - img [ref=e488] [cursor=pointer]
+              - button [ref=e489] [cursor=pointer]:
+                - img [ref=e490] [cursor=pointer]
+              - button [ref=e491] [cursor=pointer]:
+                - img [ref=e492] [cursor=pointer]
+          - generic [ref=e494]:
+            - generic [ref=e495]:
+              - generic [ref=e496]:
+                - text: Dolo650 (650 mg)
+                - generic [ref=e497]: Tablet
+                - generic [ref=e498]: Current
+              - generic [ref=e499]: "Composition: Paracetamol"
+            - generic [ref=e500]: Daily 3
+            - generic [ref=e501]: Before Food - 1 Qty
+            - generic [ref=e502]:
+              - button [ref=e503] [cursor=pointer]:
+                - img [ref=e504] [cursor=pointer]
+              - button [ref=e505] [cursor=pointer]:
+                - img [ref=e506] [cursor=pointer]
+              - button [ref=e507] [cursor=pointer]:
+                - img [ref=e508] [cursor=pointer]
+          - generic [ref=e510]:
+            - generic [ref=e511]:
+              - generic [ref=e512]:
+                - text: Doloper (250 mg)
+                - generic [ref=e513]: Tablet
+                - generic [ref=e514]: Current
+              - generic [ref=e515]: "Composition: Paracetamol, Ibuprofen"
+            - generic [ref=e516]: 0-1-0
+            - generic [ref=e517]: Before Food - 3 Weeks Qty
+            - generic [ref=e518]:
+              - button [ref=e519] [cursor=pointer]:
+                - img [ref=e520] [cursor=pointer]
+              - button [ref=e521] [cursor=pointer]:
+                - img [ref=e522] [cursor=pointer]
+              - button [ref=e523] [cursor=pointer]:
+                - img [ref=e524] [cursor=pointer]
+          - generic [ref=e526]:
+            - generic [ref=e527]:
+              - generic [ref=e528]:
+                - text: Dolo650 (650 mg)
+                - generic [ref=e529]: Tablet
+                - generic [ref=e530]: Prescribed
+              - generic [ref=e531]: "Composition:"
+            - generic [ref=e532]: Daily 3
+            - generic [ref=e533]: Before Food - 1 Qty
+            - generic [ref=e534]:
+              - button [ref=e535] [cursor=pointer]:
+                - img [ref=e536] [cursor=pointer]
+              - button [ref=e537] [cursor=pointer]:
+                - img [ref=e538] [cursor=pointer]
+              - button [ref=e539] [cursor=pointer]:
+                - img [ref=e540] [cursor=pointer]
+    - contentinfo [ref=e541]:
+      - button [ref=e543] [cursor=pointer]: Save Prescription
+  - dialog "Discard Changes?" [ref=e547]:
+    - banner [ref=e548]: Discard Changes?
+    - button "Close" [active] [ref=e549] [cursor=pointer]:
+      - img [ref=e550] [cursor=pointer]
+    - button "Close" [ref=e552] [cursor=pointer]:
+      - img [ref=e553] [cursor=pointer]
+    - paragraph [ref=e556]: Are you sure you want to discard these medications? Click "Save & Exit" to save your changes before exiting.
+    - contentinfo [ref=e557]:
+      - button "Save & Exit" [ref=e558] [cursor=pointer]
+      - button "Discard" [ref=e560] [cursor=pointer]
+```

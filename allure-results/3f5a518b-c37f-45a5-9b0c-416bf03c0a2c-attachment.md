@@ -1,0 +1,593 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e6]:
+    - generic [ref=e8]:
+      - img [ref=e9]
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - link "Dashboard" [ref=e12] [cursor=pointer]:
+            - /url: /home
+            - generic [ref=e13] [cursor=pointer]:
+              - img [ref=e14] [cursor=pointer]
+              - paragraph [ref=e15] [cursor=pointer]: Dashboard
+          - link "Visits" [ref=e16] [cursor=pointer]:
+            - /url: /visits
+            - generic [ref=e17] [cursor=pointer]:
+              - img [ref=e18] [cursor=pointer]
+              - paragraph [ref=e19] [cursor=pointer]: Visits
+          - link "Messages" [ref=e20] [cursor=pointer]:
+            - /url: /messages
+            - generic [ref=e21] [cursor=pointer]:
+              - img [ref=e22] [cursor=pointer]
+              - paragraph [ref=e23] [cursor=pointer]: Messages
+          - link "Patients" [ref=e24] [cursor=pointer]:
+            - /url: /patients
+            - generic [ref=e25] [cursor=pointer]:
+              - img [ref=e26] [cursor=pointer]
+              - paragraph [ref=e27] [cursor=pointer]: Patients
+          - link "IPD Patients" [ref=e28] [cursor=pointer]:
+            - /url: /ipdpatients
+            - generic [ref=e29] [cursor=pointer]:
+              - img [ref=e30] [cursor=pointer]
+              - paragraph [ref=e31] [cursor=pointer]: IPD Patients
+          - link "Orders" [ref=e32] [cursor=pointer]:
+            - /url: /prescriptions
+            - generic [ref=e33] [cursor=pointer]:
+              - img [ref=e34] [cursor=pointer]
+              - paragraph [ref=e35] [cursor=pointer]: Orders
+          - link "Medicines" [ref=e36] [cursor=pointer]:
+            - /url: /medicines
+            - generic [ref=e37] [cursor=pointer]:
+              - img [ref=e38] [cursor=pointer]
+              - paragraph [ref=e39] [cursor=pointer]: Medicines
+          - link "Reports" [ref=e40] [cursor=pointer]:
+            - /url: /reports
+            - generic [ref=e41] [cursor=pointer]:
+              - img [ref=e42] [cursor=pointer]
+              - paragraph [ref=e43] [cursor=pointer]: Reports
+          - link "Notifications" [ref=e44] [cursor=pointer]:
+            - /url: /notifications
+            - generic [ref=e45] [cursor=pointer]:
+              - img [ref=e46] [cursor=pointer]
+              - paragraph [ref=e47] [cursor=pointer]: Notifications
+          - generic [ref=e48] [cursor=pointer]:
+            - generic:
+              - generic:
+                - generic:
+                  - img
+                  - paragraph: Apps
+        - generic [ref=e50] [cursor=pointer]:
+          - generic:
+            - generic:
+              - link:
+                - /url: /doctorprofile
+                - generic:
+                  - img
+    - generic [ref=e51]:
+      - navigation [ref=e52]:
+        - generic [ref=e53]:
+          - img [ref=e54]
+          - generic [ref=e55]:
+            - paragraph [ref=e56]: Ben Stock
+            - paragraph [ref=e58]: "#73888352 Female, 25 years, (+1) 9887765673, 6.1 ft, 80 lbs, 10.6 BMI"
+        - generic [ref=e59]:
+          - button "00:01:02" [ref=e60] [cursor=pointer]:
+            - img [ref=e62] [cursor=pointer]
+            - paragraph [ref=e63] [cursor=pointer]: 00:01:02
+          - button "End/pause Visit" [ref=e64] [cursor=pointer]
+          - button "Generate Prescription" [ref=e65] [cursor=pointer]
+          - button "Progress Notes" [ref=e66] [cursor=pointer]
+      - generic [ref=e67]:
+        - generic [ref=e69]:
+          - generic [ref=e71]:
+            - paragraph [ref=e72]: Patient Overview
+            - button "Assign" [ref=e74] [cursor=pointer]
+            - button "Chat" [ref=e75] [cursor=pointer]
+            - button [ref=e76] [cursor=pointer]:
+              - img [ref=e77] [cursor=pointer]
+          - generic [ref=e78]:
+            - button [ref=e79] [cursor=pointer]:
+              - img [ref=e80] [cursor=pointer]
+            - button [ref=e81] [cursor=pointer]:
+              - img [ref=e82] [cursor=pointer]
+            - generic [ref=e84]:
+              - generic [ref=e85] [cursor=pointer]: Overview
+              - generic [ref=e86] [cursor=pointer]: Past Visits
+              - generic [ref=e87] [cursor=pointer]: Vitals
+              - generic [ref=e88] [cursor=pointer]: Medications
+              - generic [ref=e89] [cursor=pointer]: Medical History
+              - generic [ref=e90] [cursor=pointer]: Surgical History
+              - generic [ref=e91] [cursor=pointer]: Family History
+              - generic [ref=e92] [cursor=pointer]: Social History
+              - generic [ref=e93] [cursor=pointer]: Allergies
+              - generic [ref=e94] [cursor=pointer]: Vaccinations
+              - generic [ref=e95] [cursor=pointer]: Investigations
+              - generic [ref=e96] [cursor=pointer]: Lab Tests
+              - generic [ref=e97] [cursor=pointer]: Imaging Reports
+          - generic [ref=e101]:
+            - generic [ref=e102]:
+              - generic [ref=e103] [cursor=pointer]:
+                - heading "Medical History" [level=2] [ref=e105] [cursor=pointer]
+                - img [ref=e107] [cursor=pointer]
+              - generic [ref=e110]:
+                - generic [ref=e111]:
+                  - paragraph [ref=e114]: Anxiety Disorders
+                  - paragraph [ref=e117]: 1st Sep, 2025
+                - generic [ref=e118]:
+                  - paragraph [ref=e121]: Arthritis
+                  - paragraph [ref=e124]: 1st Sep, 2025
+                - generic [ref=e125]:
+                  - paragraph [ref=e128]: Arthritis
+                  - paragraph [ref=e131]: 1st Sep, 2025
+                - generic [ref=e132]:
+                  - paragraph [ref=e135]: Arthritis
+                  - paragraph [ref=e138]: 1st Sep, 2025
+                - generic [ref=e139]:
+                  - paragraph [ref=e142]: Arthritis
+                  - paragraph [ref=e145]: 1st Sep, 2025
+                - generic [ref=e146]:
+                  - paragraph [ref=e149]: Arthritis
+                  - paragraph [ref=e152]: 1st Sep, 2025
+                - generic [ref=e153]:
+                  - paragraph [ref=e156]: Arthritis
+                  - paragraph [ref=e159]: 1st Sep, 2025
+                - generic [ref=e160]:
+                  - paragraph [ref=e163]: Arthritis
+                  - paragraph [ref=e166]: 1st Sep, 2025
+                - generic [ref=e167]:
+                  - paragraph [ref=e170]: Arthritis
+                  - paragraph [ref=e173]: 1st Sep, 2025
+                - generic [ref=e174]:
+                  - paragraph [ref=e177]: Arthritis
+                  - paragraph [ref=e180]: 1st Sep, 2025
+                - generic [ref=e181]:
+                  - paragraph [ref=e184]: Arthritis
+                  - paragraph [ref=e187]: 1st Sep, 2025
+                - generic [ref=e188]:
+                  - paragraph [ref=e191]: Arthritis
+                  - paragraph [ref=e194]: 1st Sep, 2025
+                - generic [ref=e195]:
+                  - paragraph [ref=e198]: Arthritis
+                  - paragraph [ref=e201]: 1st Sep, 2025
+                - generic [ref=e202]:
+                  - paragraph [ref=e205]: Arthritis
+                  - paragraph [ref=e208]: 1st Sep, 2025
+                - generic [ref=e209]:
+                  - paragraph [ref=e212]: Arthritis
+                  - paragraph [ref=e215]: 1st Sep, 2025
+                - generic [ref=e216]:
+                  - paragraph [ref=e219]: Arthritis
+                  - paragraph [ref=e222]: 1st Sep, 2025
+                - generic [ref=e223]:
+                  - paragraph [ref=e226]: Arthritis
+                  - paragraph [ref=e229]: 1st Sep, 2025
+                - generic [ref=e230]:
+                  - paragraph [ref=e233]: Arthritis
+                  - paragraph [ref=e236]: 1st Sep, 2025
+                - generic [ref=e237]:
+                  - paragraph [ref=e240]: Arthritis
+                  - paragraph [ref=e243]: 1st Sep, 2025
+                - generic [ref=e244]:
+                  - paragraph [ref=e247]: Arthritis
+                  - paragraph [ref=e250]: 1st Sep, 2025
+                - generic [ref=e251]:
+                  - paragraph [ref=e254]: Arthritis
+                  - paragraph [ref=e257]: 1st Sep, 2025
+                - generic [ref=e258]:
+                  - paragraph [ref=e261]: Arthritis
+                  - paragraph [ref=e264]: 1st Sep, 2025
+                - generic [ref=e265]:
+                  - paragraph [ref=e268]: Arthritis
+                  - paragraph [ref=e271]: 1st Sep, 2025
+                - generic [ref=e272]:
+                  - paragraph [ref=e275]: Arthritis
+                  - paragraph [ref=e278]: 1st Sep, 2025
+                - generic [ref=e279]:
+                  - paragraph [ref=e282]: Arthritis
+                  - paragraph [ref=e285]: 1st Sep, 2025
+                - generic [ref=e286]:
+                  - paragraph [ref=e289]: Arthritis
+                  - paragraph [ref=e292]: 1st Sep, 2025
+              - button "Add Condition" [ref=e294] [cursor=pointer]:
+                - generic [ref=e295] [cursor=pointer]: Add Condition
+                - img [ref=e297] [cursor=pointer]
+            - generic [ref=e298]:
+              - generic [ref=e299] [cursor=pointer]:
+                - heading "Surgical History" [level=2] [ref=e301] [cursor=pointer]
+                - img [ref=e303] [cursor=pointer]
+              - generic [ref=e306]:
+                - generic [ref=e307]:
+                  - paragraph [ref=e310]: Gastric bypass surgery
+                  - paragraph [ref=e313]: 6th Sep, 2025
+                - generic [ref=e314]:
+                  - paragraph [ref=e317]: Gastric bypass surgery
+                  - paragraph [ref=e320]: 6th Sep, 2025
+                - generic [ref=e321]:
+                  - paragraph [ref=e324]: Gastric bypass surgery
+                  - paragraph [ref=e327]: 6th Sep, 2025
+                - generic [ref=e328]:
+                  - paragraph [ref=e331]: Gastric bypass surgery
+                  - paragraph [ref=e334]: 6th Sep, 2025
+                - generic [ref=e335]:
+                  - paragraph [ref=e338]: Gastric bypass surgery
+                  - paragraph [ref=e341]: 6th Sep, 2025
+                - generic [ref=e342]:
+                  - paragraph [ref=e345]: Gastric bypass surgery
+                  - paragraph [ref=e348]: 6th Sep, 2025
+                - generic [ref=e349]:
+                  - paragraph [ref=e352]: Gastric bypass surgery
+                  - paragraph [ref=e355]: 6th Sep, 2025
+                - generic [ref=e356]:
+                  - paragraph [ref=e359]: Gastric bypass surgery
+                  - paragraph [ref=e362]: 6th Sep, 2025
+                - generic [ref=e363]:
+                  - paragraph [ref=e366]: Gastric bypass surgery
+                  - paragraph [ref=e369]: 6th Sep, 2025
+                - generic [ref=e370]:
+                  - paragraph [ref=e373]: Gastric bypass surgery
+                  - paragraph [ref=e376]: 6th Sep, 2025
+                - generic [ref=e377]:
+                  - paragraph [ref=e380]: Gastric bypass surgery
+                  - paragraph [ref=e383]: 6th Sep, 2025
+                - generic [ref=e384]:
+                  - paragraph [ref=e387]: Gastric bypass surgery
+                  - paragraph [ref=e390]: 6th Sep, 2025
+                - generic [ref=e391]:
+                  - paragraph [ref=e394]: Gastric bypass surgery
+                  - paragraph [ref=e397]: 6th Sep, 2025
+                - generic [ref=e398]:
+                  - paragraph [ref=e401]: Gastric bypass surgery
+                  - paragraph [ref=e404]: 6th Sep, 2025
+                - generic [ref=e405]:
+                  - paragraph [ref=e408]: Gastric bypass surgery
+                  - paragraph [ref=e411]: 6th Sep, 2025
+                - generic [ref=e412]:
+                  - paragraph [ref=e415]: Gastric bypass surgery
+                  - paragraph [ref=e418]: 6th Sep, 2025
+                - generic [ref=e419]:
+                  - paragraph [ref=e422]: Gastric bypass surgery
+                  - paragraph [ref=e425]: 6th Sep, 2025
+                - generic [ref=e426]:
+                  - paragraph [ref=e429]: Gastric bypass surgery
+                  - paragraph [ref=e432]: 5th Sep, 2025
+                - generic [ref=e433]:
+                  - paragraph [ref=e436]: Gastric bypass surgery
+                  - paragraph [ref=e439]: 5th Sep, 2025
+                - generic [ref=e440]:
+                  - paragraph [ref=e443]: Gastric bypass surgery
+                  - paragraph [ref=e446]: 5th Sep, 2025
+                - generic [ref=e447]:
+                  - paragraph [ref=e450]: Gastric bypass surgery
+                  - paragraph [ref=e453]: 5th Sep, 2025
+                - generic [ref=e454]:
+                  - paragraph [ref=e457]: Gastric bypass surgery
+                  - paragraph [ref=e460]: 5th Sep, 2025
+              - button "Add Surgery" [ref=e462] [cursor=pointer]:
+                - generic [ref=e463] [cursor=pointer]: Add Surgery
+                - img [ref=e465] [cursor=pointer]
+            - generic [ref=e466]:
+              - generic [ref=e467] [cursor=pointer]:
+                - heading "Allergies" [level=2] [ref=e469] [cursor=pointer]
+                - img [ref=e471] [cursor=pointer]
+              - generic [ref=e473]:
+                - generic [ref=e474]:
+                  - generic [ref=e475]:
+                    - paragraph [ref=e476]: Alternaria Allergy
+                    - paragraph [ref=e478]:
+                      - generic [ref=e479]:
+                        - paragraph [ref=e480]: "Problems:"
+                        - paragraph [ref=e481]: Angioedema (Swelling)
+                      - paragraph [ref=e482]:
+                        - text: "Identified:"
+                        - generic [ref=e483]: 01 Sep 2025
+                  - separator [ref=e484]
+                - generic [ref=e485]:
+                  - generic [ref=e486]:
+                    - paragraph [ref=e487]: Alternaria Allergy
+                    - paragraph [ref=e489]:
+                      - generic [ref=e490]:
+                        - paragraph [ref=e491]: "Problems:"
+                        - paragraph [ref=e492]: Angioedema (Swelling)
+                      - paragraph [ref=e493]:
+                        - text: "Identified:"
+                        - generic [ref=e494]: 01 Sep 2025
+                  - separator [ref=e495]
+                - generic [ref=e496]:
+                  - generic [ref=e497]:
+                    - paragraph [ref=e498]: Alternaria Allergy
+                    - paragraph [ref=e500]:
+                      - generic [ref=e501]:
+                        - paragraph [ref=e502]: "Problems:"
+                        - paragraph [ref=e503]: Angioedema (Swelling)
+                      - paragraph [ref=e504]:
+                        - text: "Identified:"
+                        - generic [ref=e505]: 01 Sep 2025
+                  - separator [ref=e506]
+                - generic [ref=e507]:
+                  - generic [ref=e508]:
+                    - paragraph [ref=e509]: Alternaria Allergy
+                    - paragraph [ref=e511]:
+                      - generic [ref=e512]:
+                        - paragraph [ref=e513]: "Problems:"
+                        - paragraph [ref=e514]: Angioedema (Swelling)
+                      - paragraph [ref=e515]:
+                        - text: "Identified:"
+                        - generic [ref=e516]: 01 Sep 2025
+                  - separator [ref=e517]
+                - generic [ref=e518]:
+                  - generic [ref=e519]:
+                    - paragraph [ref=e520]: Alternaria Allergy
+                    - paragraph [ref=e522]:
+                      - generic [ref=e523]:
+                        - paragraph [ref=e524]: "Problems:"
+                        - paragraph [ref=e525]: Angioedema (Swelling)
+                      - paragraph [ref=e526]:
+                        - text: "Identified:"
+                        - generic [ref=e527]: 01 Sep 2025
+                  - separator [ref=e528]
+                - generic [ref=e529]:
+                  - generic [ref=e530]:
+                    - paragraph [ref=e531]: Alternaria Allergy
+                    - paragraph [ref=e533]:
+                      - generic [ref=e534]:
+                        - paragraph [ref=e535]: "Problems:"
+                        - paragraph [ref=e536]: Angioedema (Swelling)
+                      - paragraph [ref=e537]:
+                        - text: "Identified:"
+                        - generic [ref=e538]: 01 Sep 2025
+                  - separator [ref=e539]
+                - generic [ref=e540]:
+                  - generic [ref=e541]:
+                    - paragraph [ref=e542]: Alternaria Allergy
+                    - paragraph [ref=e544]:
+                      - generic [ref=e545]:
+                        - paragraph [ref=e546]: "Problems:"
+                        - paragraph [ref=e547]: Angioedema (Swelling)
+                      - paragraph [ref=e548]:
+                        - text: "Identified:"
+                        - generic [ref=e549]: 01 Sep 2025
+                  - separator [ref=e550]
+                - generic [ref=e551]:
+                  - generic [ref=e552]:
+                    - paragraph [ref=e553]: Alternaria Allergy
+                    - paragraph [ref=e555]:
+                      - generic [ref=e556]:
+                        - paragraph [ref=e557]: "Problems:"
+                        - paragraph [ref=e558]: Angioedema (Swelling)
+                      - paragraph [ref=e559]:
+                        - text: "Identified:"
+                        - generic [ref=e560]: 01 Sep 2025
+                  - separator [ref=e561]
+                - generic [ref=e562]:
+                  - generic [ref=e563]:
+                    - paragraph [ref=e564]: Alternaria Allergy
+                    - paragraph [ref=e566]:
+                      - generic [ref=e567]:
+                        - paragraph [ref=e568]: "Problems:"
+                        - paragraph [ref=e569]: Angioedema (Swelling)
+                      - paragraph [ref=e570]:
+                        - text: "Identified:"
+                        - generic [ref=e571]: 01 Sep 2025
+                  - separator [ref=e572]
+                - generic [ref=e573]:
+                  - generic [ref=e574]:
+                    - paragraph [ref=e575]: Alternaria Allergy
+                    - paragraph [ref=e577]:
+                      - generic [ref=e578]:
+                        - paragraph [ref=e579]: "Problems:"
+                        - paragraph [ref=e580]: Angioedema (Swelling)
+                      - paragraph [ref=e581]:
+                        - text: "Identified:"
+                        - generic [ref=e582]: 01 Sep 2025
+                  - separator [ref=e583]
+                - generic [ref=e584]:
+                  - generic [ref=e585]:
+                    - paragraph [ref=e586]: Alternaria Allergy
+                    - paragraph [ref=e588]:
+                      - generic [ref=e589]:
+                        - paragraph [ref=e590]: "Problems:"
+                        - paragraph [ref=e591]: Angioedema (Swelling)
+                      - paragraph [ref=e592]:
+                        - text: "Identified:"
+                        - generic [ref=e593]: 01 Sep 2025
+                  - separator [ref=e594]
+                - generic [ref=e595]:
+                  - generic [ref=e596]:
+                    - paragraph [ref=e597]: Alternaria Allergy
+                    - paragraph [ref=e599]:
+                      - generic [ref=e600]:
+                        - paragraph [ref=e601]: "Problems:"
+                        - paragraph [ref=e602]: Angioedema (Swelling)
+                      - paragraph [ref=e603]:
+                        - text: "Identified:"
+                        - generic [ref=e604]: 01 Sep 2025
+                  - separator [ref=e605]
+                - generic [ref=e606]:
+                  - generic [ref=e607]:
+                    - paragraph [ref=e608]: Alternaria Allergy
+                    - paragraph [ref=e610]:
+                      - generic [ref=e611]:
+                        - paragraph [ref=e612]: "Problems:"
+                        - paragraph [ref=e613]: Angioedema (Swelling)
+                      - paragraph [ref=e614]:
+                        - text: "Identified:"
+                        - generic [ref=e615]: 01 Sep 2025
+                  - separator [ref=e616]
+                - generic [ref=e617]:
+                  - generic [ref=e618]:
+                    - paragraph [ref=e619]: Alternaria Allergy
+                    - paragraph [ref=e621]:
+                      - generic [ref=e622]:
+                        - paragraph [ref=e623]: "Problems:"
+                        - paragraph [ref=e624]: Angioedema (Swelling)
+                      - paragraph [ref=e625]:
+                        - text: "Identified:"
+                        - generic [ref=e626]: 01 Sep 2025
+                  - separator [ref=e627]
+                - generic [ref=e628]:
+                  - generic [ref=e629]:
+                    - paragraph [ref=e630]: Alternaria Allergy
+                    - paragraph [ref=e632]:
+                      - generic [ref=e633]:
+                        - paragraph [ref=e634]: "Problems:"
+                        - paragraph [ref=e635]: Angioedema (Swelling)
+                      - paragraph [ref=e636]:
+                        - text: "Identified:"
+                        - generic [ref=e637]: 01 Sep 2025
+                  - separator [ref=e638]
+                - generic [ref=e639]:
+                  - generic [ref=e640]:
+                    - paragraph [ref=e641]: Alternaria Allergy
+                    - paragraph [ref=e643]:
+                      - generic [ref=e644]:
+                        - paragraph [ref=e645]: "Problems:"
+                        - paragraph [ref=e646]: Anaphylaxis
+                      - paragraph [ref=e647]:
+                        - text: "Identified:"
+                        - generic [ref=e648]: 01 Sep 2025
+                  - separator [ref=e649]
+              - button "Add Allergy" [ref=e651] [cursor=pointer]:
+                - generic [ref=e652] [cursor=pointer]: Add Allergy
+                - img [ref=e654] [cursor=pointer]
+            - generic [ref=e655]:
+              - generic [ref=e656] [cursor=pointer]:
+                - heading "social History" [level=2] [ref=e658] [cursor=pointer]
+                - img [ref=e660] [cursor=pointer]
+              - generic [ref=e663]:
+                - generic [ref=e664]:
+                  - paragraph [ref=e665]: Illicit Drugs
+                  - paragraph [ref=e667]:
+                    - generic [ref=e668]:
+                      - paragraph [ref=e669]: "Status:"
+                      - paragraph [ref=e670]: Current
+                    - paragraph [ref=e671]: 12 Times Per Week x 1 year
+                - separator [ref=e672]
+            - generic [ref=e673]:
+              - generic [ref=e674] [cursor=pointer]:
+                - heading "Vaccination History" [level=2] [ref=e676] [cursor=pointer]
+                - img [ref=e678] [cursor=pointer]
+              - generic [ref=e682]:
+                - paragraph [ref=e685]: BCG
+                - paragraph [ref=e688]: 1st Sep, 2025
+              - button "Add Vaccine" [ref=e690] [cursor=pointer]:
+                - generic [ref=e691] [cursor=pointer]: Add Vaccine
+                - img [ref=e693] [cursor=pointer]
+            - generic [ref=e694]:
+              - generic [ref=e695] [cursor=pointer]:
+                - heading "current medications" [level=2] [ref=e697] [cursor=pointer]
+                - img [ref=e699] [cursor=pointer]
+              - generic [ref=e703]:
+                - img [ref=e705]
+                - paragraph [ref=e706]: No Data available
+              - button "Add Medication" [ref=e708] [cursor=pointer]:
+                - generic [ref=e709] [cursor=pointer]: Add Medication
+                - img [ref=e711] [cursor=pointer]
+            - generic [ref=e714]:
+              - generic [ref=e715] [cursor=pointer]:
+                - heading "Investigations" [level=2] [ref=e717] [cursor=pointer]
+                - img [ref=e719] [cursor=pointer]
+              - generic [ref=e722]:
+                - generic [ref=e723]:
+                  - paragraph [ref=e724]: Alanine Aminotransferase
+                  - paragraph [ref=e725]: "15"
+                  - paragraph [ref=e726]: (U/L)
+                  - generic [ref=e727]:
+                    - paragraph [ref=e729]: "-"
+                    - img "Normal" [ref=e731]
+                - generic [ref=e732]:
+                  - paragraph [ref=e733]: Albumin
+                  - paragraph [ref=e734]: "55888"
+                  - paragraph [ref=e735]: (g/dL)
+                  - generic [ref=e736]:
+                    - paragraph [ref=e738]: "-"
+                    - img "Normal" [ref=e740]
+                - generic [ref=e741]:
+                  - paragraph [ref=e742]: Alkaline Phosphatase
+                  - paragraph [ref=e743]: "88"
+                  - paragraph [ref=e744]: (U/L)
+                  - generic [ref=e745]:
+                    - paragraph [ref=e747]: "-"
+                    - img "Normal" [ref=e749]
+                - generic [ref=e750]:
+                  - paragraph [ref=e751]: Aspartate Aminotransferase
+                  - paragraph [ref=e752]: "88"
+                  - paragraph [ref=e753]: (U/L)
+                  - generic [ref=e754]:
+                    - paragraph [ref=e756]: "-"
+                    - img "Normal" [ref=e758]
+                - generic [ref=e759]:
+                  - paragraph [ref=e760]: Direct Bilirubin
+                  - paragraph [ref=e761]: "528"
+                  - paragraph [ref=e762]: (mg/dL)
+                  - generic [ref=e763]:
+                    - paragraph [ref=e765]: "-"
+                    - img "Normal" [ref=e767]
+                - generic [ref=e768]:
+                  - paragraph [ref=e769]: Total Bilirubin
+                  - paragraph [ref=e770]: "58"
+                  - paragraph [ref=e771]: (mg/dL)
+                  - generic [ref=e772]:
+                    - paragraph [ref=e774]: "-"
+                    - img "Normal" [ref=e776]
+                - generic [ref=e777]:
+                  - paragraph [ref=e778]: Total Protein
+                  - paragraph [ref=e779]: "52"
+                  - paragraph [ref=e780]: (g/dL)
+                  - generic [ref=e781]:
+                    - paragraph [ref=e783]: "-"
+                    - img "Normal" [ref=e785]
+        - separator [ref=e786]
+        - separator [ref=e787]
+        - separator [ref=e789]
+        - separator [ref=e790]
+        - separator [ref=e791]
+        - generic [ref=e793]:
+          - generic [ref=e795]:
+            - paragraph [ref=e796]: Doctor Notes
+            - generic [ref=e797]:
+              - button "Aira - Chat" [ref=e800] [cursor=pointer]:
+                - img [ref=e801] [cursor=pointer]
+                - paragraph [ref=e803] [cursor=pointer]: Aira - Chat
+              - button "Record" [ref=e805] [cursor=pointer]:
+                - img [ref=e806] [cursor=pointer]
+                - paragraph [ref=e808] [cursor=pointer]: Record
+              - button [ref=e809] [cursor=pointer]:
+                - img [ref=e810] [cursor=pointer]
+          - generic [ref=e811]:
+            - button [ref=e812] [cursor=pointer]:
+              - img [ref=e813] [cursor=pointer]
+            - button [ref=e814] [cursor=pointer]:
+              - img [ref=e815] [cursor=pointer]
+            - generic [ref=e817]:
+              - generic [ref=e818] [cursor=pointer]: Chief complaint
+              - generic [ref=e819] [cursor=pointer]: HPI
+              - generic [ref=e820] [cursor=pointer]: ROS
+              - generic [ref=e821] [cursor=pointer]: Vitals
+              - generic [ref=e822] [cursor=pointer]: Physical Exam
+              - generic [ref=e823] [cursor=pointer]: Assessment
+              - generic [ref=e824] [cursor=pointer]: Orders
+              - generic [ref=e825] [cursor=pointer]: Documents
+          - generic [ref=e832]:
+            - generic [ref=e833]:
+              - textbox [ref=e834]
+              - paragraph [ref=e835]: Click anywhere to start typing....
+              - button "Advance" [ref=e836] [cursor=pointer]
+            - generic [ref=e838]:
+              - button "Typoid" [ref=e839] [cursor=pointer]
+              - button "fever" [ref=e840] [cursor=pointer]
+              - button "ww" [ref=e841] [cursor=pointer]
+            - generic [ref=e842]:
+              - img [ref=e845] [cursor=pointer]
+              - button "Please enter text to enable AI suggestions":
+                - img
+              - button "Submit" [disabled] [ref=e846]
+  - generic [ref=e847]:
+    - region "Notifications-top"
+    - region "Notifications-top-left"
+    - region "Notifications-top-right"
+    - region "Notifications-bottom-left"
+    - region "Notifications-bottom"
+    - region "Notifications-bottom-right"
+```

@@ -1,0 +1,202 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e6]:
+    - generic [ref=e8]:
+      - img [ref=e9]
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - link "Dashboard" [ref=e12] [cursor=pointer]:
+            - /url: /home
+            - generic [ref=e13] [cursor=pointer]:
+              - img [ref=e14] [cursor=pointer]
+              - paragraph [ref=e15] [cursor=pointer]: Dashboard
+          - link "Visits" [ref=e16] [cursor=pointer]:
+            - /url: /visits
+            - generic [ref=e17] [cursor=pointer]:
+              - img [ref=e18] [cursor=pointer]
+              - paragraph [ref=e19] [cursor=pointer]: Visits
+          - link "Messages" [ref=e20] [cursor=pointer]:
+            - /url: /messages
+            - generic [ref=e21] [cursor=pointer]:
+              - img [ref=e22] [cursor=pointer]
+              - paragraph [ref=e23] [cursor=pointer]: Messages
+          - link "Patients" [ref=e24] [cursor=pointer]:
+            - /url: /patients
+            - generic [ref=e25] [cursor=pointer]:
+              - img [ref=e26] [cursor=pointer]
+              - paragraph [ref=e27] [cursor=pointer]: Patients
+          - link "IPD Patients" [ref=e28] [cursor=pointer]:
+            - /url: /ipdpatients
+            - generic [ref=e29] [cursor=pointer]:
+              - img [ref=e30] [cursor=pointer]
+              - paragraph [ref=e31] [cursor=pointer]: IPD Patients
+          - link "Orders" [ref=e32] [cursor=pointer]:
+            - /url: /prescriptions
+            - generic [ref=e33] [cursor=pointer]:
+              - img [ref=e34] [cursor=pointer]
+              - paragraph [ref=e35] [cursor=pointer]: Orders
+          - link "Medicines" [ref=e36] [cursor=pointer]:
+            - /url: /medicines
+            - generic [ref=e37] [cursor=pointer]:
+              - img [ref=e38] [cursor=pointer]
+              - paragraph [ref=e39] [cursor=pointer]: Medicines
+          - link "Reports" [ref=e40] [cursor=pointer]:
+            - /url: /reports
+            - generic [ref=e41] [cursor=pointer]:
+              - img [ref=e42] [cursor=pointer]
+              - paragraph [ref=e43] [cursor=pointer]: Reports
+          - link "Notifications" [ref=e44] [cursor=pointer]:
+            - /url: /notifications
+            - generic [ref=e45] [cursor=pointer]:
+              - img [ref=e46] [cursor=pointer]
+              - paragraph [ref=e47] [cursor=pointer]: Notifications
+          - generic [ref=e48] [cursor=pointer]:
+            - generic:
+              - generic:
+                - generic:
+                  - img
+                  - paragraph: Apps
+        - generic [ref=e50] [cursor=pointer]:
+          - generic:
+            - generic:
+              - link:
+                - /url: /doctorprofile
+                - generic:
+                  - img
+    - generic [ref=e51]:
+      - navigation [ref=e52]:
+        - generic [ref=e53]:
+          - img [ref=e54]
+          - generic [ref=e55]:
+            - paragraph [ref=e56]: Ben Stock
+            - paragraph [ref=e58]: "#73888352 Female, 25 years, (+1) 9887765673, 6.1 ft, 80 lbs, 10.6 BMI"
+        - generic [ref=e59]:
+          - button "00:00:23" [ref=e60] [cursor=pointer]:
+            - img [ref=e62] [cursor=pointer]
+            - paragraph [ref=e63] [cursor=pointer]: 00:00:23
+          - button "End/pause Visit" [ref=e64] [cursor=pointer]
+          - button "Generate Prescription" [ref=e65] [cursor=pointer]
+          - button "Progress Notes" [ref=e66] [cursor=pointer]
+      - generic [ref=e67]:
+        - generic [ref=e69]:
+          - generic [ref=e71]:
+            - paragraph [ref=e72]: Patient Overview
+            - button "Assign" [ref=e74] [cursor=pointer]
+            - button "Chat" [ref=e75] [cursor=pointer]
+            - button [ref=e76] [cursor=pointer]:
+              - img [ref=e77] [cursor=pointer]
+          - generic [ref=e78]:
+            - button [ref=e79] [cursor=pointer]:
+              - img [ref=e80] [cursor=pointer]
+            - button [ref=e81] [cursor=pointer]:
+              - img [ref=e82] [cursor=pointer]
+            - generic [ref=e84]:
+              - generic [ref=e85] [cursor=pointer]: Overview
+              - generic [ref=e86] [cursor=pointer]: Past Visits
+              - generic [ref=e87] [cursor=pointer]: Vitals
+              - generic [ref=e88] [cursor=pointer]: Medications
+              - generic [ref=e89] [cursor=pointer]: Medical History
+              - generic [ref=e90] [cursor=pointer]: Surgical History
+              - generic [ref=e91] [cursor=pointer]: Family History
+              - generic [ref=e92] [cursor=pointer]: Social History
+              - generic [ref=e93] [cursor=pointer]: Allergies
+              - generic [ref=e94] [cursor=pointer]: Vaccinations
+              - generic [ref=e95] [cursor=pointer]: Investigations
+              - generic [ref=e96] [cursor=pointer]: Lab Tests
+              - generic [ref=e97] [cursor=pointer]: Imaging Reports
+          - generic [ref=e100]:
+            - button "Add Medication" [ref=e103] [cursor=pointer]:
+              - img [ref=e104] [cursor=pointer]
+              - text: Add Medication
+            - generic [ref=e106]:
+              - paragraph [ref=e109]: 6th Sep, 2025
+              - generic [ref=e113]:
+                - generic [ref=e114]:
+                  - generic [ref=e115]:
+                    - generic [ref=e116]: Tablet
+                    - paragraph [ref=e118]: Dolo650
+                  - generic [ref=e119]:
+                    - button "Get AI suggestions" [ref=e120] [cursor=pointer]:
+                      - img [ref=e121] [cursor=pointer]
+                    - button [ref=e122] [cursor=pointer]:
+                      - img [ref=e123] [cursor=pointer]
+                    - button [ref=e124] [cursor=pointer]:
+                      - img [ref=e125] [cursor=pointer]
+                - separator [ref=e126]
+                - generic [ref=e127]:
+                  - generic [ref=e128]:
+                    - img
+                    - paragraph [ref=e129]: 1 Qty
+                    - paragraph [ref=e131]: Daily thrice
+                  - generic [ref=e132]:
+                    - img
+                    - paragraph [ref=e133]: Current
+                - separator [ref=e134]
+                - button "+ Add to orders" [ref=e135] [cursor=pointer]
+        - separator [ref=e137]
+        - separator [ref=e138]
+        - separator [ref=e140]
+        - separator [ref=e141]
+        - separator [ref=e142]
+        - generic [ref=e144]:
+          - generic [ref=e146]:
+            - paragraph [ref=e147]: Doctor Notes
+            - generic [ref=e148]:
+              - button "Aira - Chat" [ref=e151] [cursor=pointer]:
+                - img [ref=e152] [cursor=pointer]
+                - paragraph [ref=e154] [cursor=pointer]: Aira - Chat
+              - button "Record" [ref=e156] [cursor=pointer]:
+                - img [ref=e157] [cursor=pointer]
+                - paragraph [ref=e159] [cursor=pointer]: Record
+              - button [ref=e160] [cursor=pointer]:
+                - img [ref=e161] [cursor=pointer]
+          - generic [ref=e162]:
+            - button [ref=e163] [cursor=pointer]:
+              - img [ref=e164] [cursor=pointer]
+            - button [ref=e165] [cursor=pointer]:
+              - img [ref=e166] [cursor=pointer]
+            - generic [ref=e168]:
+              - generic [ref=e169] [cursor=pointer]: Chief complaint
+              - generic [ref=e170] [cursor=pointer]: HPI
+              - generic [ref=e171] [cursor=pointer]: ROS
+              - generic [ref=e172] [cursor=pointer]: Vitals
+              - generic [ref=e173] [cursor=pointer]: Physical Exam
+              - generic [ref=e174] [cursor=pointer]: Assessment
+              - generic [ref=e175] [cursor=pointer]: Orders
+              - generic [ref=e176] [cursor=pointer]: Documents
+          - generic [ref=e183]:
+            - generic [ref=e184]:
+              - textbox [ref=e185]
+              - paragraph [ref=e186]: Click anywhere to start typing....
+              - button "Advance" [ref=e187] [cursor=pointer]
+            - generic [ref=e189]:
+              - button "Typoid" [ref=e190] [cursor=pointer]
+              - button "fever" [ref=e191] [cursor=pointer]
+              - button "ww" [ref=e192] [cursor=pointer]
+            - generic [ref=e193]:
+              - img [ref=e196] [cursor=pointer]
+              - button "Please enter text to enable AI suggestions":
+                - img
+              - button "Submit" [disabled] [ref=e197]
+  - generic [ref=e198]:
+    - region "Notifications-top"
+    - region "Notifications-top-left"
+    - region "Notifications-top-right"
+    - region "Notifications-bottom-left"
+    - region "Notifications-bottom":
+      - status [ref=e199]:
+        - generic [ref=e200]:
+          - img [ref=e202]
+          - generic [ref=e204]: Successfully Added
+          - button "Close" [ref=e205] [cursor=pointer]:
+            - img [ref=e206] [cursor=pointer]
+      - status [ref=e208]:
+        - generic [ref=e209]:
+          - img [ref=e211]
+          - generic [ref=e213]: Successfully Added
+          - button "Close" [ref=e214] [cursor=pointer]:
+            - img [ref=e215] [cursor=pointer]
+    - region "Notifications-bottom-right"
+```

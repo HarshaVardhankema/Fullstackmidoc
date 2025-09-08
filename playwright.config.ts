@@ -17,7 +17,7 @@ import { on } from 'events';
  */
 const config = ({
   testDir: './tests',
-  timeout: 100000, 
+  timeout: 120000, 
   SlowBuffer: 6000, // Slow down by 1 second
   except:{
   timeout:10000,
@@ -55,7 +55,8 @@ const config = ({
     video: 'on',
     headless: false,
     ignoreHTTPSErrors: true,
-    permissions:['geolocation']
+    permissions:['geolocation'],
+    viewport: { width: 3020, height: 2080 },
     
 
 

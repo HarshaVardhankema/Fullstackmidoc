@@ -13,7 +13,7 @@ export class VisitsPage {
         this.appointments = page.getByRole("link", { name: "Visits" });
         this.dropdown = page.locator('select');
         this.Pending = page.getByText('Pending');
-        this.Patient = page.getByText('Ben Stock').first()
+        this.Patient = page.getByText('Kyle Jenner').first()
 
        
 

@@ -3,5 +3,20 @@
     "Password" : "midoc123",
     "surgeronName":"AluraJenson",
     "HospitalName": "AluraHospital",
-    "documentPath": "D:/Screenshot 2025-08-25 104447.png"
+    "documentPath": "D:/Screenshot 2025-08-25 104447.png",
+    "MedicineName": "Dolo650",
+    "Strength": "650",
+    "PrescribedBy": "AluraWhite",
+    "chiefCompliant": "Thanks for the chiefCompliant",
+    "Timeperiod": "8",
+    "BodyTempeature" :"98",
+    "HeartRate": "78",
+    "RespiratoryRate":"50",
+    "BPsystolic": "90",
+    "BPDiastolic": "80",
+    "OxygenSaturation": "65",
+    "FastingBloodGlucose":"70",
+    "PostprandialBloodGlucose": "89",
+    "Diagnosis": "HelloTestDone",
+    "Plans":"100Dollars"
 }

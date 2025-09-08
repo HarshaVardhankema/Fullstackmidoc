@@ -1,0 +1,251 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e6]:
+    - generic [ref=e8]:
+      - img [ref=e9]
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - link "Dashboard" [ref=e12] [cursor=pointer]:
+            - /url: /home
+            - generic [ref=e13] [cursor=pointer]:
+              - img [ref=e14] [cursor=pointer]
+              - paragraph [ref=e15] [cursor=pointer]: Dashboard
+          - link "Visits" [ref=e16] [cursor=pointer]:
+            - /url: /visits
+            - generic [ref=e17] [cursor=pointer]:
+              - img [ref=e18] [cursor=pointer]
+              - paragraph [ref=e19] [cursor=pointer]: Visits
+          - link "Messages" [ref=e20] [cursor=pointer]:
+            - /url: /messages
+            - generic [ref=e21] [cursor=pointer]:
+              - img [ref=e22] [cursor=pointer]
+              - paragraph [ref=e23] [cursor=pointer]: Messages
+          - link "Patients" [ref=e24] [cursor=pointer]:
+            - /url: /patients
+            - generic [ref=e25] [cursor=pointer]:
+              - img [ref=e26] [cursor=pointer]
+              - paragraph [ref=e27] [cursor=pointer]: Patients
+          - link "IPD Patients" [ref=e28] [cursor=pointer]:
+            - /url: /ipdpatients
+            - generic [ref=e29] [cursor=pointer]:
+              - img [ref=e30] [cursor=pointer]
+              - paragraph [ref=e31] [cursor=pointer]: IPD Patients
+          - link "Orders" [ref=e32] [cursor=pointer]:
+            - /url: /prescriptions
+            - generic [ref=e33] [cursor=pointer]:
+              - img [ref=e34] [cursor=pointer]
+              - paragraph [ref=e35] [cursor=pointer]: Orders
+          - link "Medicines" [ref=e36] [cursor=pointer]:
+            - /url: /medicines
+            - generic [ref=e37] [cursor=pointer]:
+              - img [ref=e38] [cursor=pointer]
+              - paragraph [ref=e39] [cursor=pointer]: Medicines
+          - link "Reports" [ref=e40] [cursor=pointer]:
+            - /url: /reports
+            - generic [ref=e41] [cursor=pointer]:
+              - img [ref=e42] [cursor=pointer]
+              - paragraph [ref=e43] [cursor=pointer]: Reports
+          - link "Notifications" [ref=e44] [cursor=pointer]:
+            - /url: /notifications
+            - generic [ref=e45] [cursor=pointer]:
+              - img [ref=e46] [cursor=pointer]
+              - paragraph [ref=e47] [cursor=pointer]: Notifications
+          - generic [ref=e48] [cursor=pointer]:
+            - generic:
+              - generic:
+                - generic:
+                  - img
+                  - paragraph: Apps
+        - generic [ref=e50] [cursor=pointer]:
+          - generic:
+            - generic:
+              - link:
+                - /url: /doctorprofile
+                - generic:
+                  - img
+    - generic [ref=e51]:
+      - navigation [ref=e52]:
+        - generic [ref=e53]:
+          - img [ref=e54]
+          - generic [ref=e55]:
+            - paragraph [ref=e56]: Olura Jenson
+            - paragraph [ref=e58]: "#19154120 Male, 41 years, (+91) 0478987654, 5.5 ft, 75 lbs, 12.5 BMI"
+        - generic [ref=e59]:
+          - button "00:00:27" [ref=e60] [cursor=pointer]:
+            - img [ref=e62] [cursor=pointer]
+            - paragraph [ref=e63] [cursor=pointer]: 00:00:27
+          - button "End/pause Visit" [ref=e64] [cursor=pointer]
+          - button "Generate Prescription" [ref=e65] [cursor=pointer]
+          - button "Progress Notes" [ref=e66] [cursor=pointer]
+      - generic [ref=e67]:
+        - generic [ref=e69]:
+          - generic [ref=e71]:
+            - paragraph [ref=e72]: Patient Overview
+            - button "Assign" [ref=e74] [cursor=pointer]
+            - button "Chat" [ref=e75] [cursor=pointer]
+            - button [ref=e76] [cursor=pointer]:
+              - img [ref=e77] [cursor=pointer]
+          - generic [ref=e78]:
+            - button [ref=e79] [cursor=pointer]:
+              - img [ref=e80] [cursor=pointer]
+            - button [ref=e81] [cursor=pointer]:
+              - img [ref=e82] [cursor=pointer]
+            - generic [ref=e84]:
+              - generic [ref=e85] [cursor=pointer]: Overview
+              - generic [ref=e86] [cursor=pointer]: Past Visits
+              - generic [ref=e87] [cursor=pointer]: Vitals
+              - generic [ref=e88] [cursor=pointer]: Medications
+              - generic [ref=e89] [cursor=pointer]: Medical History
+              - generic [ref=e90] [cursor=pointer]: Surgical History
+              - generic [ref=e91] [cursor=pointer]: Family History
+              - generic [ref=e92] [cursor=pointer]: Social History
+              - generic [ref=e93] [cursor=pointer]: Allergies
+              - generic [ref=e94] [cursor=pointer]: Vaccinations
+              - generic [ref=e95] [cursor=pointer]: Investigations
+              - generic [ref=e96] [cursor=pointer]: Lab Tests
+              - generic [ref=e97] [cursor=pointer]: Imaging Reports
+          - generic [ref=e100]:
+            - button "Add Medication" [active] [ref=e103] [cursor=pointer]:
+              - img [ref=e104] [cursor=pointer]
+              - text: Add Medication
+            - generic [ref=e105]:
+              - generic [ref=e106]:
+                - paragraph [ref=e109]: 7th Sep, 2025
+                - generic [ref=e112]:
+                  - generic [ref=e113]:
+                    - generic [ref=e114]:
+                      - generic [ref=e115]:
+                        - generic [ref=e116]: Tablet
+                        - paragraph [ref=e118]: Dolo650
+                      - generic [ref=e119]:
+                        - button "Get AI suggestions" [ref=e120] [cursor=pointer]:
+                          - img [ref=e121] [cursor=pointer]
+                        - button [ref=e122] [cursor=pointer]:
+                          - img [ref=e123] [cursor=pointer]
+                        - button [ref=e124] [cursor=pointer]:
+                          - img [ref=e125] [cursor=pointer]
+                    - separator [ref=e126]
+                    - generic [ref=e127]:
+                      - generic [ref=e128]:
+                        - img [ref=e129]
+                        - paragraph [ref=e130]: 1 Qty
+                        - paragraph [ref=e132]: Daily thrice
+                      - generic [ref=e133]:
+                        - img [ref=e134]
+                        - paragraph [ref=e135]: Current
+                    - separator [ref=e136]
+                    - button "+ Add to orders" [ref=e137] [cursor=pointer]
+                  - generic [ref=e138]:
+                    - generic [ref=e139]:
+                      - generic [ref=e140]:
+                        - generic [ref=e141]: Tablet
+                        - paragraph [ref=e143]: Dolo650
+                      - generic [ref=e144]:
+                        - button "Get AI suggestions" [ref=e145] [cursor=pointer]:
+                          - img [ref=e146] [cursor=pointer]
+                        - button [ref=e147] [cursor=pointer]:
+                          - img [ref=e148] [cursor=pointer]
+                        - button [ref=e149] [cursor=pointer]:
+                          - img [ref=e150] [cursor=pointer]
+                    - separator [ref=e151]
+                    - generic [ref=e152]:
+                      - generic [ref=e153]:
+                        - img [ref=e154]
+                        - paragraph [ref=e155]: 1 Qty
+                        - paragraph [ref=e157]: Daily thrice
+                      - generic [ref=e158]:
+                        - img [ref=e159]
+                        - paragraph [ref=e160]: Current
+                    - separator [ref=e161]
+                    - button "+ Add to orders" [ref=e162] [cursor=pointer]
+              - generic [ref=e164]:
+                - paragraph [ref=e167]: 3rd Apr, 2025
+                - generic [ref=e171]:
+                  - generic [ref=e172]:
+                    - generic [ref=e173]:
+                      - generic [ref=e174]: Tablet
+                      - paragraph [ref=e176]: Doloper
+                    - generic [ref=e177]:
+                      - button "Get AI suggestions" [ref=e178] [cursor=pointer]:
+                        - img [ref=e179] [cursor=pointer]
+                      - button [ref=e180] [cursor=pointer]:
+                        - img [ref=e181] [cursor=pointer]
+                      - button [ref=e182] [cursor=pointer]:
+                        - img [ref=e183] [cursor=pointer]
+                  - separator [ref=e184]
+                  - generic [ref=e185]:
+                    - generic [ref=e186]:
+                      - img [ref=e187]
+                      - paragraph [ref=e188]: 3 Weeks Qty
+                    - generic [ref=e193]:
+                      - img [ref=e194]
+                      - paragraph [ref=e195]: Current
+                  - separator [ref=e196]
+                  - button "+ Add to orders" [ref=e197] [cursor=pointer]
+        - separator [ref=e199]
+        - separator [ref=e200]
+        - separator [ref=e202]
+        - separator [ref=e203]
+        - separator [ref=e204]
+        - generic [ref=e206]:
+          - generic [ref=e208]:
+            - paragraph [ref=e209]: Doctor Notes
+            - generic [ref=e210]:
+              - button "Aira - Chat" [ref=e213] [cursor=pointer]:
+                - img [ref=e214] [cursor=pointer]
+                - paragraph [ref=e216] [cursor=pointer]: Aira - Chat
+              - button "Record" [ref=e218] [cursor=pointer]:
+                - img [ref=e219] [cursor=pointer]
+                - paragraph [ref=e221] [cursor=pointer]: Record
+              - button [ref=e222] [cursor=pointer]:
+                - img [ref=e223] [cursor=pointer]
+          - generic [ref=e224]:
+            - button [ref=e225] [cursor=pointer]:
+              - img [ref=e226] [cursor=pointer]
+            - button [ref=e227] [cursor=pointer]:
+              - img [ref=e228] [cursor=pointer]
+            - generic [ref=e230]:
+              - generic [ref=e231] [cursor=pointer]: Chief complaint
+              - generic [ref=e232] [cursor=pointer]: HPI
+              - generic [ref=e233] [cursor=pointer]: ROS
+              - generic [ref=e234] [cursor=pointer]: Vitals
+              - generic [ref=e235] [cursor=pointer]: Physical Exam
+              - generic [ref=e236] [cursor=pointer]: Assessment
+              - generic [ref=e237] [cursor=pointer]: Orders
+              - generic [ref=e238] [cursor=pointer]: Documents
+          - generic [ref=e245]:
+            - generic [ref=e246]:
+              - textbox [ref=e247]
+              - paragraph [ref=e248]: Click anywhere to start typing....
+              - button "Advance" [ref=e249] [cursor=pointer]
+            - generic [ref=e251]:
+              - button "Typoid" [ref=e252] [cursor=pointer]
+              - button "fever" [ref=e253] [cursor=pointer]
+              - button "ww" [ref=e254] [cursor=pointer]
+            - generic [ref=e255]:
+              - img [ref=e258] [cursor=pointer]
+              - button "Please enter text to enable AI suggestions":
+                - img
+              - button "Submit" [disabled] [ref=e259]
+  - generic [ref=e260]:
+    - region "Notifications-top"
+    - region "Notifications-top-left"
+    - region "Notifications-top-right"
+    - region "Notifications-bottom-left"
+    - region "Notifications-bottom":
+      - status [ref=e261]:
+        - generic [ref=e262]:
+          - img [ref=e264]
+          - generic [ref=e266]: Medicine composition fetched successfully
+          - button "Close" [ref=e267] [cursor=pointer]:
+            - img [ref=e268] [cursor=pointer]
+      - status [ref=e270]:
+        - generic [ref=e271]:
+          - img [ref=e273]
+          - generic [ref=e275]: Medicine created Successfully
+          - button "Close" [ref=e276] [cursor=pointer]:
+            - img [ref=e277] [cursor=pointer]
+    - region "Notifications-bottom-right"
+```

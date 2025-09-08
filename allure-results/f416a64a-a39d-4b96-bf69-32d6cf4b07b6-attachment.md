@@ -1,0 +1,371 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e6]:
+    - generic [ref=e8]:
+      - img [ref=e9]
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - link "Dashboard" [ref=e12] [cursor=pointer]:
+            - /url: /home
+            - generic [ref=e13] [cursor=pointer]:
+              - img [ref=e14] [cursor=pointer]
+              - paragraph [ref=e15] [cursor=pointer]: Dashboard
+          - link "Visits" [ref=e16] [cursor=pointer]:
+            - /url: /visits
+            - generic [ref=e17] [cursor=pointer]:
+              - img [ref=e18] [cursor=pointer]
+              - paragraph [ref=e19] [cursor=pointer]: Visits
+          - link "Messages" [ref=e20] [cursor=pointer]:
+            - /url: /messages
+            - generic [ref=e21] [cursor=pointer]:
+              - img [ref=e22] [cursor=pointer]
+              - paragraph [ref=e23] [cursor=pointer]: Messages
+          - link "Patients" [ref=e24] [cursor=pointer]:
+            - /url: /patients
+            - generic [ref=e25] [cursor=pointer]:
+              - img [ref=e26] [cursor=pointer]
+              - paragraph [ref=e27] [cursor=pointer]: Patients
+          - link "IPD Patients" [ref=e28] [cursor=pointer]:
+            - /url: /ipdpatients
+            - generic [ref=e29] [cursor=pointer]:
+              - img [ref=e30] [cursor=pointer]
+              - paragraph [ref=e31] [cursor=pointer]: IPD Patients
+          - link "Orders" [ref=e32] [cursor=pointer]:
+            - /url: /prescriptions
+            - generic [ref=e33] [cursor=pointer]:
+              - img [ref=e34] [cursor=pointer]
+              - paragraph [ref=e35] [cursor=pointer]: Orders
+          - link "Medicines" [ref=e36] [cursor=pointer]:
+            - /url: /medicines
+            - generic [ref=e37] [cursor=pointer]:
+              - img [ref=e38] [cursor=pointer]
+              - paragraph [ref=e39] [cursor=pointer]: Medicines
+          - link "Reports" [ref=e40] [cursor=pointer]:
+            - /url: /reports
+            - generic [ref=e41] [cursor=pointer]:
+              - img [ref=e42] [cursor=pointer]
+              - paragraph [ref=e43] [cursor=pointer]: Reports
+          - link "Notifications" [ref=e44] [cursor=pointer]:
+            - /url: /notifications
+            - generic [ref=e45] [cursor=pointer]:
+              - img [ref=e46] [cursor=pointer]
+              - paragraph [ref=e47] [cursor=pointer]: Notifications
+          - generic [ref=e48] [cursor=pointer]:
+            - generic:
+              - generic:
+                - generic:
+                  - img
+                  - paragraph: Apps
+        - generic [ref=e50] [cursor=pointer]:
+          - generic:
+            - generic:
+              - link:
+                - /url: /doctorprofile
+                - generic:
+                  - img
+    - generic [ref=e51]:
+      - navigation [ref=e52]:
+        - generic [ref=e53]:
+          - img [ref=e54]
+          - generic [ref=e55]:
+            - paragraph [ref=e56]: Olura Jenson
+            - paragraph [ref=e58]: "#19154120 Male, 41 years, (+91) 0478987654, 5.5 ft, 75 lbs, 12.5 BMI"
+        - generic [ref=e59]:
+          - button "00:00:03" [ref=e60] [cursor=pointer]:
+            - img [ref=e62] [cursor=pointer]
+            - paragraph [ref=e63] [cursor=pointer]: 00:00:03
+          - button "End/pause Visit" [ref=e64] [cursor=pointer]
+          - button "Generate Prescription" [ref=e65] [cursor=pointer]
+          - button "Progress Notes" [ref=e66] [cursor=pointer]
+      - generic [ref=e67]:
+        - generic [ref=e69]:
+          - generic [ref=e71]:
+            - paragraph [ref=e72]: Patient Overview
+            - button "Assign" [ref=e74] [cursor=pointer]
+            - button "Chat" [ref=e75] [cursor=pointer]
+            - button [ref=e76] [cursor=pointer]:
+              - img [ref=e77] [cursor=pointer]
+          - generic [ref=e78]:
+            - button [ref=e79] [cursor=pointer]:
+              - img [ref=e80] [cursor=pointer]
+            - button [ref=e81] [cursor=pointer]:
+              - img [ref=e82] [cursor=pointer]
+            - generic [ref=e84]:
+              - generic [ref=e85] [cursor=pointer]: Overview
+              - generic [ref=e86] [cursor=pointer]: Past Visits
+              - generic [ref=e87] [cursor=pointer]: Vitals
+              - generic [ref=e88] [cursor=pointer]: Medications
+              - generic [ref=e89] [cursor=pointer]: Medical History
+              - generic [ref=e90] [cursor=pointer]: Surgical History
+              - generic [ref=e91] [cursor=pointer]: Family History
+              - generic [ref=e92] [cursor=pointer]: Social History
+              - generic [ref=e93] [cursor=pointer]: Allergies
+              - generic [ref=e94] [cursor=pointer]: Vaccinations
+              - generic [ref=e95] [cursor=pointer]: Investigations
+              - generic [ref=e96] [cursor=pointer]: Lab Tests
+              - generic [ref=e97] [cursor=pointer]: Imaging Reports
+          - generic [ref=e101]:
+            - generic [ref=e102]:
+              - generic [ref=e103] [cursor=pointer]:
+                - heading "Medical History" [level=2] [ref=e105] [cursor=pointer]
+                - img [ref=e107] [cursor=pointer]
+              - generic [ref=e110]:
+                - generic [ref=e111]:
+                  - paragraph [ref=e114]: Arthritis
+                  - paragraph [ref=e117]: 1st Sep, 2025
+                - generic [ref=e118]:
+                  - paragraph [ref=e121]: Arthritis
+                  - paragraph [ref=e124]: 1st Sep, 2025
+                - generic [ref=e125]:
+                  - paragraph [ref=e128]: Chronic Kidney Disease (CKD)
+                  - paragraph [ref=e131]: 1st Apr, 2025
+              - button "Add Condition" [ref=e133] [cursor=pointer]:
+                - generic [ref=e134] [cursor=pointer]: Add Condition
+                - img [ref=e136] [cursor=pointer]
+            - generic [ref=e137]:
+              - generic [ref=e138] [cursor=pointer]:
+                - heading "Surgical History" [level=2] [ref=e140] [cursor=pointer]
+                - img [ref=e142] [cursor=pointer]
+              - generic [ref=e145]:
+                - generic [ref=e146]:
+                  - paragraph [ref=e149]: Gastric bypass surgery
+                  - paragraph [ref=e152]: 7th Sep, 2025
+                - generic [ref=e153]:
+                  - paragraph [ref=e156]: Gastric bypass surgery
+                  - paragraph [ref=e159]: 7th Sep, 2025
+                - generic [ref=e160]:
+                  - paragraph [ref=e163]: Colectomy
+                  - paragraph [ref=e166]: 3rd Apr, 2025
+              - button "Add Surgery" [ref=e168] [cursor=pointer]:
+                - generic [ref=e169] [cursor=pointer]: Add Surgery
+                - img [ref=e171] [cursor=pointer]
+            - generic [ref=e172]:
+              - generic [ref=e173] [cursor=pointer]:
+                - heading "Allergies" [level=2] [ref=e175] [cursor=pointer]
+                - img [ref=e177] [cursor=pointer]
+              - generic [ref=e179]:
+                - generic [ref=e180]:
+                  - generic [ref=e181]:
+                    - paragraph [ref=e182]: Alternaria Allergy
+                    - paragraph [ref=e184]:
+                      - generic [ref=e185]:
+                        - paragraph [ref=e186]: "Problems:"
+                        - paragraph [ref=e187]: Angioedema (Swelling)
+                      - paragraph [ref=e188]:
+                        - text: "Identified:"
+                        - generic [ref=e189]: 01 Sep 2025
+                  - separator [ref=e190]
+                - generic [ref=e191]:
+                  - generic [ref=e192]:
+                    - paragraph [ref=e193]: Alternaria Allergy
+                    - paragraph [ref=e195]:
+                      - generic [ref=e196]:
+                        - paragraph [ref=e197]: "Problems:"
+                        - paragraph [ref=e198]: Angioedema (Swelling)
+                      - paragraph [ref=e199]:
+                        - text: "Identified:"
+                        - generic [ref=e200]: 01 Sep 2025
+                  - separator [ref=e201]
+                - generic [ref=e202]:
+                  - generic [ref=e203]:
+                    - paragraph [ref=e204]: Animal Dander Allergy
+                    - paragraph [ref=e206]:
+                      - generic [ref=e207]:
+                        - paragraph [ref=e208]: "Problems:"
+                        - paragraph [ref=e209]: Angioedema (Swelling)
+                      - paragraph [ref=e210]:
+                        - text: "Identified:"
+                        - generic [ref=e211]: 01 Apr 2025
+                  - separator [ref=e212]
+              - button "Add Allergy" [ref=e214] [cursor=pointer]:
+                - generic [ref=e215] [cursor=pointer]: Add Allergy
+                - img [ref=e217] [cursor=pointer]
+            - generic [ref=e218]:
+              - generic [ref=e219] [cursor=pointer]:
+                - heading "social History" [level=2] [ref=e221] [cursor=pointer]
+                - img [ref=e223] [cursor=pointer]
+              - generic [ref=e226]:
+                - generic [ref=e227]:
+                  - paragraph [ref=e228]: Illicit Drugs
+                  - paragraph [ref=e230]:
+                    - generic [ref=e231]:
+                      - paragraph [ref=e232]: "Status:"
+                      - paragraph [ref=e233]: Current
+                    - paragraph [ref=e234]: 12 Times Per Week x 7 years
+                - separator [ref=e235]
+            - generic [ref=e236]:
+              - generic [ref=e237] [cursor=pointer]:
+                - heading "Vaccination History" [level=2] [ref=e239] [cursor=pointer]
+                - img [ref=e241] [cursor=pointer]
+              - generic [ref=e244]:
+                - generic [ref=e245]:
+                  - paragraph [ref=e248]: BCG
+                  - paragraph [ref=e251]: 1st Sep, 2025
+                - generic [ref=e252]:
+                  - paragraph [ref=e255]: COVID-19
+                  - paragraph [ref=e258]: 1st Apr, 2025
+              - button "Add Vaccine" [ref=e260] [cursor=pointer]:
+                - generic [ref=e261] [cursor=pointer]: Add Vaccine
+                - img [ref=e263] [cursor=pointer]
+            - generic [ref=e264]:
+              - generic [ref=e265] [cursor=pointer]:
+                - heading "current medications" [level=2] [ref=e267] [cursor=pointer]
+                - img [ref=e269] [cursor=pointer]
+              - generic [ref=e272]:
+                - generic [ref=e273]:
+                  - paragraph [ref=e276]: "Dolo650: Daily thrice"
+                  - paragraph [ref=e279]: "Composition: -"
+                - generic [ref=e280]:
+                  - paragraph [ref=e283]: "Dolo650: Daily thrice"
+                  - paragraph [ref=e286]: "Composition: Paracetamol"
+                - generic [ref=e287]:
+                  - paragraph [ref=e290]: "Doloper: (Afternoon)"
+                  - paragraph [ref=e293]: "Composition: Paracetamol, Ibuprofen"
+              - button "Add Medication" [ref=e295] [cursor=pointer]:
+                - generic [ref=e296] [cursor=pointer]: Add Medication
+                - img [ref=e298] [cursor=pointer]
+            - generic [ref=e301]:
+              - generic [ref=e302] [cursor=pointer]:
+                - heading "vitals" [level=2] [ref=e304] [cursor=pointer]
+                - img [ref=e306] [cursor=pointer]
+              - generic [ref=e309]:
+                - generic [ref=e310]:
+                  - paragraph [ref=e311]: SPO2
+                  - paragraph
+                  - paragraph
+                  - paragraph [ref=e313]: "-"
+                - generic [ref=e314]:
+                  - paragraph [ref=e315]: Respiratory
+                  - paragraph
+                  - paragraph
+                  - paragraph [ref=e317]: "-"
+                - generic [ref=e318]:
+                  - paragraph [ref=e319]: Postprandial Blood Glucose
+                  - paragraph
+                  - paragraph
+                  - paragraph [ref=e321]: "-"
+                - generic [ref=e322]:
+                  - paragraph [ref=e323]: Heart rate
+                  - paragraph [ref=e324]: "52"
+                  - paragraph [ref=e325]: bpm
+                  - paragraph [ref=e327]: 1st Jul, 2025
+                  - generic [ref=e328]:
+                    - img [ref=e329]
+                    - generic [ref=e330]: Low
+                - generic [ref=e331]:
+                  - paragraph [ref=e332]: Fasting Blood Glucose
+                  - paragraph
+                  - paragraph
+                  - paragraph [ref=e334]: "-"
+                - generic [ref=e335]:
+                  - paragraph [ref=e336]: BP
+                  - paragraph
+                  - paragraph
+                  - paragraph [ref=e338]: "-"
+                - generic [ref=e339]:
+                  - paragraph [ref=e340]: Body temperature
+                  - paragraph [ref=e341]: "98"
+                  - paragraph [ref=e342]: °F
+                  - paragraph [ref=e344]: 1st Jul, 2025
+                  - generic [ref=e345]:
+                    - img [ref=e346]
+                    - generic [ref=e347]: Ok
+        - separator [ref=e348]
+        - separator [ref=e349]
+        - separator [ref=e351]
+        - separator [ref=e352]
+        - separator [ref=e353]
+        - generic [ref=e355]:
+          - generic [ref=e357]:
+            - paragraph [ref=e358]: Doctor Notes
+            - generic [ref=e359]:
+              - button "Aira - Chat" [ref=e362] [cursor=pointer]:
+                - img [ref=e363] [cursor=pointer]
+                - paragraph [ref=e365] [cursor=pointer]: Aira - Chat
+              - button "Record" [ref=e367] [cursor=pointer]:
+                - img [ref=e368] [cursor=pointer]
+                - paragraph [ref=e370] [cursor=pointer]: Record
+              - button [ref=e371] [cursor=pointer]:
+                - img [ref=e372] [cursor=pointer]
+          - generic [ref=e373]:
+            - button [ref=e374] [cursor=pointer]:
+              - img [ref=e375] [cursor=pointer]
+            - button [ref=e376] [cursor=pointer]:
+              - img [ref=e377] [cursor=pointer]
+            - generic [ref=e379]:
+              - generic [ref=e380] [cursor=pointer]: Chief complaint
+              - generic [ref=e381] [cursor=pointer]: HPI
+              - generic [ref=e382] [cursor=pointer]: ROS
+              - generic [ref=e383] [cursor=pointer]: Vitals
+              - generic [ref=e384] [cursor=pointer]: Physical Exam
+              - generic [ref=e385] [cursor=pointer]: Assessment
+              - generic [ref=e386] [cursor=pointer]: Orders
+              - generic [ref=e387] [cursor=pointer]: Documents
+          - generic [ref=e392]:
+            - generic [ref=e393]:
+              - heading "PAIN + Add" [level=2] [ref=e395]:
+                - button "PAIN + Add" [ref=e396] [cursor=pointer]:
+                  - generic [ref=e397] [cursor=pointer]: PAIN
+                  - generic [ref=e398] [cursor=pointer]: + Add
+                  - img [ref=e399] [cursor=pointer]
+              - heading "NEURO + Add" [level=2] [ref=e402]:
+                - button "NEURO + Add" [ref=e403] [cursor=pointer]:
+                  - generic [ref=e404] [cursor=pointer]: NEURO
+                  - generic [ref=e405] [cursor=pointer]: + Add
+                  - img [ref=e406] [cursor=pointer]
+              - heading "DENTAL + Add" [level=2] [ref=e409]:
+                - button "DENTAL + Add" [ref=e410] [cursor=pointer]:
+                  - generic [ref=e411] [cursor=pointer]: DENTAL
+                  - generic [ref=e412] [cursor=pointer]: + Add
+                  - img [ref=e413] [cursor=pointer]
+              - heading "VISION + Add" [level=2] [ref=e416]:
+                - button "VISION + Add" [ref=e417] [cursor=pointer]:
+                  - generic [ref=e418] [cursor=pointer]: VISION
+                  - generic [ref=e419] [cursor=pointer]: + Add
+                  - img [ref=e420] [cursor=pointer]
+              - heading "INFECTION + Add" [level=2] [ref=e423]:
+                - button "INFECTION + Add" [ref=e424] [cursor=pointer]:
+                  - generic [ref=e425] [cursor=pointer]: INFECTION
+                  - generic [ref=e426] [cursor=pointer]: + Add
+                  - img [ref=e427] [cursor=pointer]
+              - heading "EAR + Add" [level=2] [ref=e430]:
+                - button "EAR + Add" [ref=e431] [cursor=pointer]:
+                  - generic [ref=e432] [cursor=pointer]: EAR
+                  - generic [ref=e433] [cursor=pointer]: + Add
+                  - img [ref=e434] [cursor=pointer]
+              - heading "RASH + Add" [level=2] [ref=e437]:
+                - button "RASH + Add" [ref=e438] [cursor=pointer]:
+                  - generic [ref=e439] [cursor=pointer]: RASH
+                  - generic [ref=e440] [cursor=pointer]: + Add
+                  - img [ref=e441] [cursor=pointer]
+            - generic [ref=e444]:
+              - generic [ref=e445]:
+                - textbox [ref=e446]
+                - paragraph [ref=e447]: Click anywhere to start typing....
+              - generic [ref=e448]:
+                - img [ref=e451] [cursor=pointer]
+                - button:
+                  - img
+                - button "Save HPI Text" [disabled] [ref=e452]
+  - generic [ref=e453]:
+    - region "Notifications-top"
+    - region "Notifications-top-left"
+    - region "Notifications-top-right"
+    - region "Notifications-bottom-left"
+    - region "Notifications-bottom":
+      - status [ref=e454]:
+        - generic [ref=e455]:
+          - img [ref=e457]
+          - generic [ref=e459]: Visit Started Successfully.
+          - button "Close" [ref=e460] [cursor=pointer]:
+            - img [ref=e461] [cursor=pointer]
+      - status [ref=e463]:
+        - generic [ref=e464]:
+          - img [ref=e466]
+          - generic [ref=e468]: Chief Complaint Saved successfully
+          - button "Close" [ref=e469] [cursor=pointer]:
+            - img [ref=e470] [cursor=pointer]
+    - region "Notifications-bottom-right"
+```

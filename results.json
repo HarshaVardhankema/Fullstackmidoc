@@ -64,7 +64,7 @@
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
         ],
-        "timeout": 100000
+        "timeout": 120000
       }
     ],
     "shard": null,
@@ -76,49 +76,49 @@
   },
   "suites": [
     {
-      "title": "Visit.spec.ts",
-      "file": "Visit.spec.ts",
+      "title": "Google.spec.ts",
+      "file": "Google.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Visits",
+          "title": "Google",
           "ok": true,
           "tags": [],
           "tests": [
             {
-              "timeout": 100000,
+              "timeout": 120000,
               "annotations": [],
               "expectedStatus": "passed",
               "projectId": "chromium",
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 26,
+                  "workerIndex": 3,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 34375,
+                  "duration": 2042,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-09-05T16:41:40.112Z",
+                  "startTime": "2025-09-08T06:22:54.954Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "D:\\Topics\\FullStackmidoc\\test-results\\Visit-Visits-chromium\\test-finished-1.png"
+                      "path": "D:\\Topics\\FullStackmidoc\\test-results\\Google-Google-chromium\\test-finished-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "D:\\Topics\\FullStackmidoc\\test-results\\Visit-Visits-chromium\\video.webm"
+                      "path": "D:\\Topics\\FullStackmidoc\\test-results\\Google-Google-chromium\\video.webm"
                     },
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "D:\\Topics\\FullStackmidoc\\test-results\\Visit-Visits-chromium\\trace.zip"
+                      "path": "D:\\Topics\\FullStackmidoc\\test-results\\Google-Google-chromium\\trace.zip"
                     }
                   ]
                 }
@@ -126,9 +126,9 @@
               "status": "expected"
             }
           ],
-          "id": "1bcdb53616f491dd96fc-9c29a61b0e1776241352",
-          "file": "Visit.spec.ts",
-          "line": 5,
+          "id": "3199d738294f754da36a-fd3bb0e6ab9905270e11",
+          "file": "Google.spec.ts",
+          "line": 2,
           "column": 5
         }
       ]
@@ -136,8 +136,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-09-05T16:41:37.995Z",
-    "duration": 39404.25200000033,
+    "startTime": "2025-09-08T06:22:53.336Z",
+    "duration": 4165.472999999998,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

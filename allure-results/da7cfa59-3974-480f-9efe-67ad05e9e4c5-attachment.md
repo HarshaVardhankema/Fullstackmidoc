@@ -1,0 +1,480 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e6]:
+    - generic [ref=e8]:
+      - img [ref=e9]
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - link [ref=e12] [cursor=pointer]:
+            - /url: /home
+            - generic [ref=e13] [cursor=pointer]:
+              - img [ref=e14] [cursor=pointer]
+              - paragraph [ref=e15] [cursor=pointer]: Dashboard
+          - link [ref=e16] [cursor=pointer]:
+            - /url: /visits
+            - generic [ref=e17] [cursor=pointer]:
+              - img [ref=e18] [cursor=pointer]
+              - paragraph [ref=e19] [cursor=pointer]: Visits
+          - link [ref=e20] [cursor=pointer]:
+            - /url: /messages
+            - generic [ref=e21] [cursor=pointer]:
+              - img [ref=e22] [cursor=pointer]
+              - paragraph [ref=e23] [cursor=pointer]: Messages
+          - link [ref=e24] [cursor=pointer]:
+            - /url: /patients
+            - generic [ref=e25] [cursor=pointer]:
+              - img [ref=e26] [cursor=pointer]
+              - paragraph [ref=e27] [cursor=pointer]: Patients
+          - link [ref=e28] [cursor=pointer]:
+            - /url: /ipdpatients
+            - generic [ref=e29] [cursor=pointer]:
+              - img [ref=e30] [cursor=pointer]
+              - paragraph [ref=e31] [cursor=pointer]: IPD Patients
+          - link [ref=e32] [cursor=pointer]:
+            - /url: /prescriptions
+            - generic [ref=e33] [cursor=pointer]:
+              - img [ref=e34] [cursor=pointer]
+              - paragraph [ref=e35] [cursor=pointer]: Orders
+          - link [ref=e36] [cursor=pointer]:
+            - /url: /medicines
+            - generic [ref=e37] [cursor=pointer]:
+              - img [ref=e38] [cursor=pointer]
+              - paragraph [ref=e39] [cursor=pointer]: Medicines
+          - link [ref=e40] [cursor=pointer]:
+            - /url: /reports
+            - generic [ref=e41] [cursor=pointer]:
+              - img [ref=e42] [cursor=pointer]
+              - paragraph [ref=e43] [cursor=pointer]: Reports
+          - link [ref=e44] [cursor=pointer]:
+            - /url: /notifications
+            - generic [ref=e45] [cursor=pointer]:
+              - img [ref=e46] [cursor=pointer]
+              - paragraph [ref=e47] [cursor=pointer]: Notifications
+          - generic [ref=e48] [cursor=pointer]:
+            - generic:
+              - generic:
+                - generic:
+                  - img
+                  - paragraph: Apps
+        - generic [ref=e50] [cursor=pointer]:
+          - generic:
+            - generic:
+              - link:
+                - /url: /doctorprofile
+                - generic:
+                  - img
+    - generic [ref=e51]:
+      - navigation [ref=e52]:
+        - generic [ref=e53]:
+          - img [ref=e54]
+          - generic [ref=e55]:
+            - paragraph [ref=e56]: Ben Stock
+            - paragraph [ref=e58]: "#73888352 Female, 25 years, (+1) 9887765673, 6.1 ft, 80 lbs, 10.6 BMI"
+        - generic [ref=e59]:
+          - button [ref=e60] [cursor=pointer]:
+            - img [ref=e62] [cursor=pointer]
+            - paragraph [ref=e63] [cursor=pointer]: 00:00:21
+          - button [ref=e64] [cursor=pointer]: End/pause Visit
+          - button [ref=e65] [cursor=pointer]: Generate Prescription
+          - button [ref=e66] [cursor=pointer]: Progress Notes
+      - generic [ref=e67]:
+        - generic [ref=e69]:
+          - generic [ref=e71]:
+            - paragraph [ref=e72]: Patient Overview
+            - button [ref=e74] [cursor=pointer]: Assign
+            - button [ref=e75] [cursor=pointer]: Chat
+            - button [ref=e76] [cursor=pointer]:
+              - img [ref=e77] [cursor=pointer]
+          - generic [ref=e78]:
+            - button [ref=e79] [cursor=pointer]:
+              - img [ref=e80] [cursor=pointer]
+            - button [ref=e81] [cursor=pointer]:
+              - img [ref=e82] [cursor=pointer]
+            - generic [ref=e84]:
+              - generic [ref=e85] [cursor=pointer]: Overview
+              - generic [ref=e86] [cursor=pointer]: Past Visits
+              - generic [ref=e87] [cursor=pointer]: Vitals
+              - generic [ref=e88] [cursor=pointer]: Medications
+              - generic [ref=e89] [cursor=pointer]: Medical History
+              - generic [ref=e90] [cursor=pointer]: Surgical History
+              - generic [ref=e91] [cursor=pointer]: Family History
+              - generic [ref=e92] [cursor=pointer]: Social History
+              - generic [ref=e93] [cursor=pointer]: Allergies
+              - generic [ref=e94] [cursor=pointer]: Vaccinations
+              - generic [ref=e95] [cursor=pointer]: Investigations
+              - generic [ref=e96] [cursor=pointer]: Lab Tests
+              - generic [ref=e97] [cursor=pointer]: Imaging Reports
+          - generic [ref=e98]:
+            - img [ref=e102]
+            - generic [ref=e128]:
+              - button [ref=e131] [cursor=pointer]:
+                - img [ref=e132] [cursor=pointer]
+                - text: Add Allergy
+              - generic [ref=e133]:
+                - generic [ref=e137]:
+                  - generic [ref=e138]:
+                    - paragraph [ref=e140]: Alternaria Allergy
+                    - generic [ref=e141]:
+                      - button [ref=e142] [cursor=pointer]:
+                        - img [ref=e143] [cursor=pointer]
+                      - button [ref=e144] [cursor=pointer]:
+                        - img [ref=e145] [cursor=pointer]
+                      - button [ref=e146] [cursor=pointer]:
+                        - img [ref=e147] [cursor=pointer]
+                  - paragraph [ref=e150]: Angioedema (Swelling)
+                  - paragraph [ref=e151]: 1st Sep, 2025
+                  - separator [ref=e152]
+                - generic [ref=e156]:
+                  - generic [ref=e157]:
+                    - paragraph [ref=e159]: Alternaria Allergy
+                    - generic [ref=e160]:
+                      - button [ref=e161] [cursor=pointer]:
+                        - img [ref=e162] [cursor=pointer]
+                      - button [ref=e163] [cursor=pointer]:
+                        - img [ref=e164] [cursor=pointer]
+                      - button [ref=e165] [cursor=pointer]:
+                        - img [ref=e166] [cursor=pointer]
+                  - paragraph [ref=e169]: Angioedema (Swelling)
+                  - paragraph [ref=e170]: 1st Sep, 2025
+                  - separator [ref=e171]
+                - generic [ref=e175]:
+                  - generic [ref=e176]:
+                    - paragraph [ref=e178]: Alternaria Allergy
+                    - generic [ref=e179]:
+                      - button [ref=e180] [cursor=pointer]:
+                        - img [ref=e181] [cursor=pointer]
+                      - button [ref=e182] [cursor=pointer]:
+                        - img [ref=e183] [cursor=pointer]
+                      - button [ref=e184] [cursor=pointer]:
+                        - img [ref=e185] [cursor=pointer]
+                  - paragraph [ref=e188]: Anaphylaxis
+                  - paragraph [ref=e189]: 1st Sep, 2025
+                  - separator [ref=e190]
+        - separator [ref=e191]
+        - separator [ref=e192]
+        - separator [ref=e194]
+        - separator [ref=e195]
+        - separator [ref=e196]
+        - generic [ref=e198]:
+          - generic [ref=e200]:
+            - paragraph [ref=e201]: Doctor Notes
+            - generic [ref=e202]:
+              - button [ref=e205] [cursor=pointer]:
+                - img [ref=e206] [cursor=pointer]
+                - paragraph [ref=e208] [cursor=pointer]: Aira - Chat
+              - button [ref=e210] [cursor=pointer]:
+                - img [ref=e211] [cursor=pointer]
+                - paragraph [ref=e213] [cursor=pointer]: Record
+              - button [ref=e214] [cursor=pointer]:
+                - img [ref=e215] [cursor=pointer]
+          - generic [ref=e216]:
+            - button [ref=e217] [cursor=pointer]:
+              - img [ref=e218] [cursor=pointer]
+            - button [ref=e219] [cursor=pointer]:
+              - img [ref=e220] [cursor=pointer]
+            - generic [ref=e222]:
+              - generic [ref=e223] [cursor=pointer]: Chief complaint
+              - generic [ref=e224] [cursor=pointer]: HPI
+              - generic [ref=e225] [cursor=pointer]: ROS
+              - generic [ref=e226] [cursor=pointer]: Vitals
+              - generic [ref=e227] [cursor=pointer]: Physical Exam
+              - generic [ref=e228] [cursor=pointer]: Assessment
+              - generic [ref=e229] [cursor=pointer]: Orders
+              - generic [ref=e230] [cursor=pointer]: Documents
+          - generic [ref=e237]:
+            - generic [ref=e238]:
+              - textbox [ref=e239]
+              - paragraph [ref=e240]: Click anywhere to start typing....
+              - button [ref=e241] [cursor=pointer]: Advance
+            - generic [ref=e243]:
+              - button [ref=e244] [cursor=pointer]: Typoid
+              - button [ref=e245] [cursor=pointer]: fever
+              - button [ref=e246] [cursor=pointer]: ww
+            - generic [ref=e247]:
+              - img [ref=e250] [cursor=pointer]
+              - button:
+                - img
+              - button [disabled] [ref=e251]: Submit
+  - generic [ref=e252]:
+    - region "Notifications-top"
+    - region "Notifications-top-left"
+    - region "Notifications-top-right"
+    - region "Notifications-bottom-left"
+    - region "Notifications-bottom"
+    - region "Notifications-bottom-right"
+  - generic [ref=e253]:
+    - dialog [ref=e256]:
+      - button [ref=e257] [cursor=pointer]:
+        - img [ref=e258] [cursor=pointer]
+      - banner [ref=e261]: Add allergy
+      - separator [ref=e262]
+      - generic [ref=e263]:
+        - group [ref=e264]:
+          - generic [ref=e265]:
+            - textbox [ref=e266]
+            - generic [ref=e267]: Search Allergy
+            - button [ref=e269] [cursor=pointer]:
+              - img [ref=e270] [cursor=pointer]
+        - radiogroup [ref=e271]:
+          - generic [ref=e275]:
+            - generic [ref=e277]:
+              - paragraph [ref=e279]: Actinic Prurigo
+              - checkbox [ref=e282]
+            - generic [ref=e285]:
+              - paragraph [ref=e287]: add allergy
+              - checkbox [ref=e290]
+            - generic [ref=e293]:
+              - paragraph [ref=e295]: Alternaria Allergy
+              - generic [ref=e297] [cursor=pointer]:
+                - checkbox [checked] [ref=e298]
+                - img [ref=e301] [cursor=pointer]
+            - generic [ref=e304]:
+              - paragraph [ref=e306]: Animal Dander Allergy
+              - checkbox [ref=e309]
+            - generic [ref=e312]:
+              - paragraph [ref=e314]: Antibiotic Allergy
+              - checkbox [ref=e317]
+            - generic [ref=e320]:
+              - paragraph [ref=e322]: Aspergillus Allergy
+              - checkbox [ref=e325]
+            - generic [ref=e328]:
+              - paragraph [ref=e330]: Aspirin Allergy
+              - checkbox [ref=e333]
+            - generic [ref=e336]:
+              - paragraph [ref=e338]: Atopic Dermatitis
+              - checkbox [ref=e341]
+            - generic [ref=e344]:
+              - paragraph [ref=e346]: Bee Sting Allergy
+              - checkbox [ref=e349]
+            - generic [ref=e352]:
+              - paragraph [ref=e354]: Cat Allergy
+              - checkbox [ref=e357]
+            - generic [ref=e360]:
+              - paragraph [ref=e362]: Cladosporium Allergy
+              - checkbox [ref=e365]
+            - generic [ref=e368]:
+              - paragraph [ref=e370]: Contact Dermatitis
+              - checkbox [ref=e373]
+            - generic [ref=e376]:
+              - paragraph [ref=e378]: Contact Lens Allergy
+              - checkbox [ref=e381]
+            - generic [ref=e384]:
+              - paragraph [ref=e386]: Cosmetic Allergy
+              - checkbox [ref=e389]
+            - generic [ref=e392]:
+              - paragraph [ref=e394]: Dairy Allergy
+              - checkbox [ref=e397]
+            - generic [ref=e400]:
+              - paragraph [ref=e402]: Dog Allergy
+              - checkbox [ref=e405]
+            - generic [ref=e408]:
+              - paragraph [ref=e410]: Drug Allergy
+              - checkbox [ref=e413]
+            - generic [ref=e416]:
+              - paragraph [ref=e418]: Dust Mite Allergy
+              - checkbox [ref=e421]
+            - generic [ref=e424]:
+              - paragraph [ref=e426]: Eczema
+              - checkbox [ref=e429]
+            - generic [ref=e432]:
+              - paragraph [ref=e434]: Fire Ant Allergy
+              - checkbox [ref=e437]
+            - generic [ref=e440]:
+              - paragraph [ref=e442]: Flour Allergy in Bakeries
+              - checkbox [ref=e445]
+            - generic [ref=e448]:
+              - paragraph [ref=e450]: Food Additive Allergy
+              - checkbox [ref=e453]
+            - generic [ref=e456]:
+              - paragraph [ref=e458]: Fusarium Allergy
+              - checkbox [ref=e461]
+            - generic [ref=e464]:
+              - paragraph [ref=e466]: Giant Papillary Conjunctivitis
+              - checkbox [ref=e469]
+            - generic [ref=e472]:
+              - paragraph [ref=e474]: Guinea Pig Allergy
+              - checkbox [ref=e477]
+            - generic [ref=e480]:
+              - paragraph [ref=e482]: Hamster Allergy
+              - checkbox [ref=e485]
+            - generic [ref=e488]:
+              - paragraph [ref=e490]: Hay Fever
+              - checkbox [ref=e493]
+            - generic [ref=e496]:
+              - paragraph [ref=e498]: Hives (Urticaria)
+              - checkbox [ref=e501]
+            - generic [ref=e504]:
+              - paragraph [ref=e506]: Hornet Sting Allergy
+              - checkbox [ref=e509]
+            - generic [ref=e512]:
+              - paragraph [ref=e514]: Insect Allergy
+              - checkbox [ref=e517]
+            - generic [ref=e520]:
+              - paragraph [ref=e522]: Latex Allergy in Healthcare Workers
+              - checkbox [ref=e525]
+            - generic [ref=e528]:
+              - paragraph [ref=e530]: Latex Allergy in Rubber Industry
+              - checkbox [ref=e533]
+            - generic [ref=e536]:
+              - paragraph [ref=e538]: Latex Balloon Allergy
+              - checkbox [ref=e541]
+            - generic [ref=e544]:
+              - paragraph [ref=e546]: Latex Condom Allergy
+              - checkbox [ref=e549]
+            - generic [ref=e552]:
+              - paragraph [ref=e554]: Latex Glove Allergy
+              - checkbox [ref=e557]
+            - generic [ref=e560]:
+              - paragraph [ref=e562]: Latex Mattress Allergy
+              - checkbox [ref=e565]
+            - generic [ref=e568]:
+              - paragraph [ref=e570]: master data added into test
+              - checkbox [ref=e573]
+            - generic [ref=e576]:
+              - paragraph [ref=e578]: Metal Allergy in Welders
+              - checkbox [ref=e581]
+            - generic [ref=e584]:
+              - paragraph [ref=e586]: Mold Allergy
+              - checkbox [ref=e589]
+            - generic [ref=e592]:
+              - paragraph [ref=e594]: Mold Spore Allergy
+              - checkbox [ref=e597]
+            - generic [ref=e600]:
+              - paragraph [ref=e602]: Mosquito Bite Allergy
+              - checkbox [ref=e605]
+            - generic [ref=e608]:
+              - paragraph [ref=e610]: Natural Rubber Latex Allergy
+              - checkbox [ref=e613]
+            - generic [ref=e616]:
+              - paragraph [ref=e618]: Nickel Allergy from Cell Phones
+              - checkbox [ref=e621]
+            - generic [ref=e624]:
+              - paragraph [ref=e626]: Nickel Allergy from Clothing Fasteners
+              - checkbox [ref=e629]
+            - generic [ref=e632]:
+              - paragraph [ref=e634]: Nickel Allergy from Jewelry
+              - checkbox [ref=e637]
+            - generic [ref=e640]:
+              - paragraph [ref=e642]: Nickel Allergy from Watch Straps
+              - checkbox [ref=e645]
+            - generic [ref=e648]:
+              - paragraph [ref=e650]: Nickel Dermatitis
+              - checkbox [ref=e653]
+            - generic [ref=e656]:
+              - paragraph [ref=e658]: Non-Allergic Rhinitis
+              - checkbox [ref=e661]
+            - generic [ref=e664]:
+              - paragraph [ref=e666]: NSAID Allergy
+              - checkbox [ref=e669]
+            - generic [ref=e672]:
+              - paragraph [ref=e674]: Nut Allergy
+              - checkbox [ref=e677]
+            - generic [ref=e680]:
+              - paragraph [ref=e682]: Occupational Rhinitis
+              - checkbox [ref=e685]
+            - generic [ref=e688]:
+              - paragraph [ref=e690]: Ocular Allergy to Cosmetics
+              - checkbox [ref=e693]
+            - generic [ref=e696]:
+              - paragraph [ref=e698]: Penicillin Allergy
+              - checkbox [ref=e701]
+            - generic [ref=e704]:
+              - paragraph [ref=e706]: Penicillium Allergy
+              - checkbox [ref=e709]
+            - generic [ref=e712]:
+              - paragraph [ref=e714]: Perennial Allergic Conjunctivitis
+              - checkbox [ref=e717]
+            - generic [ref=e720]:
+              - paragraph [ref=e722]: Pet Dander Allergy
+              - checkbox [ref=e725]
+            - generic [ref=e728]:
+              - paragraph [ref=e730]: Photoallergic Eruption
+              - checkbox [ref=e733]
+            - generic [ref=e736]:
+              - paragraph [ref=e738]: Phototoxic Reaction
+              - checkbox [ref=e741]
+            - generic [ref=e744]:
+              - paragraph [ref=e746]: Pollen Allergy
+              - checkbox [ref=e749]
+            - generic [ref=e752]:
+              - paragraph [ref=e754]: Pollution Allergy
+              - checkbox [ref=e757]
+            - generic [ref=e760]:
+              - paragraph [ref=e762]: Polymorphic Light Eruption (PMLE)
+              - checkbox [ref=e765]
+            - generic [ref=e768]:
+              - paragraph [ref=e770]: Pregnancy Rhinitis
+              - checkbox [ref=e773]
+            - generic [ref=e776]:
+              - paragraph [ref=e778]: Psoriasis
+              - checkbox [ref=e781]
+            - generic [ref=e784]:
+              - paragraph [ref=e786]: Rabbit Allergy
+              - checkbox [ref=e789]
+            - generic [ref=e792]:
+              - paragraph [ref=e794]: Seasonal Allergic Conjunctivitis
+              - checkbox [ref=e797]
+            - generic [ref=e800]:
+              - paragraph [ref=e802]: Secondary Rhinitis
+              - checkbox [ref=e805]
+            - generic [ref=e808]:
+              - paragraph [ref=e810]: Shellfish Allergy
+              - checkbox [ref=e813]
+            - generic [ref=e816]:
+              - paragraph [ref=e818]: Solar Urticaria
+              - checkbox [ref=e821]
+            - generic [ref=e824]:
+              - paragraph [ref=e826]: Soy Allergy
+              - checkbox [ref=e829]
+            - generic [ref=e832]:
+              - paragraph [ref=e834]: Sulfa Drug Allergy
+              - checkbox [ref=e837]
+            - generic [ref=e840]:
+              - paragraph [ref=e842]: Tobacco Smoke Allergy
+              - checkbox [ref=e845]
+            - generic [ref=e848]:
+              - paragraph [ref=e850]: Vitamin Allergy
+              - checkbox [ref=e853]
+            - generic [ref=e856]:
+              - paragraph [ref=e858]: Wasp Sting Allergy
+              - checkbox [ref=e861]
+            - generic [ref=e864]:
+              - paragraph [ref=e866]: Wheat Allergy
+              - checkbox [ref=e869]
+            - generic [ref=e872]:
+              - paragraph [ref=e874]: Wood Dust Allergy
+              - checkbox [ref=e877]
+            - separator [ref=e879]
+            - heading [level=2] [ref=e880]: Other Allergy
+            - group [ref=e881]:
+              - textbox [ref=e882]
+              - generic: Allergy
+      - contentinfo [ref=e883]:
+        - button [ref=e885] [cursor=pointer]: Continue
+    - dialog "Add allergy" [ref=e888]:
+      - generic:
+        - button:
+          - img
+        - button "Close" [ref=e889] [cursor=pointer]:
+          - img [ref=e890] [cursor=pointer]
+      - banner [ref=e893]: Add allergy
+      - generic [ref=e896]:
+        - paragraph [ref=e897]: Alternaria Allergy
+        - group [ref=e898]:
+          - textbox "Select a Date*" [ref=e900]: "2025"
+          - generic: Select a Date*
+        - button "Reaction* Angioedema (Swelling) Remove condition" [ref=e903] [cursor=pointer]:
+          - generic [ref=e904] [cursor=pointer]:
+            - paragraph [ref=e905] [cursor=pointer]: Reaction*
+            - generic [ref=e906] [cursor=pointer]:
+              - paragraph [ref=e907] [cursor=pointer]: Angioedema (Swelling)
+              - button "Remove condition" [ref=e908] [cursor=pointer]:
+                - img
+        - button "Add Document" [ref=e909] [cursor=pointer]:
+          - img [ref=e910] [cursor=pointer]
+          - text: Add Document
+      - contentinfo [ref=e911]:
+        - button "Add Allergy" [active] [ref=e913] [cursor=pointer]
+```

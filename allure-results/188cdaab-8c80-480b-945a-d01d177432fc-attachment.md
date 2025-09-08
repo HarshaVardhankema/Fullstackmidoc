@@ -1,0 +1,560 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e6]:
+    - generic [ref=e8]:
+      - img [ref=e9]
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - link "Dashboard" [ref=e12] [cursor=pointer]:
+            - /url: /home
+            - generic [ref=e13] [cursor=pointer]:
+              - img [ref=e14] [cursor=pointer]
+              - paragraph [ref=e15] [cursor=pointer]: Dashboard
+          - link "Visits" [ref=e16] [cursor=pointer]:
+            - /url: /visits
+            - generic [ref=e17] [cursor=pointer]:
+              - img [ref=e18] [cursor=pointer]
+              - paragraph [ref=e19] [cursor=pointer]: Visits
+          - link "Messages" [ref=e20] [cursor=pointer]:
+            - /url: /messages
+            - generic [ref=e21] [cursor=pointer]:
+              - img [ref=e22] [cursor=pointer]
+              - paragraph [ref=e23] [cursor=pointer]: Messages
+          - link "Patients" [ref=e24] [cursor=pointer]:
+            - /url: /patients
+            - generic [ref=e25] [cursor=pointer]:
+              - img [ref=e26] [cursor=pointer]
+              - paragraph [ref=e27] [cursor=pointer]: Patients
+          - link "IPD Patients" [ref=e28] [cursor=pointer]:
+            - /url: /ipdpatients
+            - generic [ref=e29] [cursor=pointer]:
+              - img [ref=e30] [cursor=pointer]
+              - paragraph [ref=e31] [cursor=pointer]: IPD Patients
+          - link "Orders" [ref=e32] [cursor=pointer]:
+            - /url: /prescriptions
+            - generic [ref=e33] [cursor=pointer]:
+              - img [ref=e34] [cursor=pointer]
+              - paragraph [ref=e35] [cursor=pointer]: Orders
+          - link "Medicines" [ref=e36] [cursor=pointer]:
+            - /url: /medicines
+            - generic [ref=e37] [cursor=pointer]:
+              - img [ref=e38] [cursor=pointer]
+              - paragraph [ref=e39] [cursor=pointer]: Medicines
+          - link "Reports" [ref=e40] [cursor=pointer]:
+            - /url: /reports
+            - generic [ref=e41] [cursor=pointer]:
+              - img [ref=e42] [cursor=pointer]
+              - paragraph [ref=e43] [cursor=pointer]: Reports
+          - link "Notifications" [ref=e44] [cursor=pointer]:
+            - /url: /notifications
+            - generic [ref=e45] [cursor=pointer]:
+              - img [ref=e46] [cursor=pointer]
+              - paragraph [ref=e47] [cursor=pointer]: Notifications
+          - generic [ref=e48] [cursor=pointer]:
+            - generic:
+              - generic:
+                - generic:
+                  - img
+                  - paragraph: Apps
+        - generic [ref=e50] [cursor=pointer]:
+          - generic:
+            - generic:
+              - link:
+                - /url: /doctorprofile
+                - generic:
+                  - img
+    - generic [ref=e51]:
+      - navigation [ref=e52]:
+        - img [ref=e53] [cursor=pointer]
+        - paragraph [ref=e55]: Visit Detail
+        - generic [ref=e57]:
+          - button "Aira - Chat" [ref=e60] [cursor=pointer]:
+            - img [ref=e61] [cursor=pointer]
+            - paragraph [ref=e63] [cursor=pointer]: Aira - Chat
+          - button "Record" [ref=e65] [cursor=pointer]:
+            - img [ref=e66] [cursor=pointer]
+            - paragraph [ref=e68] [cursor=pointer]: Record
+          - button "Available" [ref=e70] [cursor=pointer]:
+            - img [ref=e71] [cursor=pointer]
+            - paragraph [ref=e72] [cursor=pointer]: Available
+            - checkbox [checked] [ref=e74]
+        - text: ;
+      - generic [ref=e78]:
+        - generic [ref=e79]:
+          - generic [ref=e80]:
+            - generic [ref=e81]:
+              - img [ref=e82] [cursor=pointer]
+              - generic [ref=e83]:
+                - paragraph [ref=e84] [cursor=pointer]: Ben Stock
+                - paragraph [ref=e85]: "#27780D-5"
+            - generic [ref=e86]:
+              - button "Message patient" [ref=e87] [cursor=pointer]
+              - button "View Profile" [ref=e88] [cursor=pointer]
+          - generic [ref=e91]:
+            - generic [ref=e92]:
+              - generic [ref=e93]:
+                - img [ref=e94]
+                - paragraph [ref=e95]: 5th Sep, 2025
+              - separator [ref=e96]
+              - generic [ref=e97]:
+                - img [ref=e98]
+                - paragraph [ref=e99]: 09:10 AM
+            - generic [ref=e100]:
+              - img [ref=e101]
+              - paragraph [ref=e102]: Ben04@gmail.com
+            - generic [ref=e103]:
+              - img [ref=e104]
+              - generic [ref=e105]:
+                - img "Country Flag" [ref=e106]
+                - paragraph [ref=e107]: (+1) 9887765673
+            - generic [ref=e108]:
+              - img [ref=e109]
+              - paragraph [ref=e110]: female
+            - generic [ref=e111]:
+              - img [ref=e112]
+              - paragraph [ref=e113]: 6.1 ft
+            - generic [ref=e114]:
+              - img [ref=e115]
+              - paragraph [ref=e116]: 80 lbs
+            - generic [ref=e117]:
+              - img [ref=e118]
+              - paragraph [ref=e119]:
+                - paragraph [ref=e120]: 20 August, 2000 (25 Years0)
+            - generic [ref=e121]:
+              - img [ref=e122]
+              - paragraph [ref=e123]: "73888352"
+            - generic [ref=e124]:
+              - button [disabled] [ref=e125]:
+                - img [ref=e126]
+              - button "Completed" [disabled] [ref=e127]
+        - generic [ref=e129]:
+          - generic [ref=e130]:
+            - generic [ref=e131]:
+              - heading "chief complaint" [level=2] [ref=e133]
+              - img [ref=e135]
+            - generic [ref=e137]:
+              - img [ref=e139]
+              - paragraph [ref=e140]: No Data available
+          - generic [ref=e141]:
+            - generic [ref=e142]:
+              - heading "history of present illness" [level=2] [ref=e144]
+              - img [ref=e146]
+            - generic [ref=e148]:
+              - img [ref=e150]
+              - paragraph [ref=e151]: No Data available
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - generic [ref=e155] [cursor=pointer]:
+                - heading "Demographics" [level=2] [ref=e157] [cursor=pointer]
+                - img [ref=e159] [cursor=pointer]
+              - generic [ref=e161]:
+                - generic [ref=e162]:
+                  - generic [ref=e163]:
+                    - paragraph [ref=e164]:
+                      - paragraph [ref=e165]: "6.1"
+                    - paragraph [ref=e167]: ft
+                  - paragraph [ref=e168]: Height
+                - generic [ref=e169]:
+                  - generic [ref=e170]:
+                    - paragraph [ref=e171]:
+                      - paragraph [ref=e172]: "80"
+                    - paragraph [ref=e173]:
+                      - paragraph [ref=e174]: lbs
+                  - paragraph [ref=e175]: Weight
+                - generic [ref=e176]:
+                  - paragraph [ref=e178]:
+                    - paragraph [ref=e179]: "10.6"
+                  - paragraph [ref=e180]: BMI
+            - generic [ref=e181]:
+              - generic [ref=e182] [cursor=pointer]:
+                - heading "physical exam" [level=2] [ref=e184] [cursor=pointer]
+                - img [ref=e186] [cursor=pointer]
+              - generic [ref=e188]:
+                - img [ref=e190]
+                - paragraph [ref=e191]: No Data available
+            - generic [ref=e192]:
+              - generic [ref=e193] [cursor=pointer]:
+                - heading "review of system" [level=2] [ref=e195] [cursor=pointer]
+                - img [ref=e197] [cursor=pointer]
+              - generic [ref=e199]:
+                - img [ref=e201]
+                - paragraph [ref=e202]: No Data available
+            - generic [ref=e203]:
+              - generic [ref=e204] [cursor=pointer]:
+                - heading "Recommended Tests" [level=2] [ref=e206] [cursor=pointer]
+                - img [ref=e208] [cursor=pointer]
+              - generic [ref=e211]:
+                - img [ref=e213]
+                - paragraph [ref=e214]: No Data available
+            - generic [ref=e215]:
+              - generic [ref=e216] [cursor=pointer]:
+                - heading "doctors assessment" [level=2] [ref=e218] [cursor=pointer]
+                - img [ref=e220] [cursor=pointer]
+              - generic [ref=e223]:
+                - img [ref=e225]
+                - paragraph [ref=e226]: No Data available
+            - generic [ref=e227]:
+              - generic [ref=e228] [cursor=pointer]:
+                - heading "Treatment Team" [level=2] [ref=e230] [cursor=pointer]
+                - img [ref=e232] [cursor=pointer]
+              - generic [ref=e234]:
+                - generic [ref=e235]:
+                  - paragraph [ref=e236]: High Lander
+                  - paragraph [ref=e237]: "Plan: Appointments"
+                  - paragraph [ref=e238]: 5th Sep, 2025
+                - generic [ref=e239]:
+                  - paragraph
+                  - paragraph [ref=e240]: "Plan: labs"
+                  - paragraph [ref=e241]: 5th Sep, 2025
+                - generic [ref=e242]:
+                  - paragraph
+                  - paragraph [ref=e243]: "Plan: Surgery"
+                  - paragraph [ref=e244]: 5th Sep, 2025
+                - generic [ref=e245]:
+                  - paragraph [ref=e246]: AluraJenson
+                  - paragraph [ref=e247]: "Plan: Surgery"
+                  - paragraph [ref=e248]: 5th Sep, 2025
+            - generic [ref=e249]:
+              - generic [ref=e250] [cursor=pointer]:
+                - heading "Past Medical History" [level=2] [ref=e252] [cursor=pointer]
+                - img [ref=e254] [cursor=pointer]
+              - generic [ref=e257]:
+                - generic [ref=e258]:
+                  - paragraph [ref=e261]: Anxiety Disorders
+                  - paragraph [ref=e264]: 1st Sep, 2025
+                - generic [ref=e265]:
+                  - paragraph [ref=e268]: Arthritis
+                  - paragraph [ref=e271]: 1st Sep, 2025
+                - generic [ref=e272]:
+                  - paragraph [ref=e275]: Arthritis
+                  - paragraph [ref=e278]: 1st Sep, 2025
+                - generic [ref=e279]:
+                  - paragraph [ref=e282]: Arthritis
+                  - paragraph [ref=e285]: 1st Sep, 2025
+                - generic [ref=e286]:
+                  - paragraph [ref=e289]: Arthritis
+                  - paragraph [ref=e292]: 1st Sep, 2025
+                - generic [ref=e293]:
+                  - paragraph [ref=e296]: Arthritis
+                  - paragraph [ref=e299]: 1st Sep, 2025
+                - generic [ref=e300]:
+                  - paragraph [ref=e303]: Arthritis
+                  - paragraph [ref=e306]: 1st Sep, 2025
+                - generic [ref=e307]:
+                  - paragraph [ref=e310]: Arthritis
+                  - paragraph [ref=e313]: 1st Sep, 2025
+                - generic [ref=e314]:
+                  - paragraph [ref=e317]: Arthritis
+                  - paragraph [ref=e320]: 1st Sep, 2025
+            - generic [ref=e321]:
+              - generic [ref=e322] [cursor=pointer]:
+                - heading "Past Surgical History" [level=2] [ref=e324] [cursor=pointer]
+                - img [ref=e326] [cursor=pointer]
+              - generic [ref=e329]:
+                - generic [ref=e330]:
+                  - paragraph [ref=e333]: Gastric bypass surgery
+                  - paragraph [ref=e336]: 5th Sep, 2025
+                - generic [ref=e337]:
+                  - paragraph [ref=e340]: Gastric bypass surgery
+                  - paragraph [ref=e343]: 5th Sep, 2025
+                - generic [ref=e344]:
+                  - paragraph [ref=e347]: Gastric bypass surgery
+                  - paragraph [ref=e350]: 5th Sep, 2025
+                - generic [ref=e351]:
+                  - paragraph [ref=e354]: Gastric bypass surgery
+                  - paragraph [ref=e357]: 5th Sep, 2025
+                - generic [ref=e358]:
+                  - paragraph [ref=e361]: Gastric bypass surgery
+                  - paragraph [ref=e364]: 5th Sep, 2025
+            - generic [ref=e365]:
+              - generic [ref=e366] [cursor=pointer]:
+                - heading "family history" [level=2] [ref=e368] [cursor=pointer]
+                - img [ref=e370] [cursor=pointer]
+              - generic [ref=e373]:
+                - img [ref=e375]
+                - paragraph [ref=e376]: No Data available
+            - generic [ref=e377]:
+              - generic [ref=e378] [cursor=pointer]:
+                - heading "social History" [level=2] [ref=e380] [cursor=pointer]
+                - img [ref=e382] [cursor=pointer]
+              - generic [ref=e385]:
+                - img [ref=e387]
+                - paragraph [ref=e388]: No Data available
+            - generic [ref=e389]:
+              - generic [ref=e390] [cursor=pointer]:
+                - heading "current medications" [level=2] [ref=e392] [cursor=pointer]
+                - img [ref=e394] [cursor=pointer]
+              - list [ref=e398]:
+                - generic [ref=e399]:
+                  - img [ref=e401]
+                  - paragraph [ref=e402]: No Data available
+            - generic [ref=e405]:
+              - generic [ref=e406] [cursor=pointer]:
+                - heading "vitals" [level=2] [ref=e408] [cursor=pointer]
+                - img [ref=e410] [cursor=pointer]
+              - generic [ref=e413]:
+                - generic [ref=e414]:
+                  - paragraph [ref=e415]: SPO2
+                  - paragraph
+                  - paragraph
+                  - paragraph [ref=e417]: "-"
+                - generic [ref=e418]:
+                  - paragraph [ref=e419]: Respiratory
+                  - paragraph
+                  - paragraph
+                  - paragraph [ref=e421]: "-"
+                - generic [ref=e422]:
+                  - paragraph [ref=e423]: Postprandial Blood Glucose
+                  - paragraph
+                  - paragraph
+                  - paragraph [ref=e425]: "-"
+                - generic [ref=e426]:
+                  - paragraph [ref=e427]: Heart rate
+                  - paragraph
+                  - paragraph
+                  - paragraph [ref=e429]: "-"
+                - generic [ref=e430]:
+                  - paragraph [ref=e431]: Fasting Blood Glucose
+                  - paragraph
+                  - paragraph
+                  - paragraph [ref=e433]: "-"
+                - generic [ref=e434]:
+                  - paragraph [ref=e435]: BP
+                  - paragraph
+                  - paragraph
+                  - paragraph [ref=e437]: "-"
+                - generic [ref=e438]:
+                  - paragraph [ref=e439]: Body temperature
+                  - paragraph
+                  - paragraph
+                  - paragraph [ref=e441]: "-"
+            - generic [ref=e444]:
+              - generic [ref=e445] [cursor=pointer]:
+                - heading "Investigations" [level=2] [ref=e447] [cursor=pointer]
+                - img [ref=e449] [cursor=pointer]
+              - generic [ref=e452]:
+                - generic [ref=e453]:
+                  - paragraph [ref=e454]: Alanine Aminotransferase
+                  - paragraph [ref=e455]: "15"
+                  - paragraph [ref=e456]: (U/L)
+                  - generic [ref=e457]:
+                    - paragraph [ref=e459]: "-"
+                    - img "Normal" [ref=e461]
+                - generic [ref=e462]:
+                  - paragraph [ref=e463]: Albumin
+                  - paragraph [ref=e464]: "55888"
+                  - paragraph [ref=e465]: (g/dL)
+                  - generic [ref=e466]:
+                    - paragraph [ref=e468]: "-"
+                    - img "Normal" [ref=e470]
+                - generic [ref=e471]:
+                  - paragraph [ref=e472]: Alkaline Phosphatase
+                  - paragraph [ref=e473]: "88"
+                  - paragraph [ref=e474]: (U/L)
+                  - generic [ref=e475]:
+                    - paragraph [ref=e477]: "-"
+                    - img "Normal" [ref=e479]
+                - generic [ref=e480]:
+                  - paragraph [ref=e481]: Aspartate Aminotransferase
+                  - paragraph [ref=e482]: "88"
+                  - paragraph [ref=e483]: (U/L)
+                  - generic [ref=e484]:
+                    - paragraph [ref=e486]: "-"
+                    - img "Normal" [ref=e488]
+                - generic [ref=e489]:
+                  - paragraph [ref=e490]: Direct Bilirubin
+                  - paragraph [ref=e491]: "528"
+                  - paragraph [ref=e492]: (mg/dL)
+                  - generic [ref=e493]:
+                    - paragraph [ref=e495]: "-"
+                    - img "Normal" [ref=e497]
+                - generic [ref=e498]:
+                  - paragraph [ref=e499]: Total Bilirubin
+                  - paragraph [ref=e500]: "58"
+                  - paragraph [ref=e501]: (mg/dL)
+                  - generic [ref=e502]:
+                    - paragraph [ref=e504]: "-"
+                    - img "Normal" [ref=e506]
+                - generic [ref=e507]:
+                  - paragraph [ref=e508]: Total Protein
+                  - paragraph [ref=e509]: "52"
+                  - paragraph [ref=e510]: (g/dL)
+                  - generic [ref=e511]:
+                    - paragraph [ref=e513]: "-"
+                    - img "Normal" [ref=e515]
+            - generic [ref=e516]:
+              - generic [ref=e517]:
+                - generic [ref=e518] [cursor=pointer]:
+                  - heading "labs" [level=2] [ref=e520] [cursor=pointer]
+                  - img [ref=e522] [cursor=pointer]
+                - generic [ref=e526]:
+                  - img [ref=e528]
+                  - paragraph [ref=e529]: No Data available
+              - generic [ref=e530]:
+                - generic [ref=e531] [cursor=pointer]:
+                  - heading "IMAGING" [level=2] [ref=e533] [cursor=pointer]
+                  - img [ref=e535] [cursor=pointer]
+                - generic [ref=e539]:
+                  - img [ref=e541]
+                  - paragraph [ref=e542]: No Data available
+        - generic [ref=e544]:
+          - generic [ref=e545]:
+            - heading "Quick Links" [level=2] [ref=e546]
+            - link "New visit" [ref=e549] [cursor=pointer]:
+              - /url: "#"
+              - text: New visit
+          - button "Current Visit" [disabled] [ref=e552]
+          - heading "Previous visits Progress" [level=2] [ref=e553]:
+            - text: Previous visits
+            - generic "Progress" [ref=e555]:
+              - generic [ref=e556]:
+                - generic [ref=e558]:
+                  - generic [ref=e559]:
+                    - paragraph [ref=e560]: 7th Sep, 2025
+                    - paragraph [ref=e561]: High Lander , 6BCD88-D
+                    - paragraph [ref=e562]: Cardiology
+                  - paragraph [ref=e563]:
+                    - paragraph [ref=e565]: "Reason: -/-"
+                    - button "View details" [ref=e566] [cursor=pointer]:
+                      - paragraph [ref=e567] [cursor=pointer]: View details
+                - separator [ref=e568]
+              - generic [ref=e569]:
+                - generic [ref=e571]:
+                  - generic [ref=e572]:
+                    - paragraph [ref=e573]: 6th Sep, 2025
+                    - paragraph [ref=e574]: High Lander , 77AAE2-9
+                    - paragraph [ref=e575]: Cardiology
+                  - paragraph [ref=e576]:
+                    - paragraph [ref=e578]: "Reason: -/-"
+                    - button "View details" [ref=e579] [cursor=pointer]:
+                      - paragraph [ref=e580] [cursor=pointer]: View details
+                - separator [ref=e581]
+              - generic [ref=e582]:
+                - generic [ref=e584]:
+                  - generic [ref=e585]:
+                    - paragraph [ref=e586]: 6th Sep, 2025
+                    - paragraph [ref=e587]: High Lander , F8B07E-6
+                    - paragraph [ref=e588]: Cardiology
+                  - paragraph [ref=e589]:
+                    - paragraph [ref=e591]: "Reason: -/-"
+                    - button "View details" [ref=e592] [cursor=pointer]:
+                      - paragraph [ref=e593] [cursor=pointer]: View details
+                - separator [ref=e594]
+              - generic [ref=e595]:
+                - generic [ref=e597]:
+                  - generic [ref=e598]:
+                    - paragraph [ref=e599]: 5th Sep, 2025
+                    - paragraph [ref=e600]: High Lander , 27780D-5
+                    - paragraph [ref=e601]: Cardiology
+                  - paragraph [ref=e602]:
+                    - paragraph [ref=e604]: "Reason: -/-"
+                    - button "View details" [ref=e605] [cursor=pointer]:
+                      - paragraph [ref=e606] [cursor=pointer]: View details
+                - separator [ref=e607]
+              - generic [ref=e608]:
+                - generic [ref=e610]:
+                  - generic [ref=e611]:
+                    - paragraph [ref=e612]: 5th Sep, 2025
+                    - paragraph [ref=e613]: High Lander , AA215B-4
+                    - paragraph [ref=e614]: Cardiology
+                  - paragraph [ref=e615]:
+                    - paragraph [ref=e617]: "Reason: -/-"
+                    - button "View details" [ref=e618] [cursor=pointer]:
+                      - paragraph [ref=e619] [cursor=pointer]: View details
+                - separator [ref=e620]
+              - generic [ref=e621]:
+                - generic [ref=e623]:
+                  - generic [ref=e624]:
+                    - paragraph [ref=e625]: 5th Sep, 2025
+                    - paragraph [ref=e626]: High Lander , 571124-2
+                    - paragraph [ref=e627]: Cardiology
+                  - paragraph [ref=e628]:
+                    - paragraph [ref=e630]: "Reason: -/-"
+                    - button "View details" [ref=e631] [cursor=pointer]:
+                      - paragraph [ref=e632] [cursor=pointer]: View details
+                - separator [ref=e633]
+              - generic [ref=e634]:
+                - generic [ref=e636]:
+                  - generic [ref=e637]:
+                    - paragraph [ref=e638]: 5th Sep, 2025
+                    - paragraph [ref=e639]: High Lander , D517E1-D
+                    - paragraph [ref=e640]: Cardiology
+                  - paragraph [ref=e641]:
+                    - paragraph [ref=e643]: "Reason: -/-"
+                    - button "View details" [ref=e644] [cursor=pointer]:
+                      - paragraph [ref=e645] [cursor=pointer]: View details
+                - separator [ref=e646]
+              - generic [ref=e647]:
+                - generic [ref=e649]:
+                  - generic [ref=e650]:
+                    - paragraph [ref=e651]: 5th Sep, 2025
+                    - paragraph [ref=e652]: High Lander , E27297-C
+                    - paragraph [ref=e653]: Cardiology
+                  - paragraph [ref=e654]:
+                    - paragraph [ref=e656]: "Reason: Typoid"
+                    - button "View details" [ref=e657] [cursor=pointer]:
+                      - paragraph [ref=e658] [cursor=pointer]: View details
+                - separator [ref=e659]
+              - generic [ref=e660]:
+                - generic [ref=e662]:
+                  - generic [ref=e663]:
+                    - paragraph [ref=e664]: 5th Sep, 2025
+                    - paragraph [ref=e665]: High Lander , B1F4BA-1
+                    - paragraph [ref=e666]: Cardiology
+                  - paragraph [ref=e667]:
+                    - paragraph [ref=e669]: "Reason: -/-"
+                    - button "View details" [ref=e670] [cursor=pointer]:
+                      - paragraph [ref=e671] [cursor=pointer]: View details
+                - separator [ref=e672]
+              - generic [ref=e673]:
+                - generic [ref=e675]:
+                  - generic [ref=e676]:
+                    - paragraph [ref=e677]: 5th Sep, 2025
+                    - paragraph [ref=e678]: High Lander , 6B8C3A-D
+                    - paragraph [ref=e679]: Cardiology
+                  - paragraph [ref=e680]:
+                    - paragraph [ref=e682]: "Reason: -/-"
+                    - button "View details" [ref=e683] [cursor=pointer]:
+                      - paragraph [ref=e684] [cursor=pointer]: View details
+                - separator [ref=e685]
+              - generic [ref=e686]:
+                - generic [ref=e688]:
+                  - generic [ref=e689]:
+                    - paragraph [ref=e690]: 5th Sep, 2025
+                    - paragraph [ref=e691]: High Lander , A12A1C-A
+                    - paragraph [ref=e692]: Cardiology
+                  - paragraph [ref=e693]:
+                    - paragraph [ref=e695]: "Reason: -/-"
+                    - button "View details" [ref=e696] [cursor=pointer]:
+                      - paragraph [ref=e697] [cursor=pointer]: View details
+                - separator [ref=e698]
+              - generic [ref=e699]:
+                - generic [ref=e701]:
+                  - generic [ref=e702]:
+                    - paragraph [ref=e703]: 5th Sep, 2025
+                    - paragraph [ref=e704]: High Lander , 7E1951-3
+                    - paragraph [ref=e705]: Cardiology
+                  - paragraph [ref=e706]:
+                    - paragraph [ref=e708]: "Reason: -/-"
+                    - button "View details" [ref=e709] [cursor=pointer]:
+                      - paragraph [ref=e710] [cursor=pointer]: View details
+                - separator [ref=e711]
+              - generic [ref=e714]:
+                - generic [ref=e715]:
+                  - paragraph [ref=e716]: 5th Sep, 2025
+                  - paragraph [ref=e717]: High Lander , 136D48-3
+                  - paragraph [ref=e718]: Cardiology
+                - paragraph [ref=e719]:
+                  - paragraph [ref=e721]: "Reason: -/-"
+                  - button "View details" [ref=e722] [cursor=pointer]:
+                    - paragraph [ref=e723] [cursor=pointer]: View details
+  - generic [ref=e724]:
+    - region "Notifications-top"
+    - region "Notifications-top-left"
+    - region "Notifications-top-right"
+    - region "Notifications-bottom-left"
+    - region "Notifications-bottom"
+    - region "Notifications-bottom-right"
+```

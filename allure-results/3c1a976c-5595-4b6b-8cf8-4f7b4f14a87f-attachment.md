@@ -1,0 +1,463 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e6]:
+    - generic [ref=e8]:
+      - img [ref=e9]
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - link "Dashboard" [ref=e12] [cursor=pointer]:
+            - /url: /home
+            - generic [ref=e13] [cursor=pointer]:
+              - img [ref=e14] [cursor=pointer]
+              - paragraph [ref=e15] [cursor=pointer]: Dashboard
+          - link "Visits" [ref=e16] [cursor=pointer]:
+            - /url: /visits
+            - generic [ref=e17] [cursor=pointer]:
+              - img [ref=e18] [cursor=pointer]
+              - paragraph [ref=e19] [cursor=pointer]: Visits
+          - link "Messages" [ref=e20] [cursor=pointer]:
+            - /url: /messages
+            - generic [ref=e21] [cursor=pointer]:
+              - img [ref=e22] [cursor=pointer]
+              - paragraph [ref=e23] [cursor=pointer]: Messages
+          - link "Patients" [ref=e24] [cursor=pointer]:
+            - /url: /patients
+            - generic [ref=e25] [cursor=pointer]:
+              - img [ref=e26] [cursor=pointer]
+              - paragraph [ref=e27] [cursor=pointer]: Patients
+          - link "IPD Patients" [ref=e28] [cursor=pointer]:
+            - /url: /ipdpatients
+            - generic [ref=e29] [cursor=pointer]:
+              - img [ref=e30] [cursor=pointer]
+              - paragraph [ref=e31] [cursor=pointer]: IPD Patients
+          - link "Orders" [ref=e32] [cursor=pointer]:
+            - /url: /prescriptions
+            - generic [ref=e33] [cursor=pointer]:
+              - img [ref=e34] [cursor=pointer]
+              - paragraph [ref=e35] [cursor=pointer]: Orders
+          - link "Medicines" [ref=e36] [cursor=pointer]:
+            - /url: /medicines
+            - generic [ref=e37] [cursor=pointer]:
+              - img [ref=e38] [cursor=pointer]
+              - paragraph [ref=e39] [cursor=pointer]: Medicines
+          - link "Reports" [ref=e40] [cursor=pointer]:
+            - /url: /reports
+            - generic [ref=e41] [cursor=pointer]:
+              - img [ref=e42] [cursor=pointer]
+              - paragraph [ref=e43] [cursor=pointer]: Reports
+          - link "Notifications" [ref=e44] [cursor=pointer]:
+            - /url: /notifications
+            - generic [ref=e45] [cursor=pointer]:
+              - img [ref=e46] [cursor=pointer]
+              - paragraph [ref=e47] [cursor=pointer]: Notifications
+          - generic [ref=e48] [cursor=pointer]:
+            - generic:
+              - generic:
+                - generic:
+                  - img
+                  - paragraph: Apps
+        - generic [ref=e50] [cursor=pointer]:
+          - generic:
+            - generic:
+              - link:
+                - /url: /doctorprofile
+                - generic:
+                  - img
+    - generic [ref=e51]:
+      - navigation [ref=e52]:
+        - generic [ref=e53]:
+          - img [ref=e54]
+          - generic [ref=e55]:
+            - paragraph [ref=e56]: Olura Jenson
+            - paragraph [ref=e58]: "#19154120 Male, 41 years, (+91) 0478987654, 5.5 ft, 75 lbs, 12.5 BMI"
+        - generic [ref=e59]:
+          - button "00:01:42" [ref=e60] [cursor=pointer]:
+            - img [ref=e62] [cursor=pointer]
+            - paragraph [ref=e63] [cursor=pointer]: 00:01:42
+          - button "End/pause Visit" [ref=e64] [cursor=pointer]
+          - button "Generate Prescription" [ref=e65] [cursor=pointer]
+          - button "Progress Notes" [ref=e66] [cursor=pointer]
+      - generic [ref=e67]:
+        - generic [ref=e69]:
+          - generic [ref=e71]:
+            - paragraph [ref=e72]: Patient Overview
+            - button "Assign" [ref=e74] [cursor=pointer]
+            - button "Chat" [ref=e75] [cursor=pointer]
+            - button [ref=e76] [cursor=pointer]:
+              - img [ref=e77] [cursor=pointer]
+          - generic [ref=e78]:
+            - button [ref=e79] [cursor=pointer]:
+              - img [ref=e80] [cursor=pointer]
+            - button [ref=e81] [cursor=pointer]:
+              - img [ref=e82] [cursor=pointer]
+            - generic [ref=e84]:
+              - generic [ref=e85] [cursor=pointer]: Overview
+              - generic [ref=e86] [cursor=pointer]: Past Visits
+              - generic [ref=e87] [cursor=pointer]: Vitals
+              - generic [ref=e88] [cursor=pointer]: Medications
+              - generic [ref=e89] [cursor=pointer]: Medical History
+              - generic [ref=e90] [cursor=pointer]: Surgical History
+              - generic [ref=e91] [cursor=pointer]: Family History
+              - generic [ref=e92] [cursor=pointer]: Social History
+              - generic [ref=e93] [cursor=pointer]: Allergies
+              - generic [ref=e94] [cursor=pointer]: Vaccinations
+              - generic [ref=e95] [cursor=pointer]: Investigations
+              - generic [ref=e96] [cursor=pointer]: Lab Tests
+              - generic [ref=e97] [cursor=pointer]: Imaging Reports
+          - generic [ref=e100]:
+            - button "Add Medication" [ref=e103] [cursor=pointer]:
+              - img [ref=e104] [cursor=pointer]
+              - text: Add Medication
+            - generic [ref=e105]:
+              - generic [ref=e106]:
+                - paragraph [ref=e109]: 8th Sep, 2025
+                - generic [ref=e112]:
+                  - generic [ref=e113]:
+                    - generic [ref=e114]:
+                      - generic [ref=e115]:
+                        - generic [ref=e116]: Tablet
+                        - paragraph [ref=e118]: Dolo650
+                      - generic [ref=e119]:
+                        - button "Get AI suggestions" [ref=e120] [cursor=pointer]:
+                          - img [ref=e121] [cursor=pointer]
+                        - button [ref=e122] [cursor=pointer]:
+                          - img [ref=e123] [cursor=pointer]
+                        - button [ref=e124] [cursor=pointer]:
+                          - img [ref=e125] [cursor=pointer]
+                    - separator [ref=e126]
+                    - generic [ref=e127]:
+                      - generic [ref=e128]:
+                        - img [ref=e129]
+                        - paragraph [ref=e130]: 1 Qty
+                        - paragraph [ref=e132]: Daily thrice
+                      - generic [ref=e133]:
+                        - img [ref=e134]
+                        - paragraph [ref=e135]: Current
+                    - separator [ref=e136]
+                    - button "+ Add to orders" [ref=e137] [cursor=pointer]
+                  - generic [ref=e138]:
+                    - generic [ref=e139]:
+                      - generic [ref=e140]:
+                        - generic [ref=e141]: Tablet
+                        - paragraph [ref=e143]: Dolo650
+                      - generic [ref=e144]:
+                        - button "Get AI suggestions" [ref=e145] [cursor=pointer]:
+                          - img [ref=e146] [cursor=pointer]
+                        - button [ref=e147] [cursor=pointer]:
+                          - img [ref=e148] [cursor=pointer]
+                        - button [ref=e149] [cursor=pointer]:
+                          - img [ref=e150] [cursor=pointer]
+                    - separator [ref=e151]
+                    - generic [ref=e152]:
+                      - generic [ref=e153]:
+                        - img [ref=e154]
+                        - paragraph [ref=e155]: 1 Qty
+                        - paragraph [ref=e157]: Daily thrice
+                      - generic [ref=e158]:
+                        - img [ref=e159]
+                        - paragraph [ref=e160]: Current
+                    - separator [ref=e161]
+                    - button "+ Add to orders" [ref=e162] [cursor=pointer]
+                  - generic [ref=e163]:
+                    - generic [ref=e164]:
+                      - generic [ref=e165]:
+                        - generic [ref=e166]: Tablet
+                        - paragraph [ref=e168]: dolo650
+                      - generic [ref=e169]:
+                        - button "Get AI suggestions" [ref=e170] [cursor=pointer]:
+                          - img [ref=e171] [cursor=pointer]
+                        - button [ref=e172] [cursor=pointer]:
+                          - img [ref=e173] [cursor=pointer]
+                        - button [ref=e174] [cursor=pointer]:
+                          - img [ref=e175] [cursor=pointer]
+                    - separator [ref=e176]
+                    - generic [ref=e177]:
+                      - generic [ref=e178]:
+                        - img [ref=e179]
+                        - paragraph [ref=e180]: 1 Qty
+                        - paragraph [ref=e182]: Daily twice
+                      - generic [ref=e183]:
+                        - img [ref=e184]
+                        - paragraph [ref=e185]: Current
+                    - separator [ref=e186]
+                    - button "+ Add to orders" [ref=e187] [cursor=pointer]
+              - generic [ref=e189]:
+                - paragraph [ref=e192]: 7th Sep, 2025
+                - generic [ref=e195]:
+                  - generic [ref=e196]:
+                    - generic [ref=e197]:
+                      - generic [ref=e198]:
+                        - generic [ref=e199]: Tablet
+                        - paragraph [ref=e201]: Dolo650
+                      - generic [ref=e202]:
+                        - button "Get AI suggestions" [ref=e203] [cursor=pointer]:
+                          - img [ref=e204] [cursor=pointer]
+                        - button [ref=e205] [cursor=pointer]:
+                          - img [ref=e206] [cursor=pointer]
+                        - button [ref=e207] [cursor=pointer]:
+                          - img [ref=e208] [cursor=pointer]
+                    - separator [ref=e209]
+                    - generic [ref=e210]:
+                      - generic [ref=e211]:
+                        - img [ref=e212]
+                        - paragraph [ref=e213]: 1 Qty
+                        - paragraph [ref=e215]: Daily thrice
+                      - generic [ref=e216]:
+                        - img [ref=e217]
+                        - paragraph [ref=e218]: Current
+                    - separator [ref=e219]
+                    - button "+ Add to orders" [ref=e220] [cursor=pointer]
+                  - generic [ref=e221]:
+                    - generic [ref=e222]:
+                      - generic [ref=e223]:
+                        - generic [ref=e224]: Tablet
+                        - paragraph [ref=e226]: Dolo650
+                      - generic [ref=e227]:
+                        - button "Get AI suggestions" [ref=e228] [cursor=pointer]:
+                          - img [ref=e229] [cursor=pointer]
+                        - button [ref=e230] [cursor=pointer]:
+                          - img [ref=e231] [cursor=pointer]
+                        - button [ref=e232] [cursor=pointer]:
+                          - img [ref=e233] [cursor=pointer]
+                    - separator [ref=e234]
+                    - generic [ref=e235]:
+                      - generic [ref=e236]:
+                        - img [ref=e237]
+                        - paragraph [ref=e238]: 1 Qty
+                        - paragraph [ref=e240]: Daily thrice
+                      - generic [ref=e241]:
+                        - img [ref=e242]
+                        - paragraph [ref=e243]: Current
+                    - separator [ref=e244]
+                    - button "+ Add to orders" [ref=e245] [cursor=pointer]
+                  - generic [ref=e246]:
+                    - generic [ref=e247]:
+                      - generic [ref=e248]:
+                        - generic [ref=e249]: Tablet
+                        - paragraph [ref=e251]: Dolo650
+                      - generic [ref=e252]:
+                        - button "Get AI suggestions" [ref=e253] [cursor=pointer]:
+                          - img [ref=e254] [cursor=pointer]
+                        - button [ref=e255] [cursor=pointer]:
+                          - img [ref=e256] [cursor=pointer]
+                        - button [ref=e257] [cursor=pointer]:
+                          - img [ref=e258] [cursor=pointer]
+                    - separator [ref=e259]
+                    - generic [ref=e260]:
+                      - generic [ref=e261]:
+                        - img [ref=e262]
+                        - paragraph [ref=e263]: 1 Qty
+                        - paragraph [ref=e265]: Daily thrice
+                      - generic [ref=e266]:
+                        - img [ref=e267]
+                        - paragraph [ref=e268]: Current
+                    - separator [ref=e269]
+                    - button "+ Add to orders" [ref=e270] [cursor=pointer]
+              - generic [ref=e272]:
+                - paragraph [ref=e275]: 3rd Apr, 2025
+                - generic [ref=e279]:
+                  - generic [ref=e280]:
+                    - generic [ref=e281]:
+                      - generic [ref=e282]: Tablet
+                      - paragraph [ref=e284]: Doloper
+                    - generic [ref=e285]:
+                      - button "Get AI suggestions" [ref=e286] [cursor=pointer]:
+                        - img [ref=e287] [cursor=pointer]
+                      - button [ref=e288] [cursor=pointer]:
+                        - img [ref=e289] [cursor=pointer]
+                      - button [ref=e290] [cursor=pointer]:
+                        - img [ref=e291] [cursor=pointer]
+                  - separator [ref=e292]
+                  - generic [ref=e293]:
+                    - generic [ref=e294]:
+                      - img [ref=e295]
+                      - paragraph [ref=e296]: 3 Weeks Qty
+                    - generic [ref=e301]:
+                      - img [ref=e302]
+                      - paragraph [ref=e303]: Current
+                  - separator [ref=e304]
+                  - button "+ Add to orders" [ref=e305] [cursor=pointer]
+        - separator [ref=e307]
+        - separator [ref=e308]
+        - separator [ref=e310]
+        - separator [ref=e311]
+        - separator [ref=e312]
+        - generic [ref=e314]:
+          - generic [ref=e316]:
+            - paragraph [ref=e317]: Doctor Notes
+            - generic [ref=e318]:
+              - button "Aira - Chat" [ref=e321] [cursor=pointer]:
+                - img [ref=e322] [cursor=pointer]
+                - paragraph [ref=e324] [cursor=pointer]: Aira - Chat
+              - button "Record" [ref=e326] [cursor=pointer]:
+                - img [ref=e327] [cursor=pointer]
+                - paragraph [ref=e329] [cursor=pointer]: Record
+              - button [ref=e330] [cursor=pointer]:
+                - img [ref=e331] [cursor=pointer]
+          - generic [ref=e332]:
+            - button [ref=e333] [cursor=pointer]:
+              - img [ref=e334] [cursor=pointer]
+            - button [ref=e335] [cursor=pointer]:
+              - img [ref=e336] [cursor=pointer]
+            - generic [ref=e338]:
+              - generic [ref=e339] [cursor=pointer]: Chief complaint
+              - generic [ref=e340] [cursor=pointer]: HPI
+              - generic [ref=e341] [cursor=pointer]: ROS
+              - generic [ref=e342] [cursor=pointer]: Vitals
+              - generic [ref=e343] [cursor=pointer]: Physical Exam
+              - generic [ref=e344] [cursor=pointer]: Assessment
+              - generic [ref=e345] [cursor=pointer]: Orders
+              - generic [ref=e346] [cursor=pointer]: Documents
+          - generic [ref=e350]:
+            - generic [ref=e351]:
+              - generic [ref=e352]:
+                - button "Cardiovascular" [expanded] [ref=e353] [cursor=pointer]:
+                  - generic [ref=e354] [cursor=pointer]: Cardiovascular
+                  - img [ref=e355] [cursor=pointer]
+                - region "Cardiovascular" [ref=e358]:
+                  - button "chest pain" [ref=e359] [cursor=pointer]
+                  - button "palpitations" [ref=e360] [cursor=pointer]
+                  - button "leg swelling" [ref=e361] [cursor=pointer]
+              - generic [ref=e362]:
+                - button "Constitutional" [expanded] [ref=e363] [cursor=pointer]:
+                  - generic [ref=e364] [cursor=pointer]: Constitutional
+                  - img [ref=e365] [cursor=pointer]
+                - region "Constitutional" [ref=e368]:
+                  - button "general health status" [ref=e369] [cursor=pointer]
+                  - button "fever" [ref=e370] [cursor=pointer]
+                  - button "weight changes" [ref=e371] [cursor=pointer]
+                  - button "fatigue" [ref=e372] [cursor=pointer]
+              - generic [ref=e373]:
+                - button "Endocrine" [expanded] [ref=e374] [cursor=pointer]:
+                  - generic [ref=e375] [cursor=pointer]: Endocrine
+                  - img [ref=e376] [cursor=pointer]
+                - region "Endocrine" [ref=e379]:
+                  - button "symptoms related to diabetes" [ref=e380] [cursor=pointer]
+                  - button "symptoms related to thyroid disease" [ref=e381] [cursor=pointer]
+                  - button "symptoms related to adrenal insufficiency" [ref=e382] [cursor=pointer]
+              - generic [ref=e383]:
+                - button "Gastrointestinal" [expanded] [ref=e384] [cursor=pointer]:
+                  - generic [ref=e385] [cursor=pointer]: Gastrointestinal
+                  - img [ref=e386] [cursor=pointer]
+                - region "Gastrointestinal" [ref=e389]:
+                  - button "abdominal pain" [ref=e390] [cursor=pointer]
+                  - button "nausea" [ref=e391] [cursor=pointer]
+                  - button "vomiting" [ref=e392] [cursor=pointer]
+                  - button "diarrhea" [ref=e393] [cursor=pointer]
+                  - button "constipation" [ref=e394] [cursor=pointer]
+              - generic [ref=e395]:
+                - button "Genitourinary" [expanded] [ref=e396] [cursor=pointer]:
+                  - generic [ref=e397] [cursor=pointer]: Genitourinary
+                  - img [ref=e398] [cursor=pointer]
+                - region "Genitourinary" [ref=e401]:
+                  - button "urinary frequency" [ref=e402] [cursor=pointer]
+                  - button "urgency" [ref=e403] [cursor=pointer]
+                  - button "dysuria" [ref=e404] [cursor=pointer]
+                  - button "hematuria" [ref=e405] [cursor=pointer]
+                  - button "sexual dysfunction" [ref=e406] [cursor=pointer]
+              - generic [ref=e407]:
+                - button "Gynaecological and Obstetric" [expanded] [ref=e408] [cursor=pointer]:
+                  - generic [ref=e409] [cursor=pointer]: Gynaecological and Obstetric
+                  - img [ref=e410] [cursor=pointer]
+                - region "Gynaecological and Obstetric" [ref=e413]:
+                  - button "Leucorrhoea White Discharge" [ref=e414] [cursor=pointer]
+                  - button "PID" [ref=e415] [cursor=pointer]
+                  - button "Dysmenorrhea" [ref=e416] [cursor=pointer]
+                  - button "Amenorrhea" [ref=e417] [cursor=pointer]
+                  - button "Menorrhagia" [ref=e418] [cursor=pointer]
+                  - button "AUB" [ref=e419] [cursor=pointer]
+                  - button "DUB" [ref=e420] [cursor=pointer]
+                  - button "Hypomenorrhea Scanty Periods" [ref=e421] [cursor=pointer]
+                  - button "Prolonged Cycles" [ref=e422] [cursor=pointer]
+                  - button "Pain Abdomen" [ref=e423] [cursor=pointer]
+                  - button "Burning Micturition" [ref=e424] [cursor=pointer]
+                  - button "Urine Incontinence" [ref=e425] [cursor=pointer]
+                  - button "Urine Leaking" [ref=e426] [cursor=pointer]
+                  - button "Prolapsed Rectal Mass" [ref=e427] [cursor=pointer]
+                  - button "Prolapsed Uterus" [ref=e428] [cursor=pointer]
+                  - button "Vulva Itching" [ref=e429] [cursor=pointer]
+                  - button "Vaginitis" [ref=e430] [cursor=pointer]
+              - generic [ref=e431]:
+                - button "HEENT" [expanded] [ref=e432] [cursor=pointer]:
+                  - generic [ref=e433] [cursor=pointer]: HEENT
+                  - img [ref=e434] [cursor=pointer]
+                - region "HEENT" [ref=e437]:
+                  - button "headaches" [ref=e438] [cursor=pointer]
+                  - button "visual changes" [ref=e439] [cursor=pointer]
+                  - button "ear pain" [ref=e440] [cursor=pointer]
+                  - button "hearing loss" [ref=e441] [cursor=pointer]
+                  - button "nasal congestion" [ref=e442] [cursor=pointer]
+                  - button "sore throat" [ref=e443] [cursor=pointer]
+              - generic [ref=e444]:
+                - button "Hematologic/Lymphatic" [expanded] [ref=e445] [cursor=pointer]:
+                  - generic [ref=e446] [cursor=pointer]: Hematologic/Lymphatic
+                  - img [ref=e447] [cursor=pointer]
+                - region "Hematologic/Lymphatic" [ref=e450]:
+                  - button "bruising" [ref=e451] [cursor=pointer]
+                  - button "bleeding" [ref=e452] [cursor=pointer]
+                  - button "lymph node enlargement" [ref=e453] [cursor=pointer]
+              - generic [ref=e454]:
+                - button "Musculoskeletal" [expanded] [ref=e455] [cursor=pointer]:
+                  - generic [ref=e456] [cursor=pointer]: Musculoskeletal
+                  - img [ref=e457] [cursor=pointer]
+                - region "Musculoskeletal" [ref=e460]:
+                  - button "joint pain" [ref=e461] [cursor=pointer]
+                  - button "muscle pain" [ref=e462] [cursor=pointer]
+                  - button "stiffness" [ref=e463] [cursor=pointer]
+                  - button "swelling" [ref=e464] [cursor=pointer]
+                  - button "limited range of motion" [ref=e465] [cursor=pointer]
+              - generic [ref=e466]:
+                - button "Neurological" [expanded] [ref=e467] [cursor=pointer]:
+                  - generic [ref=e468] [cursor=pointer]: Neurological
+                  - img [ref=e469] [cursor=pointer]
+                - region "Neurological" [ref=e472]:
+                  - button "headache" [ref=e473] [cursor=pointer]
+                  - button "dizziness" [ref=e474] [cursor=pointer]
+                  - button "weakness" [ref=e475] [cursor=pointer]
+                  - button "numbness" [ref=e476] [cursor=pointer]
+                  - button "tingling" [ref=e477] [cursor=pointer]
+                  - button "seizures" [ref=e478] [cursor=pointer]
+              - generic [ref=e479]:
+                - button "Psychiatric" [expanded] [ref=e480] [cursor=pointer]:
+                  - generic [ref=e481] [cursor=pointer]: Psychiatric
+                  - img [ref=e482] [cursor=pointer]
+                - region "Psychiatric" [ref=e485]:
+                  - button "mood changes" [ref=e486] [cursor=pointer]
+                  - button "anxiety" [ref=e487] [cursor=pointer]
+                  - button "depression" [ref=e488] [cursor=pointer]
+                  - button "hallucinations" [ref=e489] [cursor=pointer]
+              - generic [ref=e490]:
+                - button "Respiratory 1 Selected" [expanded] [ref=e491] [cursor=pointer]:
+                  - generic [ref=e492] [cursor=pointer]:
+                    - text: Respiratory
+                    - generic [ref=e493] [cursor=pointer]: 1 Selected
+                  - img [ref=e494] [cursor=pointer]
+                - region "Respiratory 1 Selected" [ref=e497]:
+                  - button "cough" [ref=e498] [cursor=pointer]
+                  - button "shortness of breath" [ref=e499] [cursor=pointer]
+                  - button "wheezing" [ref=e500] [cursor=pointer]:
+                    - img [ref=e502] [cursor=pointer]
+                    - text: wheezing
+                  - button "chest pain with breathing" [ref=e503] [cursor=pointer]
+              - button "Skin" [ref=e505] [cursor=pointer]:
+                - generic [ref=e506] [cursor=pointer]: Skin
+                - img [ref=e507] [cursor=pointer]
+            - generic [ref=e510]:
+              - generic [ref=e511]:
+                - textbox [ref=e512]
+                - paragraph [ref=e513]: Click anywhere to start typing....
+              - generic [ref=e514]:
+                - img [ref=e517] [cursor=pointer]
+                - button "Please enter text to enable AI suggestions":
+                  - img
+                - button "Save ROS" [active] [ref=e518] [cursor=pointer]
+  - generic [ref=e519]:
+    - region "Notifications-top"
+    - region "Notifications-top-left"
+    - region "Notifications-top-right"
+    - region "Notifications-bottom-left"
+    - region "Notifications-bottom"
+    - region "Notifications-bottom-right"
+```

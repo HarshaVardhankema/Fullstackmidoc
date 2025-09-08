@@ -1,13 +1,13 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="39.40425200000033">
-<testsuite name="Visit.spec.ts" timestamp="2025-09-05T16:41:39.299Z" hostname="chromium" tests="1" failures="0" skipped="0" time="34.375" errors="0">
-<testcase name="Visits" classname="Visit.spec.ts" time="34.375">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="4.165472999999998">
+<testsuite name="Google.spec.ts" timestamp="2025-09-08T06:22:54.173Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.042" errors="0">
+<testcase name="Google" classname="Google.spec.ts" time="2.042">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|test-results\Visit-Visits-chromium\test-finished-1.png]]
+[[ATTACHMENT|test-results\Google-Google-chromium\test-finished-1.png]]
 
-[[ATTACHMENT|test-results\Visit-Visits-chromium\video.webm]]
+[[ATTACHMENT|test-results\Google-Google-chromium\video.webm]]
 
-[[ATTACHMENT|test-results\Visit-Visits-chromium\trace.zip]]
+[[ATTACHMENT|test-results\Google-Google-chromium\trace.zip]]
 ]]>
 </system-out>
 </testcase>
