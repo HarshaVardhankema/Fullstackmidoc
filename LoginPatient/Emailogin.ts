@@ -14,7 +14,7 @@ export class Emailogin
 
     }
 
-    async emailfeildbox(email)
+    async emailfeildbox(email:string)
     {
         await this.page.goto("https://midoc-patientapp-dev.azurewebsites.net/login");
          await this.email.fill(email);

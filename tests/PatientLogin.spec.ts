@@ -2,7 +2,8 @@ import { LoginDataManager } from "../LoginPatient/LoginDataManager";
 import Patientlogin from "../Utilies/Patientlogindata.json";
 import FamilyHistoryData from "../Utilies/FamilyHistory.json";
 
-const { test, expect } = require('@playwright/test');
+import { test, expect, Page } from '@playwright/test';
+;
 test('Patientlogin', async ({ page }) => {
 
   //part 1 

@@ -15,6 +15,7 @@ export class Appoinment {
 
 
     constructor(page:any){
+        this.page = page;
 
          this.searchBtn = page.locator('button.css-1uddaj').filter({ has: page.locator('img[src="/assets/imgs/search.png"]') });
         this.searchDoctor = page.locator('.chakra-input.css-xvhf0p');

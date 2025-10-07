@@ -1,13 +1,9 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="4.165472999999998">
-<testsuite name="Google.spec.ts" timestamp="2025-09-08T06:22:54.173Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.042" errors="0">
-<testcase name="Google" classname="Google.spec.ts" time="2.042">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="5.6550720000000005">
+<testsuite name="Google.spec.ts" timestamp="2025-10-07T05:35:27.107Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.131" errors="0">
+<testcase name="Google" classname="Google.spec.ts" time="2.131">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|test-results\Google-Google-chromium\test-finished-1.png]]
-
-[[ATTACHMENT|test-results\Google-Google-chromium\video.webm]]
-
-[[ATTACHMENT|test-results\Google-Google-chromium\trace.zip]]
 ]]>
 </system-out>
 </testcase>

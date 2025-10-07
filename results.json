@@ -71,7 +71,7 @@
     "updateSnapshots": "missing",
     "updateSourceMethod": "3way",
     "version": "1.55.0",
-    "workers": 4,
+    "workers": 1,
     "webServer": null
   },
   "suites": [
@@ -94,31 +94,21 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 3,
+                  "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2042,
+                  "duration": 2131,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-09-08T06:22:54.954Z",
+                  "startTime": "2025-10-07T05:35:27.861Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
                       "path": "D:\\Topics\\FullStackmidoc\\test-results\\Google-Google-chromium\\test-finished-1.png"
-                    },
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "D:\\Topics\\FullStackmidoc\\test-results\\Google-Google-chromium\\video.webm"
-                    },
-                    {
-                      "name": "trace",
-                      "contentType": "application/zip",
-                      "path": "D:\\Topics\\FullStackmidoc\\test-results\\Google-Google-chromium\\trace.zip"
                     }
                   ]
                 }
@@ -136,8 +126,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-09-08T06:22:53.336Z",
-    "duration": 4165.472999999998,
+    "startTime": "2025-10-07T05:35:25.563Z",
+    "duration": 5655.072,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

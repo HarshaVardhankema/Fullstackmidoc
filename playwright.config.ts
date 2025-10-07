@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig, devices } from '@playwright/test';
 
+
 import { time } from 'console';
 import { on } from 'events';
 
@@ -38,7 +39,10 @@ const config = ({
    ['list'],
   ['html'],
   ['json', { outputFile: 'results.json' }],
-  ['junit', { outputFile: 'results.xml' }]
+  ['junit', { outputFile: 'results.xml' }],
+    
+  
+
 ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
