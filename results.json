@@ -70,7 +70,7 @@
     "shard": null,
     "updateSnapshots": "missing",
     "updateSourceMethod": "3way",
-    "version": "1.55.0",
+    "version": "1.56.0",
     "workers": 1,
     "webServer": null
   },
@@ -82,7 +82,7 @@
       "line": 0,
       "specs": [
         {
-          "title": "Google",
+          "title": "Google search test",
           "ok": true,
           "tags": [],
           "tests": [
@@ -97,28 +97,26 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2131,
+                  "duration": 5652,
                   "errors": [],
-                  "stdout": [],
+                  "stdout": [
+                    {
+                      "text": "Playwright\n"
+                    }
+                  ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-10-07T05:35:27.861Z",
+                  "startTime": "2025-10-07T09:06:59.469Z",
                   "annotations": [],
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "D:\\Topics\\FullStackmidoc\\test-results\\Google-Google-chromium\\test-finished-1.png"
-                    }
-                  ]
+                  "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "3199d738294f754da36a-fd3bb0e6ab9905270e11",
+          "id": "3199d738294f754da36a-f9e5a35b0ada84e2d270",
           "file": "Google.spec.ts",
-          "line": 2,
+          "line": 3,
           "column": 5
         }
       ]
@@ -126,8 +124,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-10-07T05:35:25.563Z",
-    "duration": 5655.072,
+    "startTime": "2025-10-07T09:06:57.126Z",
+    "duration": 8749.96100000001,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
