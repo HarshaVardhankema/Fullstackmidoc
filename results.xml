@@ -1,10 +1,2 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="8.74996100000001">
-<testsuite name="Google.spec.ts" timestamp="2025-10-07T09:06:58.416Z" hostname="chromium" tests="1" failures="0" skipped="0" time="5.652" errors="0">
-<testcase name="Google search test" classname="Google.spec.ts" time="5.652">
-<system-out>
-<![CDATA[Playwright
-]]>
-</system-out>
-</testcase>
-</testsuite>
+<testsuites id="" name="" tests="0" failures="0" skipped="0" errors="0" time="0.01955899999999997">
 </testsuites>
