@@ -1,2 +1,54 @@
-<testsuites id="" name="" tests="0" failures="0" skipped="0" errors="0" time="0.01955899999999997">
+<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="18.674530999995767">
+<testsuite name="PatientLogin.spec.ts" timestamp="2025-10-08T15:04:28.020Z" hostname="chromium" tests="1" failures="1" skipped="0" time="14.75" errors="0">
+<testcase name="Patientlogin" classname="PatientLogin.spec.ts" time="14.75">
+<failure message="PatientLogin.spec.ts:7:5 Patientlogin" type="FAILURE">
+<![CDATA[  [chromium] › PatientLogin.spec.ts:7:5 › Patientlogin ─────────────────────────────────────────────
+
+    Error: locator.click: Target page, context or browser has been closed
+    Call log:
+      - waiting for locator('a[href="/myhealth"]')
+        - locator resolved to <a href="/myhealth" class="noActiveLink">…</a>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <div>…</div> intercepts pointer events
+        - retrying click action
+        - waiting 20ms
+        - waiting for element to be visible, enabled and stable
+        - element is not stable
+      2 × retrying click action
+          - waiting 100ms
+          - waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <div>…</div> intercepts pointer events
+      5 × retrying click action
+          - waiting 500ms
+          - waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <div>…</div> intercepts pointer events
+      - retrying click action
+        - waiting 500ms
+
+
+       at ..\LoginPatient\Dashboard.ts:16
+
+      14 |        // await expect(this.MyHealth).toBeVisible({ timeout: 5000 });        
+      15 |         await this.MyHealth.waitFor({ state: 'visible' });        
+    > 16 |         await this.MyHealth.click();        
+         |                             ^
+      17 |         await expect(this.page).toHaveURL(/\/myhealth$/);
+      18 |     }
+      19 | }
+        at Dashboard.clickMyHealth (D:\Topics\FullStackmidoc\LoginPatient\Dashboard.ts:16:29)
+        at D:\Topics\FullStackmidoc\tests\PatientLogin.spec.ts:30:3
+]]>
+</failure>
+</testcase>
+</testsuite>
 </testsuites>
